@@ -173,22 +173,93 @@ def procesar_csv_con_errores(ruta_csv):
     return nuevos_encabezados, nuevos_datos
 
 
-
 def csv_a_latex(
     ruta_csv,
-    ruta_salida="tabla3M1.tex",
+    ruta_salida="tabla6M1.tex",
     caption="-completar-",
     label="tab:completar",
-    procesar_errores=True
+    procesar_errores=True,
+    log10_cols="f",  # lista de nombres de columnas a duplicar con log10 ("f" por defecto)
+    extra_ops=[
+            {
+                "name": "t",        # nombre de la columna nueva
+                "col1": "t2",        # columna origen 1
+                "col2": "t1",        # columna origen 2
+                "op": "-"            # operación: '+' '-' '*' o '/'
+            }
+        ],   # lista de operaciones adicionales a calcular (véase documentación abajo)
 ):
+    """
+    Parámetros añadidos:
+    extra_ops: lista de diccionarios opcionales con las siguientes claves:
+        - name: nombre de la columna nueva que se añadirá.
+        - col1: nombre de la primera columna de origen.
+        - col2: nombre de la segunda columna de origen.
+        - op: operación a aplicar entre las dos columnas ('+', '-', '*' o '/').
+    """
+    # leemos el csv crudo siempre para tener acceso a valores originales
+    with open(ruta_csv, newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        filas = list(reader)
+    raw_headers = filas[0]
+    
     if procesar_errores:
         encabezados, datos = procesar_csv_con_errores(ruta_csv)
     else:
-        with open(ruta_csv, newline="", encoding="utf-8") as f:
-            reader = csv.reader(f)
-            filas = list(reader)
-        encabezados = filas[0]
+        encabezados = raw_headers.copy()
         datos = [[notacion_cientifica(x) for x in fila] for fila in filas[1:]]
+    
+    # añadir columnas log10 si se pidió
+    if log10_cols:
+        # convertir a lista si pasaron un string único
+        if isinstance(log10_cols, str):
+            log10_cols = [log10_cols]
+        # índices de columnas válidas según cabecera original
+        idxs = [raw_headers.index(col) for col in log10_cols if col in raw_headers]
+        for idx in idxs:
+            newname = f"log10_{raw_headers[idx]}"
+            encabezados.append(newname)
+            # para cada fila original (sin cabecera) calculamos log10
+            for row_i, fila_raw in enumerate(filas[1:]):
+                try:
+                    valor = float(fila_raw[idx])
+                    logv = math.log10(valor)
+                    fmt = notacion_cientifica(str(logv))
+                except Exception:
+                    fmt = ""
+                datos[row_i].append(fmt)
+
+    if extra_ops:
+        for opdef in extra_ops:
+            try:
+                name = opdef['name']
+                c1 = opdef['col1']
+                c2 = opdef['col2']
+                oper = opdef['op']
+            except KeyError:
+                continue
+            if c1 in raw_headers and c2 in raw_headers:
+                idx1 = raw_headers.index(c1)
+                idx2 = raw_headers.index(c2)
+                encabezados.append(name)
+                for row_i, fila_raw in enumerate(filas[1:]):
+                    try:
+                        v1 = float(fila_raw[idx1])
+                        v2 = float(fila_raw[idx2])
+                        if oper == '+':
+                            res = v1 + v2
+                        elif oper == '-':
+                            res = v1 - v2
+                        elif oper == '*':
+                            res = v1 * v2
+                        elif oper == '/':
+                            res = v1 / v2 if v2 != 0 else float('nan')
+                        else:
+                            res = None
+                        fmt = notacion_cientifica(str(res)) if res is not None else ""
+                    except Exception:
+                        fmt = ""
+                    datos[row_i].append(fmt)
     
     n_cols = len(encabezados)
     
@@ -196,7 +267,7 @@ def csv_a_latex(
     formato_tabular = "|" + "|".join(["c"] * n_cols) + "|"
 
     latex = []
-    latex.append(r"\begin{table}[h]")
+    latex.append(r"\begin{table}[H]")
     latex.append(r"\centering")
     latex.append(r"\begin{tabular}{" + formato_tabular + r"}")
     latex.append(r"\hline")
@@ -217,8 +288,8 @@ def csv_a_latex(
         f.write("\n".join(latex))
 
 csv_a_latex(
-    "Python/tabla3.csv",
-    ruta_salida="Python/tabla3.tex",
+    "Python/tabla6.csv",
+    ruta_salida="Python/tabla6.tex",
     caption="Voltaje e intensidad con errores",
     label="tab:VI",
     procesar_errores=True

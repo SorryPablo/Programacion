@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  17 FEB 2026 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  22 FEB 2026 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Programación/VSCode/LaTeX/Memoria Laboratorio Ins Electr.tex"
-(d:/Programación/VSCode/LaTeX/Memoria Laboratorio Ins Electr.tex
+**"c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex"
+(c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -508,73 +508,197 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count342
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count343
-) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2025/05/14 v3.7.0 Yet another Pygments shim for LaTeX
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyvrb
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count344
+\FV@InFile=\read4
+\FV@TabBox=\box69
+\c@FancyVerbLine=\count345
+\FV@StepNumber=\count346
+\FV@OutFile=\write4
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+\linenopenalty=\count347
+\output=\toks40
+\linenoprevgraf=\count348
+\linenumbersep=\dimen280
+\linenumberwidth=\dimen281
+\c@linenumber=\count349
+\c@pagewiselinenumber=\count350
+\c@LN@truepage=\count351
+\c@internallinenumber=\count352
+\c@internallinenumbers=\count353
+\quotelinenumbersep=\dimen282
+\bframerule=\dimen283
+\bframesep=\dimen284
+\bframebox=\box70
+\@LN@amsmath@ams@eqpen=\count354
+
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+)
+
+Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a warning from the lineno package on input line 37.
+
+\c@FancyVerbWriteLine=\count355
+\c@FancyVerbBufferLine=\count356
+\c@FV@TrueTabGroupLevel=\count357
+\c@FV@TrueTabCounter=\count358
+\FV@TabBox@Group=\box71
+\FV@bgcolorstructbox=\box72
+\FV@TmpLength=\skip56
+\c@FV@HighlightLinesStart=\count359
+\c@FV@HighlightLinesStop=\count360
+\FV@LoopCount=\count361
+\FV@NCharsBox=\box73
+\FV@BreakIndent=\dimen285
+\FV@BreakIndentNChars=\count362
+\FV@BreakSymbolSepLeft=\dimen286
+\FV@BreakSymbolSepLeftNChars=\count363
+\FV@BreakSymbolSepRight=\dimen287
+\FV@BreakSymbolSepRightNChars=\count364
+\FV@BreakSymbolIndentLeft=\dimen288
+\FV@BreakSymbolIndentLeftNChars=\count365
+\FV@BreakSymbolIndentRight=\dimen289
+\FV@BreakSymbolIndentRightNChars=\count366
+\c@FancyVerbLineBreakLast=\count367
+\FV@LineBox=\box74
+\FV@LineIndentBox=\box75
+\c@FV@BreakBufferDepth=\count368
+\FV@LineWidth=\dimen290
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/latex2pydata\latex2pydata.sty
+Package: latex2pydata 2025/03/26 v0.6.0 latex2pydata - write data to file in Python literal format
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks41
+\pgfopts@list@add@b@toks=\toks42
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@minted@FancyVerbLineTemp=\count369
+\@float@every@listing=\toks43
+\c@listing=\count370
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count371
+\l__siunitx_number_exponent_fixed_int=\count372
+\l__siunitx_number_min_decimal_int=\count373
+\l__siunitx_number_min_integer_int=\count374
+\l__siunitx_number_round_precision_int=\count375
+\l__siunitx_number_lower_threshold_int=\count376
+\l__siunitx_number_upper_threshold_int=\count377
+\l__siunitx_number_group_first_int=\count378
+\l__siunitx_number_group_size_int=\count379
+\l__siunitx_number_group_minimum_int=\count380
+\l__siunitx_angle_tmp_dim=\dimen291
+\l__siunitx_angle_marker_box=\box76
+\l__siunitx_angle_unit_box=\box77
+\l__siunitx_compound_count_int=\count381
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box78
+\l__siunitx_table_tmp_dim=\dimen292
+\l__siunitx_table_column_width_dim=\dimen293
+\l__siunitx_table_integer_box=\box79
+\l__siunitx_table_decimal_box=\box80
+\l__siunitx_table_uncert_box=\box81
+\l__siunitx_table_before_box=\box82
+\l__siunitx_table_after_box=\box83
+\l__siunitx_table_before_dim=\dimen294
+\l__siunitx_table_carry_dim=\dimen295
+\l__siunitx_unit_tmp_int=\count382
+\l__siunitx_unit_position_int=\count383
+\l__siunitx_unit_total_int=\count384
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen296
+\ar@mcellbox=\box84
+\extrarowheight=\dimen297
+\NC@list=\toks44
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box85
+)) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count344
+\lrq@indent=\count385
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count345
-\c@listtotal=\count346
-\c@listcount=\count347
-\c@liststart=\count348
-\c@liststop=\count349
-\c@citecount=\count350
-\c@citetotal=\count351
-\c@multicitecount=\count352
-\c@multicitetotal=\count353
-\c@instcount=\count354
-\c@maxnames=\count355
-\c@minnames=\count356
-\c@maxitems=\count357
-\c@minitems=\count358
-\c@citecounter=\count359
-\c@maxcitecounter=\count360
-\c@savedcitecounter=\count361
-\c@uniquelist=\count362
-\c@uniquename=\count363
-\c@refsection=\count364
-\c@refsegment=\count365
-\c@maxextratitle=\count366
-\c@maxextratitleyear=\count367
-\c@maxextraname=\count368
-\c@maxextradate=\count369
-\c@maxextraalpha=\count370
-\c@abbrvpenalty=\count371
-\c@highnamepenalty=\count372
-\c@lownamepenalty=\count373
-\c@maxparens=\count374
-\c@parenlevel=\count375
-\blx@tempcnta=\count376
-\blx@tempcntb=\count377
-\blx@tempcntc=\count378
-\c@blx@maxsection=\count379
-\blx@maxsegment@0=\count380
-\blx@notetype=\count381
-\blx@parenlevel@text=\count382
-\blx@parenlevel@foot=\count383
-\blx@sectionciteorder@0=\count384
-\blx@sectionciteorderinternal@0=\count385
-\blx@entrysetcounter=\count386
-\blx@biblioinstance=\count387
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\biblabelsep=\skip58
-\bibitemsep=\skip59
-\bibnamesep=\skip60
-\bibinitsep=\skip61
-\bibparsep=\skip62
-\bibhang=\skip63
-\blx@bcfin=\read4
-\blx@bcfout=\write4
+\c@tabx@nest=\count386
+\c@listtotal=\count387
+\c@listcount=\count388
+\c@liststart=\count389
+\c@liststop=\count390
+\c@citecount=\count391
+\c@citetotal=\count392
+\c@multicitecount=\count393
+\c@multicitetotal=\count394
+\c@instcount=\count395
+\c@maxnames=\count396
+\c@minnames=\count397
+\c@maxitems=\count398
+\c@minitems=\count399
+\c@citecounter=\count400
+\c@maxcitecounter=\count401
+\c@savedcitecounter=\count402
+\c@uniquelist=\count403
+\c@uniquename=\count404
+\c@refsection=\count405
+\c@refsegment=\count406
+\c@maxextratitle=\count407
+\c@maxextratitleyear=\count408
+\c@maxextraname=\count409
+\c@maxextradate=\count410
+\c@maxextraalpha=\count411
+\c@abbrvpenalty=\count412
+\c@highnamepenalty=\count413
+\c@lownamepenalty=\count414
+\c@maxparens=\count415
+\c@parenlevel=\count416
+\blx@tempcnta=\count417
+\blx@tempcntb=\count418
+\blx@tempcntc=\count419
+\c@blx@maxsection=\count420
+\blx@maxsegment@0=\count421
+\blx@notetype=\count422
+\blx@parenlevel@text=\count423
+\blx@parenlevel@foot=\count424
+\blx@sectionciteorder@0=\count425
+\blx@sectionciteorderinternal@0=\count426
+\blx@entrysetcounter=\count427
+\blx@biblioinstance=\count428
+\labelnumberwidth=\skip59
+\labelalphawidth=\skip60
+\biblabelsep=\skip61
+\bibitemsep=\skip62
+\bibnamesep=\skip63
+\bibinitsep=\skip64
+\bibparsep=\skip65
+\bibhang=\skip66
+\blx@bcfin=\read5
+\blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count388
-\c@maxcomprange=\count389
-\c@mincompwidth=\count390
+\c@mincomprange=\count429
+\c@maxcomprange=\count430
+\c@mincompwidth=\count431
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -587,98 +711,98 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count391
-\c@savedafterword=\count392
-\c@annotator=\count393
-\c@savedannotator=\count394
-\c@author=\count395
-\c@savedauthor=\count396
-\c@bookauthor=\count397
-\c@savedbookauthor=\count398
-\c@commentator=\count399
-\c@savedcommentator=\count400
-\c@editor=\count401
-\c@savededitor=\count402
-\c@editora=\count403
-\c@savededitora=\count404
-\c@editorb=\count405
-\c@savededitorb=\count406
-\c@editorc=\count407
-\c@savededitorc=\count408
-\c@foreword=\count409
-\c@savedforeword=\count410
-\c@holder=\count411
-\c@savedholder=\count412
-\c@introduction=\count413
-\c@savedintroduction=\count414
-\c@namea=\count415
-\c@savednamea=\count416
-\c@nameb=\count417
-\c@savednameb=\count418
-\c@namec=\count419
-\c@savednamec=\count420
-\c@translator=\count421
-\c@savedtranslator=\count422
-\c@shortauthor=\count423
-\c@savedshortauthor=\count424
-\c@shorteditor=\count425
-\c@savedshorteditor=\count426
-\c@narrator=\count427
-\c@savednarrator=\count428
-\c@execproducer=\count429
-\c@savedexecproducer=\count430
-\c@execdirector=\count431
-\c@savedexecdirector=\count432
-\c@with=\count433
-\c@savedwith=\count434
-\c@labelname=\count435
-\c@savedlabelname=\count436
-\c@institution=\count437
-\c@savedinstitution=\count438
-\c@lista=\count439
-\c@savedlista=\count440
-\c@listb=\count441
-\c@savedlistb=\count442
-\c@listc=\count443
-\c@savedlistc=\count444
-\c@listd=\count445
-\c@savedlistd=\count446
-\c@liste=\count447
-\c@savedliste=\count448
-\c@listf=\count449
-\c@savedlistf=\count450
-\c@location=\count451
-\c@savedlocation=\count452
-\c@organization=\count453
-\c@savedorganization=\count454
-\c@origlocation=\count455
-\c@savedoriglocation=\count456
-\c@origpublisher=\count457
-\c@savedorigpublisher=\count458
-\c@publisher=\count459
-\c@savedpublisher=\count460
-\c@language=\count461
-\c@savedlanguage=\count462
-\c@origlanguage=\count463
-\c@savedoriglanguage=\count464
-\c@citation=\count465
-\c@savedcitation=\count466
-\c@pageref=\count467
-\c@savedpageref=\count468
-\shorthandwidth=\skip64
-\shortjournalwidth=\skip65
-\shortserieswidth=\skip66
-\shorttitlewidth=\skip67
-\shortauthorwidth=\skip68
-\shorteditorwidth=\skip69
-\locallabelnumberwidth=\skip70
-\locallabelalphawidth=\skip71
-\localshorthandwidth=\skip72
-\localshortjournalwidth=\skip73
-\localshortserieswidth=\skip74
-\localshorttitlewidth=\skip75
-\localshortauthorwidth=\skip76
-\localshorteditorwidth=\skip77
+\c@afterword=\count432
+\c@savedafterword=\count433
+\c@annotator=\count434
+\c@savedannotator=\count435
+\c@author=\count436
+\c@savedauthor=\count437
+\c@bookauthor=\count438
+\c@savedbookauthor=\count439
+\c@commentator=\count440
+\c@savedcommentator=\count441
+\c@editor=\count442
+\c@savededitor=\count443
+\c@editora=\count444
+\c@savededitora=\count445
+\c@editorb=\count446
+\c@savededitorb=\count447
+\c@editorc=\count448
+\c@savededitorc=\count449
+\c@foreword=\count450
+\c@savedforeword=\count451
+\c@holder=\count452
+\c@savedholder=\count453
+\c@introduction=\count454
+\c@savedintroduction=\count455
+\c@namea=\count456
+\c@savednamea=\count457
+\c@nameb=\count458
+\c@savednameb=\count459
+\c@namec=\count460
+\c@savednamec=\count461
+\c@translator=\count462
+\c@savedtranslator=\count463
+\c@shortauthor=\count464
+\c@savedshortauthor=\count465
+\c@shorteditor=\count466
+\c@savedshorteditor=\count467
+\c@narrator=\count468
+\c@savednarrator=\count469
+\c@execproducer=\count470
+\c@savedexecproducer=\count471
+\c@execdirector=\count472
+\c@savedexecdirector=\count473
+\c@with=\count474
+\c@savedwith=\count475
+\c@labelname=\count476
+\c@savedlabelname=\count477
+\c@institution=\count478
+\c@savedinstitution=\count479
+\c@lista=\count480
+\c@savedlista=\count481
+\c@listb=\count482
+\c@savedlistb=\count483
+\c@listc=\count484
+\c@savedlistc=\count485
+\c@listd=\count486
+\c@savedlistd=\count487
+\c@liste=\count488
+\c@savedliste=\count489
+\c@listf=\count490
+\c@savedlistf=\count491
+\c@location=\count492
+\c@savedlocation=\count493
+\c@organization=\count494
+\c@savedorganization=\count495
+\c@origlocation=\count496
+\c@savedoriglocation=\count497
+\c@origpublisher=\count498
+\c@savedorigpublisher=\count499
+\c@publisher=\count500
+\c@savedpublisher=\count501
+\c@language=\count502
+\c@savedlanguage=\count503
+\c@origlanguage=\count504
+\c@savedoriglanguage=\count505
+\c@citation=\count506
+\c@savedcitation=\count507
+\c@pageref=\count508
+\c@savedpageref=\count509
+\shorthandwidth=\skip67
+\shortjournalwidth=\skip68
+\shortserieswidth=\skip69
+\shorttitlewidth=\skip70
+\shortauthorwidth=\skip71
+\shorteditorwidth=\skip72
+\locallabelnumberwidth=\skip73
+\locallabelalphawidth=\skip74
+\localshorthandwidth=\skip75
+\localshortjournalwidth=\skip76
+\localshortserieswidth=\skip77
+\localshorttitlewidth=\skip78
+\localshortauthorwidth=\skip79
+\localshorteditorwidth=\skip80
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -688,19 +812,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count469
-\c@textcitetotal=\count470
-\c@textcitemaxnames=\count471
-\c@biburlbigbreakpenalty=\count472
-\c@biburlbreakpenalty=\count473
-\c@biburlnumpenalty=\count474
-\c@biburlucpenalty=\count475
-\c@biburllcpenalty=\count476
+\c@textcitecount=\count510
+\c@textcitetotal=\count511
+\c@textcitemaxnames=\count512
+\c@biburlbigbreakpenalty=\count513
+\c@biburlbreakpenalty=\count514
+\c@biburlnumpenalty=\count515
+\c@biburlucpenalty=\count516
+\c@biburllcpenalty=\count517
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count477
+\c@smartand=\count518
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -710,8 +834,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count478
-\c@bbx:relatedtotal=\count479
+\c@bbx:relatedcount=\count519
+\c@bbx:relatedtotal=\count520
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -751,7 +875,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2026-01-19 L3 programming layer (loader) 
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count480
+\l__color_backend_stack_int=\count521
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-01-19 L3 programming layer (loader) 
@@ -766,77 +890,78 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count481
-\Gm@cntv=\count482
-\c@Gm@tempcnt=\count483
-\Gm@bindingoffset=\dimen280
-\Gm@wd@mp=\dimen281
-\Gm@odd@mp=\dimen282
-\Gm@even@mp=\dimen283
-\Gm@layoutwidth=\dimen284
-\Gm@layoutheight=\dimen285
-\Gm@layouthoffset=\dimen286
-\Gm@layoutvoffset=\dimen287
-\Gm@dimlist=\toks40
+\Gm@cnth=\count522
+\Gm@cntv=\count523
+\c@Gm@tempcnt=\count524
+\Gm@bindingoffset=\dimen298
+\Gm@wd@mp=\dimen299
+\Gm@odd@mp=\dimen300
+\Gm@even@mp=\dimen301
+\Gm@layoutwidth=\dimen302
+\Gm@layoutheight=\dimen303
+\Gm@layouthoffset=\dimen304
+\Gm@layoutvoffset=\dimen305
+\Gm@dimlist=\toks45
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (Memoria Laboratorio Ins Electr.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 14.
-)
+
+No file "Memoria Laboratorio Ins Electr".aux.
 \openout1 = `"Memoria Laboratorio Ins Electr.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
- (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+(C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count484
-\scratchdimen=\dimen288
-\scratchbox=\box69
-\nofMPsegments=\count485
-\nofMParguments=\count486
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count487
-\MPscratchDim=\dimen289
-\MPnumerator=\count488
-\makeMPintoPDFobject=\count489
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count525
+\scratchdimen=\dimen306
+\scratchbox=\box86
+\nofMPsegments=\count526
+\nofMParguments=\count527
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count528
+\MPscratchDim=\dimen307
+\MPnumerator=\count529
+\makeMPintoPDFobject=\count530
+\everyMPtoPDFconversion=\toks47
 ) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
- (Memoria Laboratorio Ins Electr.out) (Memoria Laboratorio Ins Electr.out)
-\@outlinefile=\write5
-\openout5 = `"Memoria Laboratorio Ins Electr.out"'.
+Package hyperref Info: Link coloring OFF on input line 19.
+\@outlinefile=\write6
+\openout6 = `"Memoria Laboratorio Ins Electr.out"'.
 
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
+File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 19.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-apa.lbx
@@ -854,13 +979,13 @@ File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"Memoria Laboratorio Ins Electr.bcf"'.
+\openout5 = `"Memoria Laboratorio Ins Electr.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Memoria Laboratorio Ins Electr".bbl' found.
  (Memoria Laboratorio Ins Electr.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -896,77 +1021,301 @@ Package biblatex Info: Reference segment=0 on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<USClogo.png, id=90, 1284.8pt x 836.12375pt>
+<USClogo.png, id=6, 1284.8pt x 836.12375pt>
 File: USClogo.png Graphic file (type png)
 <use USClogo.png>
-Package pdftex.def Info: USClogo.png  used on input line 28.
+Package pdftex.def Info: USClogo.png  used on input line 30.
 (pdftex.def)             Requested size: 170.71652pt x 111.09843pt.
 [1
 
-{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USClogo.png>] (Memoria Laboratorio Ins Electr.toc
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@toc=\write6
-\openout6 = `"Memoria Laboratorio Ins Electr.toc"'.
+{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USClogo.png>]
+No file "Memoria Laboratorio Ins Electr".toc.
+\tf@toc=\write7
+\openout7 = `"Memoria Laboratorio Ins Electr.toc"'.
 
- (Memoria Laboratorio Ins Electr.lof
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write7
-\openout7 = `"Memoria Laboratorio Ins Electr.lof"'.
+No file "Memoria Laboratorio Ins Electr".lof.
+\tf@lof=\write8
+\openout8 = `"Memoria Laboratorio Ins Electr.lof"'.
 
- (Memoria Laboratorio Ins Electr.lot
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lot=\write8
-\openout8 = `"Memoria Laboratorio Ins Electr.lot"'.
+No file "Memoria Laboratorio Ins Electr".lot.
+\tf@lot=\write9
+\openout9 = `"Memoria Laboratorio Ins Electr.lot"'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \newpage
-              [1] [2] [3]
-<Figure_1M1.png, id=202, 462.528pt x 346.896pt>
+l.49 \newpage
+              [1]
+
+LaTeX Warning: Reference `fig:Resistenciaa' on page 2 undefined on input line 76.
+
+
+LaTeX Warning: Reference `tab:Resistencias' on page 2 undefined on input line 89.
+
+
+LaTeX Warning: Reference `tab:R1' on page 2 undefined on input line 106.
+
+[2]
+
+LaTeX Warning: Reference `fig:Resistenciaa' on page 3 undefined on input line 147.
+
+
+LaTeX Warning: Reference `fig:Resistenciaa' on page 3 undefined on input line 147.
+
+
+LaTeX Warning: Reference `eq:sumx' on page 3 undefined on input line 151.
+
+
+LaTeX Warning: Reference `eq:a1' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:b1' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:s1' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:s1a' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:s1b' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:R1' on page 3 undefined on input line 154.
+
+
+LaTeX Warning: Reference `eq:R12' on page 3 undefined on input line 154.
+
+[3]
+<Figure_1M1.png, id=57, 462.528pt x 346.896pt>
 File: Figure_1M1.png Graphic file (type png)
 <use Figure_1M1.png>
-Package pdftex.def Info: Figure_1M1.png  used on input line 189.
+Package pdftex.def Info: Figure_1M1.png  used on input line 191.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
- [4 <./Figure_1M1.png>] [5] [6] [7]
-<Figure_2M1.png, id=251, 462.528pt x 346.896pt>
+ [4 <./Figure_1M1.png>]
+
+LaTeX Warning: Reference `fig:Seriee' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Reference `eq:qwer' on page 5 undefined on input line 238.
+
+[5]
+
+LaTeX Warning: Reference `eq:tre' on page 6 undefined on input line 250.
+
+
+LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 257.
+
+
+LaTeX Warning: Reference `tab:Serie2' on page 6 undefined on input line 258.
+
+
+LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `tab:Serie' on page 6 undefined on input line 292.
+
+
+LaTeX Warning: Reference `fig:Seriee' on page 6 undefined on input line 313.
+
+
+LaTeX Warning: Reference `fig:Seriee' on page 6 undefined on input line 313.
+
+[6]
+
+LaTeX Warning: Reference `eq:sumx2' on page 7 undefined on input line 317.
+
+
+LaTeX Warning: Reference `eq:a2' on page 7 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq:b2' on page 7 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq:s2' on page 7 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq:s2a' on page 7 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq:s2b' on page 7 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq:R2' on page 7 undefined on input line 320.
+
+
+LaTeX Warning: Reference `eq:R22' on page 7 undefined on input line 320.
+
+[7]
+<Figure_2M1.png, id=103, 462.528pt x 346.896pt>
 File: Figure_2M1.png Graphic file (type png)
 <use Figure_2M1.png>
-Package pdftex.def Info: Figure_2M1.png  used on input line 352.
+Package pdftex.def Info: Figure_2M1.png  used on input line 354.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
- [8 <./Figure_2M1.png>] [9] [10]
-<Figure_3M1.png, id=297, 462.528pt x 346.896pt>
+
+
+LaTeX Warning: Reference `eq:qwer' on page 8 undefined on input line 364.
+
+
+LaTeX Warning: Reference `eq:voltajes' on page 8 undefined on input line 365.
+
+
+LaTeX Warning: Reference `sec:1.3' on page 8 undefined on input line 377.
+
+[8 <./Figure_2M1.png>]
+
+LaTeX Warning: Reference `fig:Paraleloo' on page 9 undefined on input line 385.
+
+
+LaTeX Warning: Reference `eq:qwertr' on page 9 undefined on input line 402.
+
+
+LaTeX Warning: Reference `eq:trer' on page 9 undefined on input line 424.
+
+
+LaTeX Warning: Reference `eq:intensidades' on page 9 undefined on input line 431.
+
+
+LaTeX Warning: Reference `tab:intensidades' on page 9 undefined on input line 432.
+
+[9]
+
+LaTeX Warning: Reference `eq:intensidades' on page 10 undefined on input line 462.
+
+
+LaTeX Warning: Reference `eq:intensidades' on page 10 undefined on input line 462.
+
+
+LaTeX Warning: Reference `tab:Paralelo' on page 10 undefined on input line 466.
+
+
+LaTeX Warning: Reference `fig:Paraleloo' on page 10 undefined on input line 487.
+
+
+LaTeX Warning: Reference `fig:Paraleloo' on page 10 undefined on input line 487.
+
+
+LaTeX Warning: Reference `eq:sumx3' on page 10 undefined on input line 491.
+
+
+LaTeX Warning: Reference `eq:a3' on page 10 undefined on input line 493.
+
+
+LaTeX Warning: Reference `eq:b3' on page 10 undefined on input line 493.
+
+
+LaTeX Warning: Reference `eq:s3' on page 10 undefined on input line 493.
+
+
+LaTeX Warning: Reference `eq:s3a' on page 10 undefined on input line 493.
+
+
+LaTeX Warning: Reference `eq:s3b' on page 10 undefined on input line 493.
+
+
+LaTeX Warning: Reference `eq:R3' on page 10 undefined on input line 494.
+
+
+LaTeX Warning: Reference `eq:R32' on page 10 undefined on input line 494.
+
+[10]
+<Figure_3M1.png, id=128, 462.528pt x 346.896pt>
 File: Figure_3M1.png Graphic file (type png)
 <use Figure_3M1.png>
-Package pdftex.def Info: Figure_3M1.png  used on input line 526.
+Package pdftex.def Info: Figure_3M1.png  used on input line 528.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
- [11] [12 <./Figure_3M1.png>]
-<Resistencia.png, id=312, 240.9pt x 207.77625pt>
+ [11]
+
+LaTeX Warning: Reference `eq:qwertr' on page 12 undefined on input line 536.
+
+
+LaTeX Warning: Reference `eq:intensidades' on page 12 undefined on input line 537.
+
+
+LaTeX Warning: Reference `sec:1.4' on page 12 undefined on input line 546.
+
+[12 <./Figure_3M1.png>]
+
+LaTeX Warning: Reference `fig:Condensador1' on page 13 undefined on input line 592.
+
+
+LaTeX Warning: Reference `fig:Condensador2' on page 13 undefined on input line 599.
+
+
+LaTeX Warning: Reference `fig:Condensador3' on page 13 undefined on input line 601.
+
+[13] [14]
+<Resistencia.png, id=174, 240.9pt x 207.77625pt>
 File: Resistencia.png Graphic file (type png)
 <use Resistencia.png>
-Package pdftex.def Info: Resistencia.png  used on input line 580.
+Package pdftex.def Info: Resistencia.png  used on input line 712.
 (pdftex.def)             Requested size: 145.87875pt x 125.8239pt.
-<Serie.png, id=313, 286.06876pt x 181.42781pt>
+<Serie.png, id=175, 286.06876pt x 181.42781pt>
 File: Serie.png Graphic file (type png)
 <use Serie.png>
-Package pdftex.def Info: Serie.png  used on input line 587.
+Package pdftex.def Info: Serie.png  used on input line 719.
 (pdftex.def)             Requested size: 145.87875pt x 92.51865pt.
-<Paralelo.png, id=314, 266.49562pt x 144.54pt>
+<Paralelo.png, id=176, 266.49562pt x 144.54pt>
 File: Paralelo.png Graphic file (type png)
 <use Paralelo.png>
-Package pdftex.def Info: Paralelo.png  used on input line 594.
+Package pdftex.def Info: Paralelo.png  used on input line 726.
 (pdftex.def)             Requested size: 145.87875pt x 79.1223pt.
- [13 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] (Memoria Laboratorio Ins Electr.aux
+ [15]
+
+LaTeX Warning: File `Condensador1.png' not found on input line 784.
+
+
+c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:784: Package pdftex.def Error: File `Condensador1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.784 ...phics[width=\textwidth]{Condensador1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Condensador2.png' not found on input line 791.
+
+
+c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:791: Package pdftex.def Error: File `Condensador2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 ...phics[width=\textwidth]{Condensador2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Condensador3.png' not found on input line 798.
+
+
+c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:798: Package pdftex.def Error: File `Condensador3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.798 ...phics[width=\textwidth]{Condensador3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 799--799
+[]\OT1/cmr/m/n/10 (c) |Con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
+ []
+
+[16 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] (Memoria Laboratorio Ins Electr.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -975,24 +1324,42 @@ LaTeX Info: Redefining \% on input line 14.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `"Memoria Laboratorio Ins Electr".out' has not changed.
-(rerunfilecheck)             Checksum: 9BC7EA69E1C8E45145F95B3793B83143;2763.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"Memoria Laboratorio Ins Electr".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Memoria Laboratorio Ins Electr".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0AF4942DB55CAFDC976CB5748CA85967;3557.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "Memoria Laboratorio Ins Electr"
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to '"Memoria Laboratorio Ins Electr".run.xml'.
 \openout1 = `"Memoria Laboratorio Ins Electr.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33713 strings out of 467866
- 650337 string characters out of 5418325
- 1581991 words of memory out of 5000000
- 62084 multiletter control sequences out of 15000+600000
- 633945 words of font info for 61 fonts, out of 8000000 for 9000
+ 41521 strings out of 467866
+ 884147 string characters out of 5418325
+ 1874916 words of memory out of 5000000
+ 69828 multiletter control sequences out of 15000+600000
+ 634113 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,19n,104p,751b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Memoria Laboratorio Ins Electr.pdf" (14 pages, 408760 bytes).
+ 84i,19n,104p,788b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Memoria Laboratorio Ins Electr.pdf" (17 pages, 413500 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

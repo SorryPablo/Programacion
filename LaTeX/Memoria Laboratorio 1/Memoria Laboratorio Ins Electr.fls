@@ -1,6 +1,6 @@
-PWD d:\Programación\VSCode\LaTeX
+PWD c:\Users\sorry\Downloads\Programación\LaTeX\Memoria Laboratorio 1
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Programación\VSCode\LaTeX\Memoria Laboratorio Ins Electr.tex
+INPUT c:\Users\sorry\Downloads\Programación\LaTeX\Memoria Laboratorio 1\Memoria Laboratorio Ins Electr.tex
 OUTPUT Memoria Laboratorio Ins Electr.log
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -220,6 +220,32 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\latex2pydata\latex2pydata.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\latex2pydata\latex2pydata.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\pgfopts\pgfopts.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\pgfopts\pgfopts.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
@@ -268,9 +294,7 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT .\Memoria Laboratorio Ins Electr.aux
-INPUT .\Memoria Laboratorio Ins Electr.aux
-INPUT Memoria Laboratorio Ins Electr.aux
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 OUTPUT Memoria Laboratorio Ins Electr.aux
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -280,14 +304,11 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\Memoria Laboratorio Ins Electr.out
-INPUT .\Memoria Laboratorio Ins Electr.out
-INPUT Memoria Laboratorio Ins Electr.out
-INPUT Memoria Laboratorio Ins Electr.out
-OUTPUT Memoria Laboratorio Ins Electr.pdf
-INPUT .\Memoria Laboratorio Ins Electr.out
-INPUT .\Memoria Laboratorio Ins Electr.out
 OUTPUT Memoria Laboratorio Ins Electr.out
+OUTPUT Memoria Laboratorio Ins Electr.pdf
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\spanish-apa.lbx
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\spanish-apa.lbx
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\spanish-apa.lbx
@@ -316,10 +337,12 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\Memoria Laboratorio Ins Electr.toc
-INPUT .\Memoria Laboratorio Ins Electr.toc
-INPUT Memoria Laboratorio Ins Electr.toc
+OUTPUT Memoria Laboratorio Ins Electr.toc
+OUTPUT Memoria Laboratorio Ins Electr.lof
+OUTPUT Memoria Laboratorio Ins Electr.lot
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -331,17 +354,6 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT Memoria Laboratorio Ins Electr.toc
-INPUT .\Memoria Laboratorio Ins Electr.lof
-INPUT .\Memoria Laboratorio Ins Electr.lof
-INPUT Memoria Laboratorio Ins Electr.lof
-OUTPUT Memoria Laboratorio Ins Electr.lof
-INPUT .\Memoria Laboratorio Ins Electr.lot
-INPUT .\Memoria Laboratorio Ins Electr.lot
-INPUT Memoria Laboratorio Ins Electr.lot
-OUTPUT Memoria Laboratorio Ins Electr.lot
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\Figure_1M1.png
 INPUT .\Figure_1M1.png
 INPUT .\Figure_1M1.png
@@ -384,11 +396,11 @@ INPUT .\Paralelo.png
 INPUT .\Paralelo.png
 INPUT .\Paralelo.png
 INPUT .\Paralelo.png
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT Memoria Laboratorio Ins Electr.aux
 INPUT .\Memoria Laboratorio Ins Electr.out
 INPUT .\Memoria Laboratorio Ins Electr.out
-INPUT Memoria Laboratorio Ins Electr.run.xml
 OUTPUT Memoria Laboratorio Ins Electr.run.xml
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
@@ -416,3 +428,5 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

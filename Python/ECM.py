@@ -2,10 +2,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+csv_path = r"d:\Programación\VSCode\Python\tabla6.csv"
+x_col="f"    
+y_col="t1"    
+logar=True  
 
-datos=pd.read_csv(r"d:\Programación\VSCode\Python\tabla3.csv")
-x=datos["i"] #Representar "y" respecto a "x"
-y=datos["v"]
+datos=pd.read_csv(csv_path)
+
+x_raw=datos[x_col]
+if logar:
+    x=np.log(x_raw)
+else:
+    x=x_raw.copy()
+y=datos[y_col]
 
 n=len(x)
 
@@ -24,13 +33,24 @@ print(r,r2,a,b,s,sa,sb)
 print("Recta de un parm.")
 print(Sb,Sr,Sr2,Ss,Ssb)
 
-x_recta=np.linspace(min(x),max(x),100)
+if logar:
+    x_plot=x_raw
+else:
+    x_plot=x
+x_recta=np.linspace(min(x), max(x), 100)
 y_recta=b*x_recta+a
-plt.plot(x_recta,y_recta,color='r',label="Recta ajustada")
-plt.scatter(x,y,label="Datos",)
-plt.title("Regresión lineal $V(I)$ para el circuito en paralelo")
-plt.xlabel("Intensidad (A)")
+if logar:
+    x_recta_plot=np.exp(x_recta)
+else:
+    x_recta_plot=x_recta
+
+plt.plot(x_recta_plot, y_recta, color='r', label="Recta ajustada")
+plt.scatter(x_plot, y, label="Datos")
+plt.title("Regresión lineal{} $V(I)$ para el circuito en paralelo".format(" logarítmica" if logar else ""))
+plt.xlabel("Intensidad (A){}".format(" [log]" if logar else ""))
 plt.ylabel("Voltaje (V)")
 plt.legend()
 plt.grid(True)
+if logar:
+    plt.xscale('log')
 plt.show()

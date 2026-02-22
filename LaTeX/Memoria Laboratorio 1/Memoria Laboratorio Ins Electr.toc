@@ -16,7 +16,13 @@
 \contentsline {subsubsection}{\numberline {1.5.3}Resultados}{12}{subsubsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.6}\textbf {Conclusión}}{12}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Práctica II (Corriente Alterna)}{13}{section.2}%
-\contentsline {section}{\numberline {3}Anexo}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Corriente Continua}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{13}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Bibliografía}{13}{section.4}%
+\contentsline {subsection}{\numberline {2.1}\textbf {Objetivos}}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textbf {Materiales}}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\textbf {Frecuencia de Corte}}{13}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Metodología}{13}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}\textbf {Desfase entre señales}}{14}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Metodología}{14}{subsubsection.2.4.1}%
+\contentsline {section}{\numberline {3}Anexo}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Corriente Continua}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{16}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Bibliografía}{16}{section.4}%
