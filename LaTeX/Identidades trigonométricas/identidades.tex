@@ -1,0 +1,192 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{physics}
+\usepackage{setspace}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{Identidades Trigonométricas y Complejas}}\\
+{\small Chuleta para ondas, fasores y AC}
+\end{center}
+
+\hrule
+\vspace{0.3cm}
+
+\begin{multicols}{2}
+
+%------------------------------------------------
+\section*{Identidades fundamentales}
+
+\[
+\sin^2 x + \cos^2 x = 1
+\]
+
+\[
+\tan x = \frac{\sin x}{\cos x}, \qquad
+1+\tan^2 x = \frac{1}{\cos^2 x}
+\]
+
+\[
+\cot x = \frac{\cos x}{\sin x}, \qquad
+1+\cot^2 x = \frac{1}{\sin^2 x}
+\]
+
+%------------------------------------------------
+\section*{Paridad y periodicidad}
+
+\[
+\sin(-x) = -\sin x, \qquad
+\cos(-x) = \cos x
+\]
+
+\[
+\sin(x+2\pi)=\sin x, \qquad
+\cos(x+2\pi)=\cos x
+\]
+
+%------------------------------------------------
+\section*{Suma y diferencia}
+
+\[
+\sin(a\pm b)=\sin a\cos b \pm \cos a\sin b
+\]
+
+\[
+\cos(a\pm b)=\cos a\cos b \mp \sin a\sin b
+\]
+
+%------------------------------------------------
+\section*{Doble, triple y medio ángulo}
+
+\textbf{Doble ángulo}
+\[
+\sin(2x)=2\sin x\cos x
+\]
+\[
+\cos(2x)=\cos^2 x-\sin^2 x
+=2\cos^2 x-1=1-2\sin^2 x
+\]
+
+\textbf{Triple ángulo}
+\[
+\sin(3x)=3\sin x-4\sin^3 x
+\]
+\[
+\cos(3x)=4\cos^3 x-3\cos x
+\]
+
+\textbf{Medio ángulo}
+\[
+\sin^2\frac{x}{2}=\frac{1-\cos x}{2}, \qquad
+\cos^2\frac{x}{2}=\frac{1+\cos x}{2}
+\]
+
+%------------------------------------------------
+\section*{Producto a suma}
+
+\[
+\sin a\sin b=\frac{1}{2}\Big[\cos(a-b)-\cos(a+b)\Big]
+\]
+
+\[
+\cos a\cos b=\frac{1}{2}\Big[\cos(a-b)+\cos(a+b)\Big]
+\]
+
+\[
+\sin a\cos b=\frac{1}{2}\Big[\sin(a+b)+\sin(a-b)\Big]
+\]
+
+%------------------------------------------------
+\section*{Suma a producto}
+
+\[
+\sin a+\sin b=
+2\sin\!\left(\frac{a+b}{2}\right)
+\cos\!\left(\frac{a-b}{2}\right)
+\]
+
+\[
+\cos a+\cos b=
+2\cos\!\left(\frac{a+b}{2}\right)
+\cos\!\left(\frac{a-b}{2}\right)
+\]
+
+%------------------------------------------------
+\section*{Valores medios (ondas)}
+
+\[
+\langle \sin^2(\omega t)\rangle =
+\langle \cos^2(\omega t)\rangle = \frac{1}{2}
+\]
+
+\[
+\langle \sin(\omega t)\rangle =
+\langle \cos(\omega t)\rangle = 0
+\]
+
+%------------------------------------------------
+\section*{Identidades complejas}
+
+\textbf{Fórmula de Euler}
+\[
+e^{ix}=\cos x+i\sin x
+\]
+
+\[
+e^{-ix}=\cos x-i\sin x
+\]
+
+\[
+\cos x=\frac{e^{ix}+e^{-ix}}{2}
+\]
+
+\[
+\sin x=\frac{e^{ix}-e^{-ix}}{2i}
+\]
+
+%------------------------------------------------
+\section*{Exponentes y fases}
+
+\[
+e^{i(a+b)}=e^{ia}e^{ib}
+\]
+
+\[
+e^{i(\omega t+\phi)}=
+\cos(\omega t+\phi)+i\sin(\omega t+\phi)
+\]
+
+\[
+\Re\{e^{i\omega t}\}=\cos(\omega t), \qquad
+\Im\{e^{i\omega t}\}=\sin(\omega t)
+\]
+
+%------------------------------------------------
+\section*{Derivadas útiles}
+
+\[
+\frac{d}{dt}e^{i\omega t}=i\omega e^{i\omega t}
+\]
+
+\[
+\frac{d^2}{dt^2}e^{i\omega t}=-\omega^2 e^{i\omega t}
+\]
+
+\end{multicols}
+
+\vspace{0.2cm}
+\hrule
+
+\begin{center}
+{\small Todo lo que necesitas para ondas, fasores y AC}
+\end{center}
+
+\end{document}

@@ -1,0 +1,36 @@
+clear;clc
+a=load('si.txt');c=a(:,1:end-1);b=a(:,end);
+disp(a);disp('------------------')
+ra=rank(a);rc=rank(c);
+if ra~=rc
+    fprintf('Sistema incompatible:ra=%d rc=%d\n',ra,rc)
+    x0=pinv(c)*b;
+    fprintf('Solución de norma %g mínima:',norm(c*x0-b));disp(x0')
+    return
+end
+n=size(c,2); %n=nº incognitas
+for i=1:n-1
+    if a(i,i)==0
+        [~,j]=max(abs(a(i+1:end,1)));
+        aux=a(i,:);a(i,:)=a(j,:);a(j,:)=aux;
+    end
+    if a(i,i)==0
+        for j=i+1:n
+            l=a(j,i)/a(i,i);a(j,:)=a(j,:)-l*a(i,:);
+        end
+    end
+    disp(a);disp('------------------')
+end
+if rc<n
+    fprintf('sistema compatible indeterminado :rc=%d n=%d\n',rc,n)
+    fprintf('solucións de dimensión %d e ecuacións:\n',n-rc)
+    disp(a(1:rc,:));
+    return
+end
+fprintf('sistema compatible determinado\n')
+x=zeros(1,n);
+for i=n:-1:1
+    j=1+i:n;x(i)=(a(i,end)-a(i,j)*x(j)')/a(i,i);
+end
+disp('x=');disp(x)
+fprintf('matricial:');x=c\b;disp('x=');disp(x')

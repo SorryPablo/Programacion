@@ -1,0 +1,10 @@
+#Datos: Irmáns
+
+ci<-c(1,2,3,4,5)
+ni<-c(13,39,9,3,1) # Frec. absolutas
+sum(ni)->n ;n
+Ni<-cumsum(ni);Ni #Frec. absoluta acumulada
+fi<-ni/n;fi #Frec. relativa
+Fi<-cumsum(fi);Fi
+
+media<-sum(ci*ni)/n ;media

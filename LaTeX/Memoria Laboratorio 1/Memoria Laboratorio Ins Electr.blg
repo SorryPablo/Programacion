@@ -1,0 +1,19 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Memoria Laboratorio Ins Electr.blg'
+[213] biber-MSWIN64:342> INFO - === 
+[273] Biber.pm:421> INFO - Reading 'Memoria Laboratorio Ins Electr.bcf'
+[516] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[552] Biber.pm:4487> INFO - Processing section 0
+[567] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[631] bibtex.pm:1713> INFO - LaTeX decoding ...
+[641] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[718] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[718] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[718] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[735] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[735] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[735] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[745] bbl.pm:676> INFO - Writing 'Memoria Laboratorio Ins Electr.bbl' with encoding 'UTF-8'
+[748] bbl.pm:779> INFO - Output to Memoria Laboratorio Ins Electr.bbl
+[748] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\sorry\AppData\Local\Temp\biber_tmp_9a0X\499af1e6906591d6961f19d66c065a09_18096.utf8, line 62, warning: 1042 characters of junk seen at toplevel
+[748] Biber.pm:134> INFO - WARNINGS: 1

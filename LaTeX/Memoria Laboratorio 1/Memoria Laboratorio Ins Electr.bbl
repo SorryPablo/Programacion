@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/apasortcite//global/global/global}
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{Accedido el 13 de febrero de 2026}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{Accedido el 13 de febrero de 2026}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
