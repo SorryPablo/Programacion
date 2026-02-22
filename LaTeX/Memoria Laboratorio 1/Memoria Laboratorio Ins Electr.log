@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  22 FEB 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  22 FEB 2026 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,8 +907,12 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-
-No file "Memoria Laboratorio Ins Electr".aux.
+ (Memoria Laboratorio Ins Electr.aux
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 14.
+)
 \openout1 = `"Memoria Laboratorio Ins Electr.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -929,7 +933,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-(C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count525
 \scratchdimen=\dimen306
@@ -949,13 +953,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 19.
+ (Memoria Laboratorio Ins Electr.out) (Memoria Laboratorio Ins Electr.out)
 \@outlinefile=\write6
 \openout6 = `"Memoria Laboratorio Ins Electr.out"'.
 
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
@@ -1021,301 +1024,101 @@ Package biblatex Info: Reference segment=0 on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<USClogo.png, id=6, 1284.8pt x 836.12375pt>
+<USClogo.png, id=114, 1284.8pt x 836.12375pt>
 File: USClogo.png Graphic file (type png)
 <use USClogo.png>
 Package pdftex.def Info: USClogo.png  used on input line 30.
 (pdftex.def)             Requested size: 170.71652pt x 111.09843pt.
 [1
 
-{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USClogo.png>]
-No file "Memoria Laboratorio Ins Electr".toc.
+{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USClogo.png>] (Memoria Laboratorio Ins Electr.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write7
 \openout7 = `"Memoria Laboratorio Ins Electr.toc"'.
 
-No file "Memoria Laboratorio Ins Electr".lof.
+ (Memoria Laboratorio Ins Electr.lof
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lof=\write8
 \openout8 = `"Memoria Laboratorio Ins Electr.lof"'.
 
-No file "Memoria Laboratorio Ins Electr".lot.
-\tf@lot=\write9
-\openout9 = `"Memoria Laboratorio Ins Electr.lot"'.
-
+ (Memoria Laboratorio Ins Electr.lot
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \newpage
-              [1]
+l.7 ... {eq:intensidades})}}{11}{table.caption.11}
+                                                  % [1])
+\tf@lot=\write9
+\openout9 = `"Memoria Laboratorio Ins Electr.lot"'.
 
-LaTeX Warning: Reference `fig:Resistenciaa' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Reference `tab:Resistencias' on page 2 undefined on input line 89.
-
-
-LaTeX Warning: Reference `tab:R1' on page 2 undefined on input line 106.
-
-[2]
-
-LaTeX Warning: Reference `fig:Resistenciaa' on page 3 undefined on input line 147.
-
-
-LaTeX Warning: Reference `fig:Resistenciaa' on page 3 undefined on input line 147.
-
-
-LaTeX Warning: Reference `eq:sumx' on page 3 undefined on input line 151.
-
-
-LaTeX Warning: Reference `eq:a1' on page 3 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:b1' on page 3 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:s1' on page 3 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:s1a' on page 3 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:s1b' on page 3 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:R1' on page 3 undefined on input line 154.
-
-
-LaTeX Warning: Reference `eq:R12' on page 3 undefined on input line 154.
-
-[3]
-<Figure_1M1.png, id=57, 462.528pt x 346.896pt>
+ [2] [3] [4]
+<Figure_1M1.png, id=242, 462.528pt x 346.896pt>
 File: Figure_1M1.png Graphic file (type png)
 <use Figure_1M1.png>
 Package pdftex.def Info: Figure_1M1.png  used on input line 191.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
- [4 <./Figure_1M1.png>]
-
-LaTeX Warning: Reference `fig:Seriee' on page 5 undefined on input line 222.
-
-
-LaTeX Warning: Reference `eq:qwer' on page 5 undefined on input line 238.
-
-[5]
-
-LaTeX Warning: Reference `eq:tre' on page 6 undefined on input line 250.
-
-
-LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 257.
-
-
-LaTeX Warning: Reference `tab:Serie2' on page 6 undefined on input line 258.
-
-
-LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 288.
-
-
-LaTeX Warning: Reference `eq:voltajes' on page 6 undefined on input line 288.
-
-
-LaTeX Warning: Reference `tab:Serie' on page 6 undefined on input line 292.
-
-
-LaTeX Warning: Reference `fig:Seriee' on page 6 undefined on input line 313.
-
-
-LaTeX Warning: Reference `fig:Seriee' on page 6 undefined on input line 313.
-
-[6]
-
-LaTeX Warning: Reference `eq:sumx2' on page 7 undefined on input line 317.
-
-
-LaTeX Warning: Reference `eq:a2' on page 7 undefined on input line 319.
-
-
-LaTeX Warning: Reference `eq:b2' on page 7 undefined on input line 319.
-
-
-LaTeX Warning: Reference `eq:s2' on page 7 undefined on input line 319.
-
-
-LaTeX Warning: Reference `eq:s2a' on page 7 undefined on input line 319.
-
-
-LaTeX Warning: Reference `eq:s2b' on page 7 undefined on input line 319.
-
-
-LaTeX Warning: Reference `eq:R2' on page 7 undefined on input line 320.
-
-
-LaTeX Warning: Reference `eq:R22' on page 7 undefined on input line 320.
-
-[7]
-<Figure_2M1.png, id=103, 462.528pt x 346.896pt>
+ [5 <./Figure_1M1.png>] [6] [7] [8]
+<Figure_2M1.png, id=291, 462.528pt x 346.896pt>
 File: Figure_2M1.png Graphic file (type png)
 <use Figure_2M1.png>
 Package pdftex.def Info: Figure_2M1.png  used on input line 354.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
-
-
-LaTeX Warning: Reference `eq:qwer' on page 8 undefined on input line 364.
-
-
-LaTeX Warning: Reference `eq:voltajes' on page 8 undefined on input line 365.
-
-
-LaTeX Warning: Reference `sec:1.3' on page 8 undefined on input line 377.
-
-[8 <./Figure_2M1.png>]
-
-LaTeX Warning: Reference `fig:Paraleloo' on page 9 undefined on input line 385.
-
-
-LaTeX Warning: Reference `eq:qwertr' on page 9 undefined on input line 402.
-
-
-LaTeX Warning: Reference `eq:trer' on page 9 undefined on input line 424.
-
-
-LaTeX Warning: Reference `eq:intensidades' on page 9 undefined on input line 431.
-
-
-LaTeX Warning: Reference `tab:intensidades' on page 9 undefined on input line 432.
-
-[9]
-
-LaTeX Warning: Reference `eq:intensidades' on page 10 undefined on input line 462.
-
-
-LaTeX Warning: Reference `eq:intensidades' on page 10 undefined on input line 462.
-
-
-LaTeX Warning: Reference `tab:Paralelo' on page 10 undefined on input line 466.
-
-
-LaTeX Warning: Reference `fig:Paraleloo' on page 10 undefined on input line 487.
-
-
-LaTeX Warning: Reference `fig:Paraleloo' on page 10 undefined on input line 487.
-
-
-LaTeX Warning: Reference `eq:sumx3' on page 10 undefined on input line 491.
-
-
-LaTeX Warning: Reference `eq:a3' on page 10 undefined on input line 493.
-
-
-LaTeX Warning: Reference `eq:b3' on page 10 undefined on input line 493.
-
-
-LaTeX Warning: Reference `eq:s3' on page 10 undefined on input line 493.
-
-
-LaTeX Warning: Reference `eq:s3a' on page 10 undefined on input line 493.
-
-
-LaTeX Warning: Reference `eq:s3b' on page 10 undefined on input line 493.
-
-
-LaTeX Warning: Reference `eq:R3' on page 10 undefined on input line 494.
-
-
-LaTeX Warning: Reference `eq:R32' on page 10 undefined on input line 494.
-
-[10]
-<Figure_3M1.png, id=128, 462.528pt x 346.896pt>
+ [9 <./Figure_2M1.png>] [10] [11]
+<Figure_3M1.png, id=337, 462.528pt x 346.896pt>
 File: Figure_3M1.png Graphic file (type png)
 <use Figure_3M1.png>
 Package pdftex.def Info: Figure_3M1.png  used on input line 528.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
- [11]
-
-LaTeX Warning: Reference `eq:qwertr' on page 12 undefined on input line 536.
-
-
-LaTeX Warning: Reference `eq:intensidades' on page 12 undefined on input line 537.
-
-
-LaTeX Warning: Reference `sec:1.4' on page 12 undefined on input line 546.
-
-[12 <./Figure_3M1.png>]
-
-LaTeX Warning: Reference `fig:Condensador1' on page 13 undefined on input line 592.
-
-
-LaTeX Warning: Reference `fig:Condensador2' on page 13 undefined on input line 599.
-
-
-LaTeX Warning: Reference `fig:Condensador3' on page 13 undefined on input line 601.
-
-[13] [14]
-<Resistencia.png, id=174, 240.9pt x 207.77625pt>
+ [12] [13 <./Figure_3M1.png>] [14] [15]
+<Resistencia.png, id=370, 240.9pt x 207.77625pt>
 File: Resistencia.png Graphic file (type png)
 <use Resistencia.png>
 Package pdftex.def Info: Resistencia.png  used on input line 712.
 (pdftex.def)             Requested size: 145.87875pt x 125.8239pt.
-<Serie.png, id=175, 286.06876pt x 181.42781pt>
+<Serie.png, id=371, 286.06876pt x 181.42781pt>
 File: Serie.png Graphic file (type png)
 <use Serie.png>
 Package pdftex.def Info: Serie.png  used on input line 719.
 (pdftex.def)             Requested size: 145.87875pt x 92.51865pt.
-<Paralelo.png, id=176, 266.49562pt x 144.54pt>
+<Paralelo.png, id=372, 266.49562pt x 144.54pt>
 File: Paralelo.png Graphic file (type png)
 <use Paralelo.png>
 Package pdftex.def Info: Paralelo.png  used on input line 726.
 (pdftex.def)             Requested size: 145.87875pt x 79.1223pt.
- [15]
-
-LaTeX Warning: File `Condensador1.png' not found on input line 784.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:784: Package pdftex.def Error: File `Condensador1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.784 ...phics[width=\textwidth]{Condensador1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Condensador2.png' not found on input line 791.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:791: Package pdftex.def Error: File `Condensador2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.791 ...phics[width=\textwidth]{Condensador2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Condensador3.png' not found on input line 798.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:798: Package pdftex.def Error: File `Condensador3.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.798 ...phics[width=\textwidth]{Condensador3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [16]
+<Condensador1.png, id=378, 167.87718pt x 94.85437pt>
+File: Condensador1.png Graphic file (type png)
+<use Condensador1.png>
+Package pdftex.def Info: Condensador1.png  used on input line 784.
+(pdftex.def)             Requested size: 145.87875pt x 82.4242pt.
+<Condensador2.png, id=379, 252.19218pt x 133.24782pt>
+File: Condensador2.png Graphic file (type png)
+<use Condensador2.png>
+Package pdftex.def Info: Condensador2.png  used on input line 791.
+(pdftex.def)             Requested size: 145.87875pt x 77.07639pt.
+<Condensador3.png, id=380, 249.93375pt x 125.71968pt>
+File: Condensador3.png Graphic file (type png)
+<use Condensador3.png>
+Package pdftex.def Info: Condensador3.png  used on input line 798.
+(pdftex.def)             Requested size: 145.87875pt x 73.38168pt.
 
 Underfull \hbox (badness 2689) in paragraph at lines 799--799
 []\OT1/cmr/m/n/10 (c) |Con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
  []
 
-[16 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] (Memoria Laboratorio Ins Electr.aux
+[17 <./Resistencia.png> <./Serie.png> <./Paralelo.png> <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
+runsystem(latexminted cleantemp  --timestamp 20260222205338 3D8CE92F32C9C6BA99AC87AE494FBF71)...disabled (restricted).
+
+ (Memoria Laboratorio Ins Electr.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -1324,42 +1127,24 @@ LaTeX Info: Redefining \% on input line 14.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `"Memoria Laboratorio Ins Electr".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Memoria Laboratorio Ins Electr".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0AF4942DB55CAFDC976CB5748CA85967;3557.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "Memoria Laboratorio Ins Electr"
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `"Memoria Laboratorio Ins Electr".out' has not changed.
+(rerunfilecheck)             Checksum: 0AF4942DB55CAFDC976CB5748CA85967;3557.
 Package logreq Info: Writing requests to '"Memoria Laboratorio Ins Electr".run.xml'.
 \openout1 = `"Memoria Laboratorio Ins Electr.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41521 strings out of 467866
- 884147 string characters out of 5418325
- 1874916 words of memory out of 5000000
- 69828 multiletter control sequences out of 15000+600000
- 634113 words of font info for 62 fonts, out of 8000000 for 9000
+ 41497 strings out of 467866
+ 883788 string characters out of 5418325
+ 1880741 words of memory out of 5000000
+ 69792 multiletter control sequences out of 15000+600000
+ 633945 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,19n,104p,788b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Memoria Laboratorio Ins Electr.pdf" (17 pages, 413500 bytes).
+ 84i,19n,104p,788b,3181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Memoria Laboratorio Ins Electr.pdf" (18 pages, 456755 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 476 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

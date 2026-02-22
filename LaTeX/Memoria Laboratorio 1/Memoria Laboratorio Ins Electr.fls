@@ -295,6 +295,9 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.c
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT .\Memoria Laboratorio Ins Electr.aux
+INPUT .\Memoria Laboratorio Ins Electr.aux
+INPUT Memoria Laboratorio Ins Electr.aux
 OUTPUT Memoria Laboratorio Ins Electr.aux
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -304,8 +307,14 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT Memoria Laboratorio Ins Electr.out
+INPUT .\Memoria Laboratorio Ins Electr.out
+INPUT .\Memoria Laboratorio Ins Electr.out
+INPUT Memoria Laboratorio Ins Electr.out
+INPUT Memoria Laboratorio Ins Electr.out
 OUTPUT Memoria Laboratorio Ins Electr.pdf
+INPUT .\Memoria Laboratorio Ins Electr.out
+INPUT .\Memoria Laboratorio Ins Electr.out
+OUTPUT Memoria Laboratorio Ins Electr.out
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
@@ -337,12 +346,10 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT Memoria Laboratorio Ins Electr.toc
-OUTPUT Memoria Laboratorio Ins Electr.lof
-OUTPUT Memoria Laboratorio Ins Electr.lot
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Memoria Laboratorio Ins Electr.toc
+INPUT .\Memoria Laboratorio Ins Electr.toc
+INPUT Memoria Laboratorio Ins Electr.toc
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -354,6 +361,17 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+OUTPUT Memoria Laboratorio Ins Electr.toc
+INPUT .\Memoria Laboratorio Ins Electr.lof
+INPUT .\Memoria Laboratorio Ins Electr.lof
+INPUT Memoria Laboratorio Ins Electr.lof
+OUTPUT Memoria Laboratorio Ins Electr.lof
+INPUT .\Memoria Laboratorio Ins Electr.lot
+INPUT .\Memoria Laboratorio Ins Electr.lot
+INPUT Memoria Laboratorio Ins Electr.lot
+OUTPUT Memoria Laboratorio Ins Electr.lot
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\Figure_1M1.png
 INPUT .\Figure_1M1.png
 INPUT .\Figure_1M1.png
@@ -396,11 +414,32 @@ INPUT .\Paralelo.png
 INPUT .\Paralelo.png
 INPUT .\Paralelo.png
 INPUT .\Paralelo.png
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador1.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador2.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
+INPUT .\Condensador3.png
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT Memoria Laboratorio Ins Electr.aux
 INPUT .\Memoria Laboratorio Ins Electr.out
 INPUT .\Memoria Laboratorio Ins Electr.out
+INPUT Memoria Laboratorio Ins Electr.run.xml
 OUTPUT Memoria Laboratorio Ins Electr.run.xml
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
@@ -428,5 +467,3 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
