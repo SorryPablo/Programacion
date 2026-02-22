@@ -1,2 +1,1 @@
-# Programaci-n
-Todo
+Los siguientes archivos son solo para consulta y uso del propietario a no ser que sean compartidos con un tercero.
