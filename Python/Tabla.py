@@ -188,6 +188,7 @@ def csv_a_latex(
                 "op": "-"            # operación: '+' '-' '*' o '/'
             }
         ],   # lista de operaciones adicionales a calcular (véase documentación abajo)
+    export_csv=None,  # si es un path, exporta los datos procesados en CSV
 ):
     """
     Parámetros añadidos:
@@ -196,6 +197,7 @@ def csv_a_latex(
         - col1: nombre de la primera columna de origen.
         - col2: nombre de la segunda columna de origen.
         - op: operación a aplicar entre las dos columnas ('+', '-', '*' o '/').
+    export_csv: si es un path, exporta los datos procesados en formato CSV.
     """
     # leemos el csv crudo siempre para tener acceso a valores originales
     with open(ruta_csv, newline="", encoding="utf-8") as f:
@@ -286,11 +288,28 @@ def csv_a_latex(
 
     with open(ruta_salida, "w", encoding="utf-8") as f:
         f.write("\n".join(latex))
+    
+    # Exportar a CSV si se pidio
+    if export_csv:
+        # extraer valores sin formato LaTeX para el CSV
+        datos_csv = [encabezados]
+        for fila in datos:
+            fila_limpia = []
+            for celda in fila:
+                # remover formatos LaTeX y mantener valores simples
+                limpia = re.sub(r'\$|\\[^\s]*|[{}]', '', str(celda)).strip()
+                fila_limpia.append(limpia)
+            datos_csv.append(fila_limpia)
+        
+        with open(export_csv, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerows(datos_csv)
 
 csv_a_latex(
-    "Python/tabla6.csv",
-    ruta_salida="Python/tabla6.tex",
+    "Python/tabla5.csv",
+    ruta_salida="Python/tabla5.tex",
     caption="Voltaje e intensidad con errores",
     label="tab:VI",
-    procesar_errores=True
+    procesar_errores=True,
+    export_csv="Python/tabla5_procesada(para calculos).csv"  # exportar datos procesados
 )

@@ -2,19 +2,39 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-csv_path = r"d:\Programación\VSCode\Python\tabla6.csv"
-x_col="f"    
-y_col="t1"    
-logar=True  
+def flotante(s):
+    s = str(s).strip().replace(',', '.')
+    if s.startswith('E') or s.startswith('e'):
+        s = '1' + s
+    return float(s)
 
-datos=pd.read_csv(csv_path)
+csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla1.csv" 
+#csv_path = r"d:\Programación\VSCode\Python\tabla5.csv"
+x_col = "i"
+x_err_col = "i_err"
+y_col = "v"
+y_err_col = "v_err"
+do_regresion = True
+logar = False   
+rectas_extra = [] #(pendiente,ordenada)
 
-x_raw=datos[x_col]
+datos = pd.read_csv(csv_path)
+
+
+x1=datos[x_col]
 if logar:
-    x=np.log(x_raw)
+    x=np.log(x1)
 else:
-    x=x_raw.copy()
+    x=x1.copy()
 y=datos[y_col]
+if y_err_col:
+    y_err=datos[y_err_col].apply(flotante)
+else:
+    y_err=None
+if x_err_col:
+    x_err=datos[x_err_col].apply(flotante)
+else:
+    x_err=None
 
 n=len(x)
 
@@ -33,8 +53,10 @@ print(r,r2,a,b,s,sa,sb)
 print("Recta de un parm.")
 print(Sb,Sr,Sr2,Ss,Ssb)
 
+print(datos.dtypes)
+print(datos.head())
 if logar:
-    x_plot=x_raw
+    x_plot=x1
 else:
     x_plot=x
 x_recta=np.linspace(min(x), max(x), 100)
@@ -43,10 +65,21 @@ if logar:
     x_recta_plot=np.exp(x_recta)
 else:
     x_recta_plot=x_recta
+if do_regresion:
+    plt.plot(x_recta_plot, y_recta, color='r', label="Recta ajustada")
 
-plt.plot(x_recta_plot, y_recta, color='r', label="Recta ajustada")
-plt.scatter(x_plot, y, label="Datos")
-plt.title("Regresión lineal{} $V(I)$ para el circuito en paralelo".format(" logarítmica" if logar else ""))
+    for idx,(m,c) in enumerate(rectas_extra, start=1):
+        y_extra = m * x_recta + c
+        if logar:
+            x_extra_plot = np.exp(x_recta)
+        else:
+            x_extra_plot = x_recta
+        plt.plot(x_extra_plot, y_extra, '--', label=f"Recta extra {idx}: y={m}x+{c}")
+if y_err is not None:
+    plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o', label="Datos",barsabove=True)
+else:
+    plt.scatter(x_plot, y, label="Datos")
+plt.title("Regresión lineal{} $V(I)$ para la resistencia $R_1$".format(" logarítmica" if logar else ""))
 plt.xlabel("Intensidad (A){}".format(" [log]" if logar else ""))
 plt.ylabel("Voltaje (V)")
 plt.legend()
