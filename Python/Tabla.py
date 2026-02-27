@@ -175,19 +175,19 @@ def procesar_csv_con_errores(ruta_csv):
 
 def csv_a_latex(
     ruta_csv,
-    ruta_salida="tabla6M1.tex",
-    caption="-completar-",
-    label="tab:completar",
+    ruta_salida="tabla4M1.tex",
+    caption="Potenciales vs. frecuencia",
+    label="tab:Potenciales vs. frecuencia",
     procesar_errores=True,
-    log10_cols="f",  # lista de nombres de columnas a duplicar con log10 ("f" por defecto)
-    extra_ops=[
-            {
-                "name": "t",        # nombre de la columna nueva
-                "col1": "t2",        # columna origen 1
-                "col2": "t1",        # columna origen 2
-                "op": "-"            # operación: '+' '-' '*' o '/'
-            }
-        ],   # lista de operaciones adicionales a calcular (véase documentación abajo)
+    log10_cols="f",
+    # extra_ops=[
+    #         {
+    #             "name": "t",        # nombre de la columna nueva
+    #             "col1": "t2",        # columna origen 1
+    #             "col2": "t1",        # columna origen 2
+    #             "op": "-"            # operación: '+' '-' '*' o '/'
+    #         }
+    #     ],   # lista de operaciones adicionales a calcular (véase documentación abajo)
     export_csv=None,  # si es un path, exporta los datos procesados en CSV
 ):
     """
@@ -231,37 +231,37 @@ def csv_a_latex(
                     fmt = ""
                 datos[row_i].append(fmt)
 
-    if extra_ops:
-        for opdef in extra_ops:
-            try:
-                name = opdef['name']
-                c1 = opdef['col1']
-                c2 = opdef['col2']
-                oper = opdef['op']
-            except KeyError:
-                continue
-            if c1 in raw_headers and c2 in raw_headers:
-                idx1 = raw_headers.index(c1)
-                idx2 = raw_headers.index(c2)
-                encabezados.append(name)
-                for row_i, fila_raw in enumerate(filas[1:]):
-                    try:
-                        v1 = float(fila_raw[idx1])
-                        v2 = float(fila_raw[idx2])
-                        if oper == '+':
-                            res = v1 + v2
-                        elif oper == '-':
-                            res = v1 - v2
-                        elif oper == '*':
-                            res = v1 * v2
-                        elif oper == '/':
-                            res = v1 / v2 if v2 != 0 else float('nan')
-                        else:
-                            res = None
-                        fmt = notacion_cientifica(str(res)) if res is not None else ""
-                    except Exception:
-                        fmt = ""
-                    datos[row_i].append(fmt)
+    # if extra_ops:
+    #     for opdef in extra_ops:
+    #         try:
+    #             name = opdef['name']
+    #             c1 = opdef['col1']
+    #             c2 = opdef['col2']
+    #             oper = opdef['op']
+    #         except KeyError:
+    #             continue
+    #         if c1 in raw_headers and c2 in raw_headers:
+    #             idx1 = raw_headers.index(c1)
+    #             idx2 = raw_headers.index(c2)
+    #             encabezados.append(name)
+    #             for row_i, fila_raw in enumerate(filas[1:]):
+    #                 try:
+    #                     v1 = float(fila_raw[idx1])
+    #                     v2 = float(fila_raw[idx2])
+    #                     if oper == '+':
+    #                         res = v1 + v2
+    #                     elif oper == '-':
+    #                         res = v1 - v2
+    #                     elif oper == '*':
+    #                         res = v1 * v2
+    #                     elif oper == '/':
+    #                         res = v1 / v2 if v2 != 0 else float('nan')
+    #                     else:
+    #                         res = None
+    #                     fmt = notacion_cientifica(str(res)) if res is not None else ""
+    #                 except Exception:
+    #                     fmt = ""
+    #                 datos[row_i].append(fmt)
     
     n_cols = len(encabezados)
     
@@ -289,27 +289,26 @@ def csv_a_latex(
     with open(ruta_salida, "w", encoding="utf-8") as f:
         f.write("\n".join(latex))
     
-    # Exportar a CSV si se pidio
-    if export_csv:
-        # extraer valores sin formato LaTeX para el CSV
-        datos_csv = [encabezados]
-        for fila in datos:
-            fila_limpia = []
-            for celda in fila:
-                # remover formatos LaTeX y mantener valores simples
-                limpia = re.sub(r'\$|\\[^\s]*|[{}]', '', str(celda)).strip()
-                fila_limpia.append(limpia)
-            datos_csv.append(fila_limpia)
+    # if export_csv:
+    #     # extraer valores sin formato LaTeX para el CSV
+    #     datos_csv = [encabezados]
+    #     for fila in datos:
+    #         fila_limpia = []
+    #         for celda in fila:
+    #             # remover formatos LaTeX y mantener valores simples
+    #             limpia = re.sub(r'\$|\\[^\s]*|[{}]', '', str(celda)).strip()
+    #             fila_limpia.append(limpia)
+    #         datos_csv.append(fila_limpia)
         
-        with open(export_csv, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerows(datos_csv)
+    #     with open(export_csv, "w", newline="", encoding="utf-8") as f:
+    #         writer = csv.writer(f)
+    #         writer.writerows(datos_csv)
 
 csv_a_latex(
-    "Python/tabla5.csv",
-    ruta_salida="Python/tabla5.tex",
-    caption="Voltaje e intensidad con errores",
-    label="tab:VI",
+    "Python/tabla4.csv",
+    ruta_salida="Python/tabla4.tex",
+    caption="Potenciales vs. frecuencia",
+    label="tab:Potenciales vs. frecuencia",
     procesar_errores=True,
-    export_csv="Python/tabla5_procesada(para calculos).csv"  # exportar datos procesados
+    export_csv="Python/tabla4(pc).csv"
 )

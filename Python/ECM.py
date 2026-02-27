@@ -53,8 +53,6 @@ print(r,r2,a,b,s,sa,sb)
 print("Recta de un parm.")
 print(Sb,Sr,Sr2,Ss,Ssb)
 
-print(datos.dtypes)
-print(datos.head())
 if logar:
     x_plot=x1
 else:
