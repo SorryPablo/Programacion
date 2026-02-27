@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Memoria Laboratorio Ins Electr"] 1772136665.92272 "Memoria Laboratorio Ins Electr.bcf" "Memoria Laboratorio Ins Electr.bbl" "Memoria Laboratorio Ins Electr" 1772136795.59671 0
-  "Memoria Laboratorio Ins Electr.bcf" 1772136795 133425 979be16e955f53794ba9a696accad8e1 "pdflatex"
+["biber Memoria Laboratorio Ins Electr"] 1772190657.70445 "Memoria Laboratorio Ins Electr.bcf" "Memoria Laboratorio Ins Electr.bbl" "Memoria Laboratorio Ins Electr" 1772191838.90488 0
+  "Memoria Laboratorio Ins Electr.bcf" 1772191838 133425 979be16e955f53794ba9a696accad8e1 "pdflatex"
   "bibliografia.bib" 1771331036 1914 306098ad2c5740c59e039270d9242412 ""
   (generated)
   "Memoria Laboratorio Ins Electr.bbl"
   "Memoria Laboratorio Ins Electr.blg"
   (rewritten before read)
-["pdflatex"] 1772136793.4968 "c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex" "Memoria Laboratorio Ins Electr.pdf" "Memoria Laboratorio Ins Electr" 1772136795.59741 0
+["pdflatex"] 1772191836.85355 "c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex" "Memoria Laboratorio Ins Electr.pdf" "Memoria Laboratorio Ins Electr" 1772191838.90558 0
   "C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772134361 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/sorry/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1771078476 12668 5a89d88080602ad1906fa0d01b345d44 ""
   "C:/Users/sorry/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770834307 13333862 21d15d7cfbf9cfbe8975de7508680b69 ""
@@ -202,19 +202,19 @@
   "Figure_1M1.png" 1771179160 27424 b5e58f220e616bbdc76a0ee86c87cdd1 ""
   "Figure_2M1.png" 1771179294 28720 6f36822466eab75d7ed393a742d7e10c ""
   "Figure_3M1.png" 1771179326 27844 552951469974b61b0493b67e3fff0e66 ""
-  "Memoria Laboratorio Ins Electr.aux" 1772136795 15267 6a52373daf0198e8977127fe135d5c24 "pdflatex"
-  "Memoria Laboratorio Ins Electr.bbl" 1772136789 3775 7acce57a3c91b5fdace46c0ab1521294 "biber Memoria Laboratorio Ins Electr"
-  "Memoria Laboratorio Ins Electr.lof" 1772136795 633 c579f4db6658d37a3d0f4799e4de2af9 "pdflatex"
-  "Memoria Laboratorio Ins Electr.lot" 1772136795 1332 17b1dc1ac3bf40d7341736ef51ac4ef9 "pdflatex"
-  "Memoria Laboratorio Ins Electr.out" 1772136795 3557 0af4942db55cafdc976cb5748ca85967 "pdflatex"
-  "Memoria Laboratorio Ins Electr.run.xml" 1772136795 2557 bd12c614ce2b7bd7472c3223bd72617f "pdflatex"
-  "Memoria Laboratorio Ins Electr.tex" 1772136664 42345 38c8363e483c35b2d0337eca505781ad ""
-  "Memoria Laboratorio Ins Electr.toc" 1772136795 2381 abdcb7b18cf9e543016098471fbd8a42 "pdflatex"
+  "Memoria Laboratorio Ins Electr.aux" 1772191838 15267 6a52373daf0198e8977127fe135d5c24 "pdflatex"
+  "Memoria Laboratorio Ins Electr.bbl" 1772190678 3775 7acce57a3c91b5fdace46c0ab1521294 "biber Memoria Laboratorio Ins Electr"
+  "Memoria Laboratorio Ins Electr.lof" 1772191838 633 c579f4db6658d37a3d0f4799e4de2af9 "pdflatex"
+  "Memoria Laboratorio Ins Electr.lot" 1772191838 1332 17b1dc1ac3bf40d7341736ef51ac4ef9 "pdflatex"
+  "Memoria Laboratorio Ins Electr.out" 1772191838 3557 0af4942db55cafdc976cb5748ca85967 "pdflatex"
+  "Memoria Laboratorio Ins Electr.run.xml" 1772191838 2557 bd12c614ce2b7bd7472c3223bd72617f "pdflatex"
+  "Memoria Laboratorio Ins Electr.tex" 1772191835 43080 19cfaad1ac010a8c2a9e7a83db2e3d3d ""
+  "Memoria Laboratorio Ins Electr.toc" 1772191838 2381 abdcb7b18cf9e543016098471fbd8a42 "pdflatex"
   "Paralelo.png" 1771179982 10289 4116553ba61bd5b5baf60bc74f4944e0 ""
   "Resistencia.png" 1771179954 8099 3803e25a31867714eec548cdb792b300 ""
   "Serie.png" 1771179970 12524 e59cbe8414f4699bad4543609dfe76b3 ""
   "USClogo.png" 1770834922 81872 91761c834e921184022e9c2114e9c132 ""
-  "c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex" 1772136664 42345 38c8363e483c35b2d0337eca505781ad ""
+  "c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex" 1772191835 43080 19cfaad1ac010a8c2a9e7a83db2e3d3d ""
   (generated)
   "Memoria Laboratorio Ins Electr.aux"
   "Memoria Laboratorio Ins Electr.bcf"
