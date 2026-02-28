@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Datos extraídos de tu tabla
 log_f = np.array([
     2.0, 2.301, 2.477, 2.602, 2.699, 2.778, 2.845, 2.903, 2.954, 3.0,
     3.041, 3.079, 3.114, 3.146, 3.176, 3.204, 3.230, 3.255, 3.279, 3.301
@@ -15,7 +14,6 @@ phi_err = np.array([
     1.1, 1.2, 1.7, 1.4, 1.5, 1.6, 1.7, 1.8, 1.0, 0.4
 ])
 
-# Crear la figura
 plt.figure(figsize=(8,5))
 plt.errorbar(log_f, phi_deg, yerr=phi_err, fmt='o', capsize=3, color='blue', label=r'$\varphi(\degree)$ vs $\log(f)$')
 plt.xlabel(r'$\log(f) \ [Hz]$')

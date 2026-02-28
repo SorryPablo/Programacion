@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  27 FEB 2026 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  28 FEB 2026 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex"
-(c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex
+**"d:/Programación/Git/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex"
+(d:/Programación/Git/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -940,24 +940,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `"Memoria Laboratorio Ins Electr.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count527
@@ -977,19 +977,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 27.
  (Memoria Laboratorio Ins Electr.out) (Memoria Laboratorio Ins Electr.out)
 \@outlinefile=\write6
 \openout6 = `"Memoria Laboratorio Ins Electr.out"'.
 
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 26.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 27.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-apa.lbx
@@ -1012,8 +1012,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Memoria Laboratorio Ins Electr".bbl' found.
  (Memoria Laboratorio Ins Electr.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1052,7 +1052,7 @@ Package biblatex Info: Reference segment=0 on input line 26.
 <USClogo.png, id=126, 1284.8pt x 836.12375pt>
 File: USClogo.png Graphic file (type png)
 <use USClogo.png>
-Package pdftex.def Info: USClogo.png  used on input line 37.
+Package pdftex.def Info: USClogo.png  used on input line 38.
 (pdftex.def)             Requested size: 170.71652pt x 111.09843pt.
 [1
 
@@ -1080,161 +1080,78 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 ...dos con el polímetro}}{3}{table.caption.5}
+l.3 ...dos con el polímetro}}{4}{table.caption.5}
                                                   % [1])
 \tf@lot=\write9
 \openout9 = `"Memoria Laboratorio Ins Electr.lot"'.
 
  [2] [3] [4]
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Figure_1M1.svg' on input line 198.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:198: Package svg Error: File `Figure_1M1_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 ...  \includesvg[width=14cm]{Figure_1M1.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Figure_1M1_svg-tex.pdf'
-although `Figure_1M1.svg' was found.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:198: Package svg Error: File `Figure_1M1_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 ...  \includesvg[width=14cm]{Figure_1M1.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Figure_1M1_svg-tex.pdf_tex'
-although `Figure_1M1.svg' was found.
-
-[5] [6] [7]
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Figure_2M1.svg' on input line 361.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:361: Package svg Error: File `Figure_2M1_svg-tex.pdf' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.361 ...  \includesvg[width=14cm]{Figure_2M1.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Figure_2M1_svg-tex.pdf'
-although `Figure_2M1.svg' was found.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:361: Package svg Error: File `Figure_2M1_svg-tex.pdf_tex' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.361 ...  \includesvg[width=14cm]{Figure_2M1.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Figure_2M1_svg-tex.pdf_tex'
-although `Figure_2M1.svg' was found.
-
-[8] [9] [10]
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:535: LaTeX Error: Unknown graphics extension: .svg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 ...cludegraphics[width=14cm]{Figure_3M1.svg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11] [12]
-Overfull \hbox (153.33806pt too wide) in paragraph at lines 680--707
+Package svg Info: Last page of `./svg-inkscape/Figure_1M1_svg-tex.pdf' is 1 on input line 199.
+ (svg-inkscape/Figure_1M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_1M1_svg-tex.pdf, id=264, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_1M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_1M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_1M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [5 <./svg-inkscape/Figure_1M1_svg-tex.pdf>] [6] [7] [8]
+Package svg Info: Last page of `./svg-inkscape/Figure_2M1_svg-tex.pdf' is 1 on input line 362.
+ (svg-inkscape/Figure_2M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_2M1_svg-tex.pdf, id=420, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_2M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_2M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_2M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [9 <./svg-inkscape/Figure_2M1_svg-tex.pdf>] [10] [11]
+Package svg Info: Last page of `./svg-inkscape/Figure_3M1_svg-tex.pdf' is 1 on input line 536.
+ (svg-inkscape/Figure_3M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_3M1_svg-tex.pdf, id=582, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_3M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_3M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_3M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [12] [13 <./svg-inkscape/Figure_3M1_svg-tex.pdf>] [14]
+Overfull \hbox (153.33806pt too wide) in paragraph at lines 681--708
  [][] 
  []
 
-[13]
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:716: Package svg Error: File `Figure_4M1.svg' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.716 ...  \includesvg[width=14cm]{Figure_4M1.svg}
-                                                  
-There's no file `Figure_4M1.svg'
-neither in the current directory nor any other searched
-path given by \svgpath or \graphicspath.
-No additional path was given.
-
-
-c:/Users/sorry/Downloads/Programación/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:732: Package svg Error: File `Figure_5M1.svg' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.732 ...  \includesvg[width=14cm]{Figure_5M1.svg}
-                                                  
-There's no file `Figure_5M1.svg'
-neither in the current directory nor any other searched
-path given by \svgpath or \graphicspath.
-No additional path was given.
-
-[14] [15]
-<Resistencia.png, id=402, 240.9pt x 207.77625pt>
+[15] [16] [17] [18]
+<Resistencia.png, id=766, 240.9pt x 207.77625pt>
 File: Resistencia.png Graphic file (type png)
 <use Resistencia.png>
-Package pdftex.def Info: Resistencia.png  used on input line 842.
+Package pdftex.def Info: Resistencia.png  used on input line 868.
 (pdftex.def)             Requested size: 145.87875pt x 125.8239pt.
-<Serie.png, id=403, 286.06876pt x 181.42781pt>
+<Serie.png, id=767, 286.06876pt x 181.42781pt>
 File: Serie.png Graphic file (type png)
 <use Serie.png>
-Package pdftex.def Info: Serie.png  used on input line 849.
+Package pdftex.def Info: Serie.png  used on input line 875.
 (pdftex.def)             Requested size: 145.87875pt x 92.51865pt.
-<Paralelo.png, id=404, 266.49562pt x 144.54pt>
+<Paralelo.png, id=768, 266.49562pt x 144.54pt>
 File: Paralelo.png Graphic file (type png)
 <use Paralelo.png>
-Package pdftex.def Info: Paralelo.png  used on input line 856.
+Package pdftex.def Info: Paralelo.png  used on input line 882.
 (pdftex.def)             Requested size: 145.87875pt x 79.1223pt.
- [16]
-<Condensador1.png, id=410, 167.87718pt x 94.85437pt>
+<Condensador1.png, id=769, 167.87718pt x 94.85437pt>
 File: Condensador1.png Graphic file (type png)
 <use Condensador1.png>
-Package pdftex.def Info: Condensador1.png  used on input line 914.
+Package pdftex.def Info: Condensador1.png  used on input line 940.
 (pdftex.def)             Requested size: 145.87875pt x 82.4242pt.
-<Condensador2.png, id=411, 252.19218pt x 133.24782pt>
+<Condensador2.png, id=770, 252.19218pt x 133.24782pt>
 File: Condensador2.png Graphic file (type png)
 <use Condensador2.png>
-Package pdftex.def Info: Condensador2.png  used on input line 921.
+Package pdftex.def Info: Condensador2.png  used on input line 947.
 (pdftex.def)             Requested size: 145.87875pt x 77.07639pt.
-<Condensador3.png, id=412, 249.93375pt x 125.71968pt>
+<Condensador3.png, id=771, 249.93375pt x 125.71968pt>
 File: Condensador3.png Graphic file (type png)
 <use Condensador3.png>
-Package pdftex.def Info: Condensador3.png  used on input line 928.
+Package pdftex.def Info: Condensador3.png  used on input line 954.
 (pdftex.def)             Requested size: 145.87875pt x 73.38168pt.
 
-Underfull \hbox (badness 2689) in paragraph at lines 929--929
+Underfull \hbox (badness 2689) in paragraph at lines 955--955
 []\OT1/cmr/m/n/10 (c) |Con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
  []
 
-[17 <./Resistencia.png> <./Serie.png> <./Paralelo.png> <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
-runsystem(latexminted cleantemp  --timestamp 20260227220233 3D8CE92F32C9C6BA99AC87AE494FBF71)...disabled (restricted).
+[19 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] [20 <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
+runsystem(latexminted cleantemp  --timestamp 20260228124720 3D8CE92F32C9C6BA99AC87AE494FBF71)...disabled (restricted).
 
  (Memoria Laboratorio Ins Electr.aux
 LaTeX Info: Redefining \sptext on input line 15.
@@ -1245,32 +1162,24 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `"Memoria Laboratorio Ins Electr".out' has not changed.
 (rerunfilecheck)             Checksum: A48619C3B208CE44F752BDCCA3C2FA50;3907.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to '"Memoria Laboratorio Ins Electr".run.xml'.
 \openout1 = `"Memoria Laboratorio Ins Electr.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42451 strings out of 467866
- 905662 string characters out of 5418325
- 1931287 words of memory out of 5000000
- 70701 multiletter control sequences out of 15000+600000
+ 42486 strings out of 467866
+ 906706 string characters out of 5418325
+ 1929962 words of memory out of 5000000
+ 70713 multiletter control sequences out of 15000+600000
  633945 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,19n,104p,788b,3185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,104p,770b,3185s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Memoria Laboratorio Ins Electr.pdf" (18 pages, 405101 bytes).
+Output written on "Memoria Laboratorio Ins Electr.pdf" (21 pages, 539020 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 875 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

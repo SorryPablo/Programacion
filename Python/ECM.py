@@ -14,9 +14,9 @@ x_col = "i"
 x_err_col = "i_err"
 y_col = "v"
 y_err_col = "v_err"
-do_regresion = True
+regresion = True
 logar = False   
-rectas_extra = [] #(pendiente,ordenada)
+rectas_extra = [(12*10^(-5),0)] #(pendiente,ordenada)
 
 datos = pd.read_csv(csv_path)
 
@@ -63,7 +63,7 @@ if logar:
     x_recta_plot=np.exp(x_recta)
 else:
     x_recta_plot=x_recta
-if do_regresion:
+if regresion:
     plt.plot(x_recta_plot, y_recta, color='r', label="Recta ajustada")
 
     for idx,(m,c) in enumerate(rectas_extra, start=1):
@@ -72,7 +72,7 @@ if do_regresion:
             x_extra_plot = np.exp(x_recta)
         else:
             x_extra_plot = x_recta
-        plt.plot(x_extra_plot, y_extra, '--', label=f"Recta extra {idx}: y={m}x+{c}")
+        plt.plot(x_extra_plot, y_extra, '--',color='green', label=f"Recta extra {idx}: y={m}x+{c}")
 if y_err is not None:
     plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o', label="Datos",barsabove=True)
 else:

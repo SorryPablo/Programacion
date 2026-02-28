@@ -1,0 +1,5 @@
+\mmzMemo 
+\global \mmzContextExtra {}%
+%
+\mmzSource 
+\begin {tikzpicture}[remember picture,overlay] \par \fill [AzulUSC!70!black] (current page.north west) rectangle ([xshift=4cm]current page.south west); \par \node [anchor=north east] at ([xshift=-2cm,yshift=-2cm]current page.north east) {\includegraphics [width=6cm]{USClogo.png}}; \end {tikzpicture}

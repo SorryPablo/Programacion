@@ -13,6 +13,7 @@
 \usepackage{minted}
 \usepackage{siunitx}
 \usepackage{svg}
+%\usepackage{memoize}
 %\usepackage{pgfplots}
 %\pgfplotsset{width=10cm,compat=1.9} 
 %\usepgfplotslibrary{clickable}
@@ -80,7 +81,7 @@
     \item Utilizar el polímetro para obtener una medida directa de cada una de ellas.
     \item Utilizar nuevamente el polímetro, pero esta vez para el voltaje y la intensidad.
     \begin{itemize}
-        \item Construir del circuito, como se muestra en la Fig \ref{fig:Resistenciaa}.
+        \item Construir del circuito, como se muestra en la Fig. \ref{fig:Resistenciaa}.
         \item Encender la fuente y fijar un voltaje para ambas mediciones.
         \item Medir el voltaje conectando cada 'cocodrilo' a un borne distinto de la resistencia.
         \item Medir la intensidad, prestando especial atención a la colocación del polímetro, 
@@ -92,7 +93,7 @@
 \subsubsection{Discusión}
 
 Para el transcurso de la práctica dispusimos de dos resistencias, la primera de ellas con un código de colores
-Rojo-Rojo-Amarillo-Dorado y la segunda Amarillo-Violeta-Amarillo-Dorado, cuyas equivalencias numericas se 
+Rojo-Rojo-Amarillo-Dorado y la segunda Amarillo-Violeta-Amarillo-Dorado, cuyas equivalencias numéricas se 
 recogen en la Tabla \ref{tab:Resistencias}.
 
 \begin{table}[H]
@@ -156,9 +157,9 @@ Medidas & $V \pm s(V) \hspace{4pt} (V)$ & $I \pm s(I) \hspace{4pt} (A)$ \\
 \end{table}
 
 De los datos podemos realizar las siguientes operaciones (\ref{eq:sumx}) 
-con el fin de minimizar el ECM de la recta de regresión, seguido de los cálculos de los dos parametros de la 
-recta de regresión simple y su incertidumbre (\ref{eq:a1}),(\ref{eq:b1}),(\ref{eq:s1}),(\ref{eq:s1a}),(\ref{eq:s1b});
-la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajuste (\ref{eq:R1}),(\ref{eq:R12}) :
+con el fin de minimizar el ECM de la recta de regresión, seguido de los cálculos de los dos parámetros de la 
+recta de regresión simple y su incertidumbre (\ref{eq:a1}), (\ref{eq:b1}), (\ref{eq:s1}), (\ref{eq:s1a}), (\ref{eq:s1b});
+la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajuste (\ref{eq:R1}),(\ref{eq:R12}):
 
 \begin{center}
 \begin{equation}
@@ -212,10 +213,10 @@ $(2,18 \pm 0,01) \cdot 10^5 \subset ((2,2 - 0,11)\cdot 10^5;(2,2 + 0,11)\cdot 10
 Por otra parte, la recta de regresión de V-I 
 se ajusta con un $R^2$ muy próximo a $1$, lo que indica que los datos son casi lineales. La justificación de esta discrepancia es el 
 error que puede llevar cada medida, así como la presencia de un entorno que puede cambiar y alterar cada medida (Errores aleatorios).
-Además, durante todas las mediciones se observó que el polímetro presentaba un error sistematico al medir voltaje, ya que al conectarlo a la
-fuente de alimentacion con $0V$ este indicaba valores en un intervalo $[0,03;0,04] \hspace{4pt}V$. Con todo, $b=219176,3651$ 
+Además, durante todas las mediciones se observó que el polímetro presentaba un error sistemático al medir voltaje, ya que al conectarlo a la
+fuente de alimentación con $0V$ este indicaba valores en un intervalo $[0,03;0,04] \hspace{4pt}V$. Con todo, $b=219176,3651$ 
 implica una diferencia de menos de $1 \hspace{4pt} k\Omega$ con la media del valor ofrecido por el fabricante y una diferencia 
-similar con el medido expermentalmente, en ambos casos dentro del intervalo de confianza que aporta $s(b)$ 
+similar con el medido experimentalmente, en ambos casos dentro del intervalo de confianza que aporta $s(b)$ 
 (Con $k=2$ para la medida experimental) con una confianza superior al 99\%; 
 y $a=0,0112$ implica que la recta no pasa por el origen, pero de nuevo, esto se debe, probablemente, a errores aleatorios y al 
 bajo número de datos.
@@ -532,7 +533,7 @@ Quedando la mejor recta con la forma:
 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=14cm]{Figure_3M1.svg}
+        \includesvg[width=14cm]{Figure_3M1.svg}
     \end{center}
     \caption{Regresión lineal $V(I)$ del circuito en paralelo}
 \end{figure}
@@ -709,27 +710,52 @@ Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \h
 \end{table}
 
 El objetivo ahora es hallar la frecuencia de corte (\ref{eq:freccorte}) con estos datos. Representaremos los puntos en una gráfica
-$\log f - 20\log Z$ y se trazaran la Curva C y la Curva R, dando como punto de corte la frecuencia de corte $f_c$:
+$(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto de corte la frecuencia de corte $f_c$:
 
 \begin{figure}[H]
     \begin{center}
-        \includesvg[width=14cm]{Figure_4M1.svg}
+%        \includesvg[width=14cm]{Figure_4M1.svg}
     \end{center}
     \caption{cambiar}
 \end{figure}
 
 De nuevo, se procede de manera distinta con el mismo objetivo de hallar $f_c$. Se representa la Ec. \ref{eq:ventre} y los datos de 
-la Tab. \ref{tab:Potenciales vs. frecuencia} frente a la frecuencia:
-
+la Tab. \ref{tab:Potenciales vs. frecuencia} frente a la frecuencia. Realizamos también una regresión por mínimos cuadrados
 
 \begin{equation}
     \frac{V_{mR}}{V_{mC}}=\omega R C
     \label{eq:ventre}
 \end{equation}
 
+Y por regresión de mínimos cuadrados:
+
+\begin{equation}
+\begin{split}
+    \sum^n_{i=1} x_i = 9,49 \cdot 10^{-3} \hspace{3pt}[V] \hspace{20pt}
+    \sum^n_{i=1} y_i = 66,584 \hspace{3pt}[A]\hspace{20pt}
+    \sum^n_{i=1} x_i^2 = 1,04799 \cdot 10^{-9}\hspace{3pt} [V^2] \hspace{20pt} \\
+    \sum^n_{i=1} x_i y_i = 7,337486 \cdot 10^{-3} \hspace{3pt} [V\cdot A] \hspace{20pt}
+    \sum^n_{i=1} y_i^2 = 513,743056 \hspace{3pt}[A^2] \hspace{20pt}
+    n=11\hspace{20pt}
+    \label{eq:sumx4}
+\end{split}
+\end{equation}
+\bigskip
+\begin{center}
+\begin{align}
+    a = \frac{(\sum^n_{i=1} y_i)(\sum^n_{i=1} x^2_i )-(\sum^n_{i=1} x_i)(\sum^n_{i=1} x_i y_i)}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow a= 0,0581\hspace{6pt} [V] \label{eq:a4}\\
+    b = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow b= 694880 \hspace{6pt}[\Omega] \label{eq:b4}\\
+    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-(a+b x_i))^2}{n-2} &\Rightarrow s_{y|x}= 0,0148 \hspace{6pt}[V] \label{eq:s4}\\
+    s(a) =s_{y|x} \cdot \sqrt\frac{\sum^n_{i=1}x_i^2}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(a)= 0,0095 \hspace{6pt}[V] \label{eq:s4a}\\
+    s(b) =s_{y|x} \cdot \sqrt\frac{n}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(b)= 970 \hspace{6pt}[\Omega] \label{eq:s4b}\\
+    r = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{\sqrt{[n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2][n(\sum^n_{i=1} y_i^2)-(\sum^n_{i=1} y_i)^2]}}&\Rightarrow r= 0,999991 \label{eq:R4}\\
+    R^2 =r^2&\Rightarrow R^2=0.99998 \label{eq:R24}
+\end{align}
+\end{center}
+
 \begin{figure}[H]
     \begin{center}
-        \includesvg[width=14cm]{Figure_5M1.svg}
+%        \includesvg[width=14cm]{Figure_5M1.svg}
     \end{center}
     \caption{cambiar}
 \end{figure}
