@@ -38,25 +38,19 @@ def mas_menos_latex(valor_str, error_str):
     valor_abs = abs(valor)
     error_abs = abs(error)
     
-    # Decidir si usar notación científica (si valor < 0.1 o > 100)
     usar_ciencia = valor_abs < 1e-1 or valor_abs > 1e2
     
     if usar_ciencia and valor_abs != 0:
-        # Usar notación científica
         exp_valor = math.floor(math.log10(valor_abs))
         factor_valor = 10 ** exp_valor
         
-        # Normalizar valor y error al mismo exponente
         valor_norm = valor / factor_valor
         error_norm = error / factor_valor
         
-        # Redondear error a 2 cifras significativas
         error_norm_sig_dig = round(error_norm * 100) / 100
         
-        # Ajustar valor al mismo nivel
         valor_norm_ajustado = round(valor_norm * 100) / 100
         
-        # Calcular cuántos decimales tiene el error
         def contar_decimales(num):
             s = f"{num:.10f}".rstrip('0')
             if '.' in s:
@@ -142,23 +136,19 @@ def procesar_csv_con_errores(ruta_csv):
                     usados.add(j)
                     break
     
-    # Construir nuevos encabezados y datos
-    nuevos_encabezados = ["Medidas"]  # Añadir columna de medidas
+    nuevos_encabezados = ["Medidas"]
     nuevos_datos = [[] for _ in range(len(datos))]
     
-    # Numerar medidas 1, 2, 3, ...
     for k in range(len(datos)):
         nuevos_datos[k].append(str(k + 1))
     
     for i, col in enumerate(encabezados):
         if i in usados:
-            # Esta columna es un error, saltar
             continue
         
         nuevos_encabezados.append(col)
         
         if i in pares:
-            # Esta magnitud tiene error, combinarlas
             j, sufijo = pares[i]
             for k, fila in enumerate(datos):
                 valor = fila[i]
@@ -166,7 +156,6 @@ def procesar_csv_con_errores(ruta_csv):
                 combinado = mas_menos_latex(valor, error)
                 nuevos_datos[k].append(combinado)
         else:
-            # Sin error, pasar como está
             for k, fila in enumerate(datos):
                 nuevos_datos[k].append(notacion_cientifica(fila[i]))
     
@@ -175,31 +164,11 @@ def procesar_csv_con_errores(ruta_csv):
 
 def csv_a_latex(
     ruta_csv,
-    ruta_salida="tabla4M1.tex",
+    ruta_salida="tabla5M1.tex",
     caption="Potenciales vs. frecuencia",
     label="tab:Potenciales vs. frecuencia",
     procesar_errores=True,
-    log10_cols="f",
-    # extra_ops=[
-    #         {
-    #             "name": "t",        # nombre de la columna nueva
-    #             "col1": "t2",        # columna origen 1
-    #             "col2": "t1",        # columna origen 2
-    #             "op": "-"            # operación: '+' '-' '*' o '/'
-    #         }
-    #     ],   # lista de operaciones adicionales a calcular (véase documentación abajo)
-    export_csv=None,  # si es un path, exporta los datos procesados en CSV
 ):
-    """
-    Parámetros añadidos:
-    extra_ops: lista de diccionarios opcionales con las siguientes claves:
-        - name: nombre de la columna nueva que se añadirá.
-        - col1: nombre de la primera columna de origen.
-        - col2: nombre de la segunda columna de origen.
-        - op: operación a aplicar entre las dos columnas ('+', '-', '*' o '/').
-    export_csv: si es un path, exporta los datos procesados en formato CSV.
-    """
-    # leemos el csv crudo siempre para tener acceso a valores originales
     with open(ruta_csv, newline="", encoding="utf-8") as f:
         reader = csv.reader(f)
         filas = list(reader)
@@ -210,58 +179,6 @@ def csv_a_latex(
     else:
         encabezados = raw_headers.copy()
         datos = [[notacion_cientifica(x) for x in fila] for fila in filas[1:]]
-    
-    # añadir columnas log10 si se pidió
-    if log10_cols:
-        # convertir a lista si pasaron un string único
-        if isinstance(log10_cols, str):
-            log10_cols = [log10_cols]
-        # índices de columnas válidas según cabecera original
-        idxs = [raw_headers.index(col) for col in log10_cols if col in raw_headers]
-        for idx in idxs:
-            newname = f"log10_{raw_headers[idx]}"
-            encabezados.append(newname)
-            # para cada fila original (sin cabecera) calculamos log10
-            for row_i, fila_raw in enumerate(filas[1:]):
-                try:
-                    valor = float(fila_raw[idx])
-                    logv = math.log10(valor)
-                    fmt = notacion_cientifica(str(logv))
-                except Exception:
-                    fmt = ""
-                datos[row_i].append(fmt)
-
-    # if extra_ops:
-    #     for opdef in extra_ops:
-    #         try:
-    #             name = opdef['name']
-    #             c1 = opdef['col1']
-    #             c2 = opdef['col2']
-    #             oper = opdef['op']
-    #         except KeyError:
-    #             continue
-    #         if c1 in raw_headers and c2 in raw_headers:
-    #             idx1 = raw_headers.index(c1)
-    #             idx2 = raw_headers.index(c2)
-    #             encabezados.append(name)
-    #             for row_i, fila_raw in enumerate(filas[1:]):
-    #                 try:
-    #                     v1 = float(fila_raw[idx1])
-    #                     v2 = float(fila_raw[idx2])
-    #                     if oper == '+':
-    #                         res = v1 + v2
-    #                     elif oper == '-':
-    #                         res = v1 - v2
-    #                     elif oper == '*':
-    #                         res = v1 * v2
-    #                     elif oper == '/':
-    #                         res = v1 / v2 if v2 != 0 else float('nan')
-    #                     else:
-    #                         res = None
-    #                     fmt = notacion_cientifica(str(res)) if res is not None else ""
-    #                 except Exception:
-    #                     fmt = ""
-    #                 datos[row_i].append(fmt)
     
     n_cols = len(encabezados)
     
@@ -288,27 +205,11 @@ def csv_a_latex(
 
     with open(ruta_salida, "w", encoding="utf-8") as f:
         f.write("\n".join(latex))
-    
-    # if export_csv:
-    #     # extraer valores sin formato LaTeX para el CSV
-    #     datos_csv = [encabezados]
-    #     for fila in datos:
-    #         fila_limpia = []
-    #         for celda in fila:
-    #             # remover formatos LaTeX y mantener valores simples
-    #             limpia = re.sub(r'\$|\\[^\s]*|[{}]', '', str(celda)).strip()
-    #             fila_limpia.append(limpia)
-    #         datos_csv.append(fila_limpia)
-        
-    #     with open(export_csv, "w", newline="", encoding="utf-8") as f:
-    #         writer = csv.writer(f)
-    #         writer.writerows(datos_csv)
 
 csv_a_latex(
-    "Python/tabla4.csv",
-    ruta_salida="Python/tabla4.tex",
+    "Python/tabla5bmod.csv",
+    ruta_salida="Python/tabla5b.tex",
     caption="Potenciales vs. frecuencia",
     label="tab:Potenciales vs. frecuencia",
     procesar_errores=True,
-    export_csv="Python/tabla4(pc).csv"
 )

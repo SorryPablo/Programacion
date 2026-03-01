@@ -266,6 +266,16 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\bbold\bbold.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\bbold\bbold.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
@@ -383,6 +393,30 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\stmaryrd\ustmry.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\stmaryrd\ustmry.fd
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\stmaryrd\ustmry.fd
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\stmaryrd\stmary10.tfm
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\stmaryrd\stmary8.tfm
+INPUT C:\Users\sorry\AppData\Local\MiKTeX\fonts\tfm\public\stmaryrd\stmary6.tfm
 OUTPUT Memoria Laboratorio Ins Electr.toc
 INPUT .\Memoria Laboratorio Ins Electr.lof
 INPUT .\Memoria Laboratorio Ins Electr.lof
@@ -442,6 +476,22 @@ INPUT svg-inkscape\Figure_3M1_svg-tex.pdf_tex
 INPUT .\svg-inkscape\Figure_3M1_svg-tex.pdf
 INPUT .\svg-inkscape\Figure_3M1_svg-tex.pdf
 INPUT .\svg-inkscape\Figure_3M1_svg-tex.pdf
+INPUT .\Figure_5M1.svg
+INPUT .\Figure_5M1.svg
+INPUT .\Figure_5M1.svg
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT svg-inkscape\Figure_5M1_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
+INPUT .\svg-inkscape\Figure_5M1_svg-tex.pdf
 INPUT .\Resistencia.png
 INPUT .\Resistencia.png
 INPUT .\Resistencia.png
@@ -516,3 +566,5 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb

@@ -14,6 +14,10 @@
 \usepackage{siunitx}
 \usepackage{svg}
 \usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{bbold}
+\usepackage{stmaryrd} 
 %\usepackage{memoize}
 %\usepackage{pgfplots}
 %\pgfplotsset{width=10cm,compat=1.9} 
@@ -355,7 +359,7 @@ la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajust
 Quedando la mejor recta con la forma:
 
 \begin{equation}
-    \hat{y}= (0,0581 \pm 0,0095) \hspace{3pt} + \hspace{3pt}(694880 \pm 970)x\hspace{6pt} [V]
+    \hat{y}= (0,0581 \pm 0,0095) \hspace{3pt} + \hspace{3pt}(694880 \pm 970) \mathscr{V}\hspace{6pt} [V]
 \end{equation}
 
 \begin{figure}[H]
@@ -529,7 +533,7 @@ la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajust
 Quedando la mejor recta con la forma:
 
 \begin{equation}
-    \hat{y}= (0,0025 \pm 0,0035) \hspace{3pt}+ \hspace{3pt}(150176 \pm 77)x\hspace{6pt} [V]
+    \hat{y}= (0,0025 \pm 0,0035) \hspace{3pt}+ \hspace{3pt}(150176 \pm 77)\mathscr{V}\hspace{6pt} [V]
 \end{equation}
 
 \begin{figure}[H]
@@ -712,67 +716,67 @@ Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \h
 \label{tab:Potenciales vs. frecuencia}
 \end{table}
 
-\begin{longtable}{|c|c|c|c|c|c|}
-\caption{Primera mitad de columnas} \\
-\hline
-Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \hspace{4pt} (V)$ & $V_{mC}$ \\
-\hline
-\endfirsthead
-Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \hspace{4pt} (V)$ & $V_{mC}$ \\
-\hline
-\endhead
-1 & $(100 \pm 0,2)$ & $2,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(1,50 \pm 0,02)$ & $(20,0 \pm 0,2)$ \\
-2 & $(200 \pm 0,2)$ & $2,30103 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(2,92 \pm 0,04)$ & $(20,0 \pm 0,2)$ \\
-3 & $(300 \pm 0,3)$ & $2,47712 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(4,36 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
-4 & $(400 \pm 0,6)$ & $2,60206 \pm 0,00065$ & $(20,4 \pm 0,2)$ & $(5,80 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
-5 & $(500 \pm 1)$ & $2,69897 \pm 0,00087$ & $(20,4 \pm 0,2)$ & $(7,0 \pm 0,2)$ & $(19,0 \pm 0,2)$ \\
-6 & $(600 \pm 1,5)$ & $2,7782 \pm 0,0011$  & $(20,4 \pm 0,2)$ & $(8,2 \pm 0,2)$ & $(18,4 \pm 0,2)$ \\
-7 & $(700 \pm 2)$ & $2,8451 \pm 0,0012$ & $(20,4 \pm 0,2)$ & $(9,2 \pm 0,2)$ & $(18,0 \pm 0,2)$ \\
-8 & $(800 \pm 1,3)$ & $2,90308 \pm 0,00071$ & $(20,2 \pm 0,2)$ & $(10,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ \\
-9 & $(900 \pm 0,8)$ & $2,95424 \pm 0,00039$ & $(20,2 \pm 0,2)$ & $(11,0 \pm 0,2)$ & $(16,8 \pm 0,2)$ \\
-10 & $(1000 \pm 2)$ & $3,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(11,8 \pm 0,2)$ & $(16,4 \pm 0,2)$ \\
-11 & $(1101 \pm 2)$ & $3,04178 \pm 0,00079$ & $(20,2 \pm 0,2)$ & $(12,6 \pm 0,2)$ & $(15,8 \pm 0,2)$ \\
-12 & $(1199 \pm 3)$ & $3,0788 \pm 0,0011$ & $(20,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ \\
-13 & $(1302 \pm 3)$ & $3,1146 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(13,8 \pm 0,2)$ & $(14,8 \pm 0,2)$ \\
-14 & $(1601 \pm 2)$ & $3,20439 \pm 0,00054$ & $(20,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ \\
-15 & $(1901 \pm 3)$ & $3,27898 \pm 0,00069$ & $(20,2 \pm 0,2)$ & $(16,2 \pm 0,2)$ & $(12,0 \pm 0,2)$ \\
-16 & $(2199 \pm 6)$ & $3,3422 \pm 0,0012$ & $(20,2 \pm 0,2)$ & $(17,0 \pm 0,2)$ & $(10,8 \pm 0,2)$ \\
-17 & $(2500 \pm 6)$ & $3,3979 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ & $(9,8 \pm 0,2)$ \\
-18 & $(3503 \pm 6)$ & $3,54444 \pm 0,00074$ & $(20,2 \pm 0,2)$ & $(18,6 \pm 0,2)$ & $(7,6 \pm 0,2)$ \\
-19 & $(4499 \pm 10)$ & $3,69888 \pm 0,00097$ & $(20,6 \pm 0,2)$ & $(19,6 \pm 0,2)$ & $(6,4 \pm 0,2)$ \\
-20 & $(5510 \pm 10)$ & $3,74115 \pm 0,00079$ & $(20,6 \pm 0,2)$ & $(19,8 \pm 0,2)$ & $(5,4 \pm 0,2)$ \\
-\end{longtable}
-\hfill
-\begin{longtable}{|c|c|c|}
-\caption{Segunda mitad de columnas} \\
-\hline
- $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
-\hline
-\endfirsthead
- $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
-\hline
-\endhead
-$133000 \pm 260$&$102.477,0.040$&$0.075,0.13$\\
-$67064 \pm 66$&$96.530,0.020$&$0.146,0.069$\\
-$45327 \pm 43$&$93.127,0.019$&$0.220,0.046$\\
-$34632 \pm 48$&$90.790,0.027$&$0.293,0.0354$\\
-$28348 \pm 50$&$89.0505,0.035$&$0.368,0.030$\\
-$24262 \pm 50$&$87.698,0.042$&$0.446,0.027$\\
-$21424 \pm 48$&$86.618,0.045$&$0.511,0.024$\\
-$19361 \pm 23$&$85.739,0.024$&$0.580,0.023$\\
-$17809 \pm 11$&$85.013,0.012$&$0.655,0.022$\\
-$16610 \pm 21$&$84.408,0.026$&$0.720,0.021$\\
-$15656 \pm 17$&$83.894,0.022$&$0.797,0.021$\\
-$14912\pm 21$&$83.471,0.028$&$0.868,0.020$\\
-$14275\pm 17$&$83.091,0.023$&$0.932,0.020$\\
-$12985,6\pm 7,0$&$82.269,0.010$&$1.152,0.020$\\
-$12193,3\pm 4,0$&$81.7224,0.0069$&$1.350,0.021$\\
-$11678,1\pm 8,5$&$81.3474,0.015$&$1.574,0.022$\\
-$11320,1\pm 6,0$&$81.0770,0.011$&$1.796,0.023$\\
-$10692,8\pm 2,3$&$80.5818,0.0043$&$2.447,0.028$\\
-$10346,0\pm 1,4$&$80.2954,0.0026$&$3.062,0.033$\\
-$10285,6\pm 1,0$&$80.2446,0.0020$&$3.667,0.038$\\
-\end{longtable}
+% \begin{longtable}{|c|c|c|c|c|c|}
+% \caption{Primera mitad de columnas} \\
+% \hline
+% Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \hspace{4pt} (V)$ & $V_{mC}$ \\
+% \hline
+% \endfirsthead
+% Medidas & $f \hspace{4pt} (Hz)$ & $\log f$ & $V_m \hspace{4pt} (V)$ & $V_{mR} \hspace{4pt} (V)$ & $V_{mC}$ \\
+% \hline
+% \endhead
+% 1 & $(100 \pm 0,2)$ & $2,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(1,50 \pm 0,02)$ & $(20,0 \pm 0,2)$ \\
+% 2 & $(200 \pm 0,2)$ & $2,30103 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(2,92 \pm 0,04)$ & $(20,0 \pm 0,2)$ \\
+% 3 & $(300 \pm 0,3)$ & $2,47712 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(4,36 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
+% 4 & $(400 \pm 0,6)$ & $2,60206 \pm 0,00065$ & $(20,4 \pm 0,2)$ & $(5,80 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
+% 5 & $(500 \pm 1)$ & $2,69897 \pm 0,00087$ & $(20,4 \pm 0,2)$ & $(7,0 \pm 0,2)$ & $(19,0 \pm 0,2)$ \\
+% 6 & $(600 \pm 1,5)$ & $2,7782 \pm 0,0011$  & $(20,4 \pm 0,2)$ & $(8,2 \pm 0,2)$ & $(18,4 \pm 0,2)$ \\
+% 7 & $(700 \pm 2)$ & $2,8451 \pm 0,0012$ & $(20,4 \pm 0,2)$ & $(9,2 \pm 0,2)$ & $(18,0 \pm 0,2)$ \\
+% 8 & $(800 \pm 1,3)$ & $2,90308 \pm 0,00071$ & $(20,2 \pm 0,2)$ & $(10,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ \\
+% 9 & $(900 \pm 0,8)$ & $2,95424 \pm 0,00039$ & $(20,2 \pm 0,2)$ & $(11,0 \pm 0,2)$ & $(16,8 \pm 0,2)$ \\
+% 10 & $(1000 \pm 2)$ & $3,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(11,8 \pm 0,2)$ & $(16,4 \pm 0,2)$ \\
+% 11 & $(1101 \pm 2)$ & $3,04178 \pm 0,00079$ & $(20,2 \pm 0,2)$ & $(12,6 \pm 0,2)$ & $(15,8 \pm 0,2)$ \\
+% 12 & $(1199 \pm 3)$ & $3,0788 \pm 0,0011$ & $(20,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ \\
+% 13 & $(1302 \pm 3)$ & $3,1146 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(13,8 \pm 0,2)$ & $(14,8 \pm 0,2)$ \\
+% 14 & $(1601 \pm 2)$ & $3,20439 \pm 0,00054$ & $(20,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ \\
+% 15 & $(1901 \pm 3)$ & $3,27898 \pm 0,00069$ & $(20,2 \pm 0,2)$ & $(16,2 \pm 0,2)$ & $(12,0 \pm 0,2)$ \\
+% 16 & $(2199 \pm 6)$ & $3,3422 \pm 0,0012$ & $(20,2 \pm 0,2)$ & $(17,0 \pm 0,2)$ & $(10,8 \pm 0,2)$ \\
+% 17 & $(2500 \pm 6)$ & $3,3979 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ & $(9,8 \pm 0,2)$ \\
+% 18 & $(3503 \pm 6)$ & $3,54444 \pm 0,00074$ & $(20,2 \pm 0,2)$ & $(18,6 \pm 0,2)$ & $(7,6 \pm 0,2)$ \\
+% 19 & $(4499 \pm 10)$ & $3,69888 \pm 0,00097$ & $(20,6 \pm 0,2)$ & $(19,6 \pm 0,2)$ & $(6,4 \pm 0,2)$ \\
+% 20 & $(5510 \pm 10)$ & $3,74115 \pm 0,00079$ & $(20,6 \pm 0,2)$ & $(19,8 \pm 0,2)$ & $(5,4 \pm 0,2)$ \\
+% \end{longtable}
+% \hfill
+% \begin{longtable}{|c|c|c|}
+% \caption{Segunda mitad de columnas} \\
+% \hline
+%  $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
+% \hline
+% \endfirsthead
+%  $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
+% \hline
+% \endhead
+% $133000 \pm 260$&$102.477,0.040$&$0.075,0.13$\\
+% $67064 \pm 66$&$96.530,0.020$&$0.146,0.069$\\
+% $45327 \pm 43$&$93.127,0.019$&$0.220,0.046$\\
+% $34632 \pm 48$&$90.790,0.027$&$0.293,0.0354$\\
+% $28348 \pm 50$&$89.0505,0.035$&$0.368,0.030$\\
+% $24262 \pm 50$&$87.698,0.042$&$0.446,0.027$\\
+% $21424 \pm 48$&$86.618,0.045$&$0.511,0.024$\\
+% $19361 \pm 23$&$85.739,0.024$&$0.580,0.023$\\
+% $17809 \pm 11$&$85.013,0.012$&$0.655,0.022$\\
+% $16610 \pm 21$&$84.408,0.026$&$0.720,0.021$\\
+% $15656 \pm 17$&$83.894,0.022$&$0.797,0.021$\\
+% $14912\pm 21$&$83.471,0.028$&$0.868,0.020$\\
+% $14275\pm 17$&$83.091,0.023$&$0.932,0.020$\\
+% $12985,6\pm 7,0$&$82.269,0.010$&$1.152,0.020$\\
+% $12193,3\pm 4,0$&$81.7224,0.0069$&$1.350,0.021$\\
+% $11678,1\pm 8,5$&$81.3474,0.015$&$1.574,0.022$\\
+% $11320,1\pm 6,0$&$81.0770,0.011$&$1.796,0.023$\\
+% $10692,8\pm 2,3$&$80.5818,0.0043$&$2.447,0.028$\\
+% $10346,0\pm 1,4$&$80.2954,0.0026$&$3.062,0.033$\\
+% $10285,6\pm 1,0$&$80.2446,0.0020$&$3.667,0.038$\\
+% \end{longtable}
 
 El objetivo ahora es hallar la frecuencia de corte (\ref{eq:freccorte}) con estos datos. Representaremos los puntos en una gráfica
 $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto de corte la frecuencia de corte $f_c$:
@@ -785,46 +789,60 @@ $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto
 \end{figure}
 
 De nuevo, se procede de manera distinta con el mismo objetivo de hallar $f_c$. Se representa la Ec. \ref{eq:ventre} y los datos de 
-la Tab. \ref{tab:Potenciales vs. frecuencia} frente a la frecuencia. Realizamos también una regresión por mínimos cuadrados
+la Tab. \ref{tab:Potenciales vs. frecuencia} frente a la frecuencia. Realizamos también una regresión por mínimos cuadrados [(\ref{eq:b4}), (\ref{eq:s4})
+y (\ref{eq:s4b})], pero en
+este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{eq:R24})]:
 
 \begin{equation}
     \frac{V_{mR}}{V_{mC}}=\omega R C
     \label{eq:ventre}
 \end{equation}
 
-Y por regresión de mínimos cuadrados:
-
 \begin{equation}
 \begin{split}
-    CAMBIAR
-    \sum^n_{i=1} x_i = 9,49 \cdot 10^{-3} \hspace{3pt}[V] \hspace{20pt}
-    \sum^n_{i=1} y_i = 66,584 \hspace{3pt}[A]\hspace{20pt}
-    \sum^n_{i=1} x_i^2 = 1,04799 \cdot 10^{-9}\hspace{3pt} [V^2] \hspace{20pt} \\
-    \sum^n_{i=1} x_i y_i = 7,337486 \cdot 10^{-3} \hspace{3pt} [V\cdot A] \hspace{20pt}
-    \sum^n_{i=1} y_i^2 = 513,743056 \hspace{3pt}[A^2] \hspace{20pt}
-    n=11\hspace{20pt}
+    \sum^n_{i=1} x_i = 31315 \hspace{3pt}[Hz] \hspace{20pt}
+    \sum^n_{i=1} y_i = 21.65949972536621 \hspace{20pt}
+    \sum^n_{i=1} x_i^2 = 93078719 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
+    \sum^n_{i=1} x_i y_i = 62382.03570919058 \hspace{3pt} [Hz] \hspace{20pt}
+    \sum^n_{i=1} y_i^2 = 41.96311902698367  \hspace{20pt}
+    n=20\hspace{20pt}
     \label{eq:sumx4}
 \end{split}
 \end{equation}
 \bigskip
 \begin{center}
 \begin{align}
-    a = \frac{(\sum^n_{i=1} y_i)(\sum^n_{i=1} x^2_i )-(\sum^n_{i=1} x_i)(\sum^n_{i=1} x_i y_i)}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow a= 0,0581\hspace{6pt} [V] \label{eq:a4}\\
-    b = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow b= 694880 \hspace{6pt}[\Omega] \label{eq:b4}\\
-    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-(a+b x_i))^2}{n-2} &\Rightarrow s_{y|x}= 0,0148 \hspace{6pt}[V] \label{eq:s4}\\
-    s(a) =s_{y|x} \cdot \sqrt\frac{\sum^n_{i=1}x_i^2}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(a)= 0,0095 \hspace{6pt}[V] \label{eq:s4a}\\
-    s(b) =s_{y|x} \cdot \sqrt\frac{n}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(b)= 970 \hspace{6pt}[\Omega] \label{eq:s4b}\\
-    r = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{\sqrt{[n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2][n(\sum^n_{i=1} y_i^2)-(\sum^n_{i=1} y_i)^2]}}&\Rightarrow r= 0,999991 \label{eq:R4}\\
-    R^2 =r^2&\Rightarrow R^2=0.99998 \label{eq:R24}
+    b = \frac{\sum^n_{i=1} x_i y_i}{\sum^n_{i=1} x_i^2} &\Rightarrow b= 0,00067 \hspace{6pt}[s] \label{eq:b4}\\
+    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-b x_i)^2}{n-1} &\Rightarrow s_{y|x}= 0,10446 \hspace{6pt} \label{eq:s4}\\
+    s(b) =\frac{s_{y|x}}{\sqrt{\sum^n_{i=1} x_i^2}} &\Rightarrow s(b)= 0,00001 \hspace{6pt}[s] \label{eq:s4b}\\
+    r = \frac{\sum^n_{i=1} x_i y_i}{\sqrt{(\sum^n_{i=1} x_i^2)(\sum^n_{i=1} y_i^2)}}&\Rightarrow r= 0,998 \label{eq:R4}\\
+    R^2 =r^2&\Rightarrow R^2=0.996 \label{eq:R24}
 \end{align}
 \end{center}
 
+Quedando la mejor recta como:
+
+\begin{equation}
+    \hat{y}=\hspace{3pt}(0,00067 \pm 0,00001)\mathscr{F} \hspace{6pt}
+\end{equation}
+
 \begin{figure}[H]
     \begin{center}
-%        \includesvg[width=14cm]{Figure_5M1.svg}
+        \includesvg[width=14cm]{Figure_5M1.svg}
     \end{center}
-    \caption{cambiar}
+    \caption{Regresión lineal $V_{mR}/V_{mC}$ del circuito de corriente alterna}
+    \label{fig:rlca}
 \end{figure}
+
+Con todo, se esperaría una frecuencia $f_C$ como sigue:
+
+\begin{equation}
+\begin{split}
+    \frac{V_{mR}}{V_{mC}}=1 \Rightarrow  1=0,00067 \cdot \mathscr{F}_C \Rightarrow \mathscr{F}_C = 1492,53731\hspace{4pt}[Hz]\\
+    u(\mathscr{F}_C)=\frac{\partial \mathscr{F}_C}{\partial b}s(b)= \frac{s(b)}{b^2}=22 \hspace{4pt}[Hz]\\
+    \mathscr{F}_C= 1492 \pm 22 \hspace{4pt}[Hz]
+\end{split}
+\end{equation}
 
 \subsubsection{Resultados}
 
@@ -835,7 +853,7 @@ Y por regresión de mínimos cuadrados:
     \item Configurar el osciloscopio en modo dual para visualizar en pantalla las señales del 
     generador $(V_G)$ y de la resistencia $(V_R)$.
     \item Represente de forma gráfica el desfase $(\varphi)$ frente a la frecuencia $(\log(f))$.
-    \item Compruebar que para la frecuencia de corte el desfase es de $45\unit{\degree}$.
+    \item Comprobar que para la frecuencia de corte el desfase es de $45\unit{\degree}$.
 \end{itemize}
 
 \subsubsection{Discusión}
@@ -849,38 +867,6 @@ Y por regresión de mínimos cuadrados:
 \end{split}
 \end{equation}
 
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-Medidas & $f \hspace{4pt}(Hz)$ & $t_1 \hspace{4pt}(s)$ & $t_2 \hspace{4pt} (s)$ &  $\Delta t\hspace{4pt} (s)$ \\
-\hline
-1 & $100$ & $(0 \pm 4)\cdot 10^{-5}$ & $(2,36 \pm 0,04)\cdot 10^{-3}$ & $(2,360 \pm 0,057)\cdot 10^{-3}$ \\
-2 & $200$ & $(0 \pm 4)\cdot 10^{-5}$ & $(1,12 \pm 0,04)\cdot 10^{-3}$  & $(1,12\pm 0,057)\cdot 10^{-3}$ \\
-3 & $300$ & $(0 \pm 4) \cdot 10^{-5}$ & $(7,8 \pm 0,2)\cdot 10^{-4}$ &  $(7,8\pm 0,45)\cdot 10^{-4}$ \\
-4 & $400$ & $(8 \pm 2) \cdot 10^{-5}$ & $(5,8 \pm 0,2)\cdot 10^{-4}$ &  $(5,0\pm 0,28)\cdot 10^{-4}$ \\
-5 & $500$ & $(6 \pm 2) \cdot 10^{-5}$ & $(4,8 \pm 0,2)\cdot 10^{-4}$ &  $(4,2\pm 0,28)\cdot 10^{-4}$ \\
-6 & $600$ & $(8,8 \pm 0,4) \cdot 10^{-5}$ & $(3,92 \pm 0,04)\cdot 10^{-4}$ &  $(3,04\pm 0,057)\cdot 10^{-4}$ \\
-7 & $700$ & $(8,8 \pm 0,4) \cdot 10^{-5}$ & $(3,40 \pm 0,04)\cdot 10^{-4}$ &  $(2,52\pm 0,057)\cdot 10^{-4}$ \\
-8 & $800$ & $(9,2 \pm 0,2) \cdot 10^{-5}$ & $(2,92 \pm 0,04)\cdot 10^{-4}$ &  $(2,00\pm 0,045)\cdot 10^{-4}$ \\
-9 & $900$ & $(8,4 \pm 0,2) \cdot 10^{-5}$ & $(2,60 \pm 0,04)\cdot 10^{-4}$ &  $(0,176\pm 0,045)\cdot 10^{-4}$ \\
-10 & $1000$ & $(8,8 \pm 0,2) \cdot 10^{-5}$ & $(2,36 \pm 0,04)\cdot 10^{-4}$ &  $(1,48\pm 0,045)\cdot 10^{-4}$ \\
-11 & $1100$ & $(8,2 \pm 0,2) \cdot 10^{-5}$ & $(2,18 \pm 0,02)\cdot 10^{-4}$ &  $(1,36\pm 0,028)\cdot 10^{-4}$ \\
-12 & $1200$ & $(8,2 \pm 0,2) \cdot 10^{-5}$ & $(2,02 \pm 0,02)\cdot 10^{-4}$ &  $(1,20\pm 0,028)\cdot 10^{-4}$ \\
-13 & $1300$ & $(7,8 \pm 0,2) \cdot 10^{-5}$ & $(1,82 \pm 0,02)\cdot 10^{-4}$ &  $(1,04\pm 0,028)\cdot 10^{-4}$ \\
-14 & $1400$ & $(7,6 \pm 0,2) \cdot 10^{-5}$ & $(1,68 \pm 0,02)\cdot 10^{-4}$ &  $(9,2\pm 0,28)\cdot 10^{-5}$ \\
-15 & $1500$ & $(6,4 \pm 0,2) \cdot 10^{-5}$ & $(1,56 \pm 0,02)\cdot 10^{-4}$ &  $(9,2\pm 0,28)\cdot 10^{-5}$ \\
-16 & $1600$ & $(6,6 \pm 0,2) \cdot 10^{-5}$ & $(1,48 \pm 0,02)\cdot 10^{-4}$ &  $(8,2\pm 0,28)\cdot 10^{-5}$ \\
-17 & $1700$ & $(6,6 \pm 0,2) \cdot 10^{-5}$ & $(1,34 \pm 0,02)\cdot 10^{-4}$ &  $(6,8\pm 0,28)\cdot 10^{-5}$ \\
-18 & $1800$ & $(6,8 \pm 0,2) \cdot 10^{-5}$ & $(1,26 \pm 0,02)\cdot 10^{-4}$ &  $(5,8\pm 0,28)\cdot 10^{-5}$ \\
-19 & $1900$ & $(7,7 \pm 0,1) \cdot 10^{-5}$ & $(1,31 \pm 0,01)\cdot 10^{-4}$ &  $(5,4\pm 0,14)\cdot 10^{-5}$ \\
-20 & $2000$ & $(3,08 \pm 0,04) \cdot 10^{-5}$ & $(8,00 \pm 0,04) \cdot 10^{-5}$ &  $(4,92\pm 0,057)\cdot 10^{-5}$ \\
-\hline
-\end{tabular}
-\caption{Tiempos medidos entre máximos de $V_G$ y $V_R$}
-\label{tab:tiempos}
-\end{table}
-
 \begin{equation}
 \begin{split}
     \varphi = -2\pi f\Delta t \hspace{4pt} [\unit{\radian}] \\
@@ -891,38 +877,119 @@ Medidas & $f \hspace{4pt}(Hz)$ & $t_1 \hspace{4pt}(s)$ & $t_2 \hspace{4pt} (s)$ 
 \end{split}
 \end{equation}
 
+% \begin{table}[H]
+% \centering
+% \begin{tabular}{|c|c|c|c|c|}
+% \hline
+% Medidas & $f \hspace{4pt}(Hz)$ & $t_1 \hspace{4pt}(s)$ & $t_2 \hspace{4pt} (s)$ &  $\Delta t\hspace{4pt} (s)$ \\
+% \hline
+% 1 & $100$ & $(0 \pm 4)\cdot 10^{-5}$ & $(2,36 \pm 0,04)\cdot 10^{-3}$ & $(2,360 \pm 0,057)\cdot 10^{-3}$ \\
+% 2 & $200$ & $(0 \pm 4)\cdot 10^{-5}$ & $(1,12 \pm 0,04)\cdot 10^{-3}$  & $(1,12\pm 0,057)\cdot 10^{-3}$ \\
+% 3 & $300$ & $(0 \pm 4) \cdot 10^{-5}$ & $(7,8 \pm 0,2)\cdot 10^{-4}$ &  $(7,8\pm 0,45)\cdot 10^{-4}$ \\
+% 4 & $400$ & $(8 \pm 2) \cdot 10^{-5}$ & $(5,8 \pm 0,2)\cdot 10^{-4}$ &  $(5,0\pm 0,28)\cdot 10^{-4}$ \\
+% 5 & $500$ & $(6 \pm 2) \cdot 10^{-5}$ & $(4,8 \pm 0,2)\cdot 10^{-4}$ &  $(4,2\pm 0,28)\cdot 10^{-4}$ \\
+% 6 & $600$ & $(8,8 \pm 0,4) \cdot 10^{-5}$ & $(3,92 \pm 0,04)\cdot 10^{-4}$ &  $(3,04\pm 0,057)\cdot 10^{-4}$ \\
+% 7 & $700$ & $(8,8 \pm 0,4) \cdot 10^{-5}$ & $(3,40 \pm 0,04)\cdot 10^{-4}$ &  $(2,52\pm 0,057)\cdot 10^{-4}$ \\
+% 8 & $800$ & $(9,2 \pm 0,2) \cdot 10^{-5}$ & $(2,92 \pm 0,04)\cdot 10^{-4}$ &  $(2,00\pm 0,045)\cdot 10^{-4}$ \\
+% 9 & $900$ & $(8,4 \pm 0,2) \cdot 10^{-5}$ & $(2,60 \pm 0,04)\cdot 10^{-4}$ &  $(0,176\pm 0,045)\cdot 10^{-4}$ \\
+% 10 & $1000$ & $(8,8 \pm 0,2) \cdot 10^{-5}$ & $(2,36 \pm 0,04)\cdot 10^{-4}$ &  $(1,48\pm 0,045)\cdot 10^{-4}$ \\
+% 11 & $1100$ & $(8,2 \pm 0,2) \cdot 10^{-5}$ & $(2,18 \pm 0,02)\cdot 10^{-4}$ &  $(1,36\pm 0,028)\cdot 10^{-4}$ \\
+% 12 & $1200$ & $(8,2 \pm 0,2) \cdot 10^{-5}$ & $(2,02 \pm 0,02)\cdot 10^{-4}$ &  $(1,20\pm 0,028)\cdot 10^{-4}$ \\
+% 13 & $1300$ & $(7,8 \pm 0,2) \cdot 10^{-5}$ & $(1,82 \pm 0,02)\cdot 10^{-4}$ &  $(1,04\pm 0,028)\cdot 10^{-4}$ \\
+% 14 & $1400$ & $(7,6 \pm 0,2) \cdot 10^{-5}$ & $(1,68 \pm 0,02)\cdot 10^{-4}$ &  $(9,2\pm 0,28)\cdot 10^{-5}$ \\
+% 15 & $1500$ & $(6,4 \pm 0,2) \cdot 10^{-5}$ & $(1,56 \pm 0,02)\cdot 10^{-4}$ &  $(9,2\pm 0,28)\cdot 10^{-5}$ \\
+% 16 & $1600$ & $(6,6 \pm 0,2) \cdot 10^{-5}$ & $(1,48 \pm 0,02)\cdot 10^{-4}$ &  $(8,2\pm 0,28)\cdot 10^{-5}$ \\
+% 17 & $1700$ & $(6,6 \pm 0,2) \cdot 10^{-5}$ & $(1,34 \pm 0,02)\cdot 10^{-4}$ &  $(6,8\pm 0,28)\cdot 10^{-5}$ \\
+% 18 & $1800$ & $(6,8 \pm 0,2) \cdot 10^{-5}$ & $(1,26 \pm 0,02)\cdot 10^{-4}$ &  $(5,8\pm 0,28)\cdot 10^{-5}$ \\
+% 19 & $1900$ & $(7,7 \pm 0,1) \cdot 10^{-5}$ & $(1,31 \pm 0,01)\cdot 10^{-4}$ &  $(5,4\pm 0,14)\cdot 10^{-5}$ \\
+% 20 & $2000$ & $(3,08 \pm 0,04) \cdot 10^{-5}$ & $(8,00 \pm 0,04) \cdot 10^{-5}$ &  $(4,92\pm 0,057)\cdot 10^{-5}$ \\
+% 21 & $3000$ & $(5,84 \pm 0,04) \times 10^{-5}$ & $(8,40 \pm 0,04) \times 10^{-5}$ \\
+% 22 & $4000$ & $(4,88 \pm 0,04) \times 10^{-5}$ & $(6,40 \pm 0,04) \times 10^{-5}$ \\
+% 23 & $5000$ & $(4,06 \pm 0,02) \times 10^{-5}$ & $(5,06 \pm 0,02) \times 10^{-5}$ \\
+% 24 & $6000$ & $(2,23 \pm 0,01) \times 10^{-5}$ & $(2,92 \pm 0,01) \times 10^{-5}$ \\
+% 25 & $7000$ & $(1,98 \pm 0,01) \times 10^{-5}$ & $(2,56 \pm 0,01) \times 10^{-5}$ \\
+% \hline
+% \end{tabular}
+% \caption{Tiempos medidos entre máximos de $V_G$ y $V_R$}
+% \label{tab:tiempos}
+% \end{table}
+
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-Medidas & $f \hspace{4pt}(Hz)$ & $\log(f)$ &  $\Delta t\hspace{4pt} (s)$ & $\varphi \hspace{4pt} (\unit{\radian})$
+Medidas & $f \hspace{4pt}(Hz)$ & $t_1 \hspace{4pt}(s)$ & $t_2 \hspace{4pt} (s)$ &  $\Delta t\hspace{4pt} (s)$ & $\varphi \hspace{4pt} (\unit{\radian})$
 & $\varphi \hspace{4pt} (\unit{\degree})$\\
 \hline
-1 & $100$ & $2,0$ & $(2,360 \pm 0,057)\cdot 10^{-3}$ & $1,483 \pm 0,036$ & $85,0 \pm 2,1$\\
-2 & $200$ & $2,3010299956639813$ & $(1,12\pm 0,057)\cdot 10^{-3}$ & $1,407 \pm 0,072$ & $80,6 \pm 4,1$\\
-3 & $300$ & $2,4771212547196626$ & $(7,8\pm 0,45)\cdot 10^{-4}$ & $1,470 \pm 0,085$ & $84,2 \pm 4,9$\\
-4 & $400$ & $2,6020599913279625$ & $(5,0\pm 0,28)\cdot 10^{-4}$ & $1,257 \pm 0,070$ & $72,0 \pm 4,0$\\
-5 & $500$ & $2,6989700043360187$ & $(4,2\pm 0,28)\cdot 10^{-4}$ & $1,319 \pm 0,088$ & $75,6 \pm 5,0$\\
-6 & $600$ & $2,7781512503836434$ & $(3,04\pm 0,057)\cdot 10^{-4}$ & $1,146 \pm 0,021$ & $65,7 \pm 1,2$\\
-7 & $700$ & $2,845098040014257$ & $(2,52\pm 0,057)\cdot 10^{-4}$ & $1,108 \pm 0,025$ & $63,5 \pm 1,4$\\
-8 & $800$ & $2,9030899869919438$ & $(2,00\pm 0,045)\cdot 10^{-4}$ & $1,005 \pm 0,023$ & $57,6 \pm 1,3$\\
-9 & $900$ & $2,9542425094393248$ & $(1,76\pm 0,045)\cdot 10^{-4}$ & $0,995 \pm 0,025$ & $57,0 \pm 1,4$\\
-10 & $1000$ & $3,0$ & $(1,48\pm 0,045)\cdot 10^{-4}$ & $0,930 \pm 0,028$ & $53,3\pm 1,6$\\
-11 & $1100$ & $3,041392685158225$ &  $(1,36\pm 0,028)\cdot 10^{-4}$ & $0,940 \pm 0,019$ & $53,8 \pm 1,1$\\
-12 & $1200$ & $3,0791812460476247$ &  $(1,20\pm 0,028)\cdot 10^{-4}$ & $0,905 \pm 0,021$ & $51,9 \pm 1,2$\\
-13 & $1300$ & $3,113943352306837$ &   $(1,04\pm 0,028)\cdot 10^{-4}$ & $0,849 \pm 0,029$ & $48,6 \pm 1,7$\\
-14 & $1400$ & $3,146128035678238$ &   $(9,2\pm 0,28)\cdot 10^{-5}$ & $0,809 \pm 0,025$ & $46,3 \pm 1,4$\\
-15 & $1500$ & $3,1760912590556813$ &   $(9,2\pm 0,28)\cdot 10^{-5}$ & $0,867 \pm 0,026$ & $49,7 \pm 1,5$\\
-16 & $1600$ & $3,2041199826559246$ &   $(8,2\pm 0,28)\cdot 10^{-5}$ & $0,824 \pm 0,028$ & $47,2 \pm 1,6$\\
-17 & $1700$ & $3,230448921378274$ &   $(6,8\pm 0,28)\cdot 10^{-5}$ & $0,726 \pm 0,030$ & $41,6 \pm 1,7$\\
-18 & $1800$ & $3,255272505103306$ &   $(5,8\pm 0,28)\cdot 10^{-5}$ & $0,656 \pm 0,032$ & $37,6 \pm 1,8$\\
-19 & $1900$ & $3,278753600952829$ &   $(5,4\pm 0,14)\cdot 10^{-5}$ & $0,645 \pm 0,017$ & $37,0 \pm 1,0$\\
-20 & $2000$ & $3,3010299956639813$ &   $(4,92\pm 0,057)\cdot 10^{-5}$ & $0,6183 \pm 0,0072$ & $35,4 \pm 0,4$\\
+1 & $100$ & $2,0$ & $(0,00 \pm 0,04)$ & $(2,36 \pm 0,04)$ & $(2,3600 \pm 0,0566)$ & $(1,48 \pm 0,04) \times 10^{3}$ & $(8,5 \pm 0,2) \times 10^{4}$ \\
+2 & $200$ & $2,3010299956639813$ & $(0,00 \pm 0,04)$ & $(1,12 \pm 0,04)$ & $(1,1200 \pm 0,0566)$ & $(1,41 \pm 0,07) \times 10^{3}$ & $(8,06 \pm 0,41) \times 10^{4}$ \\
+3 & $300$ & $2,4771212547196626$ & $(0,00 \pm 0,04)$ & $(0,78 \pm 0,02)$ & $(0,7800 \pm 0,0447)$ & $(1,47 \pm 0,08) \times 10^{3}$ & $(8,42 \pm 0,48) \times 10^{4}$ \\
+4 & $400$ & $2,6020599913279625$ & $(8 \pm 2) \times 10^{-2}$ & $(0,58 \pm 0,02)$ & $(0,5000 \pm 0,0283)$ & $(1,26 \pm 0,07) \times 10^{3}$ & $(7,20 \pm 0,41) \times 10^{4}$ \\
+5 & $500$ & $2,6989700043360187$ & $(6 \pm 2) \times 10^{-2}$ & $(0,48 \pm 0,02)$ & $(0,4200 \pm 0,0283)$ & $(1,32 \pm 0,09) \times 10^{3}$ & $(7,56 \pm 0,51) \times 10^{4}$ \\
+6 & $600$ & $2,7781512503836434$ & $(8,8 \pm 0,2) \times 10^{-2}$ & $(0,392 \pm 0,004)$ & $(0,30400 \pm 0,00447)$ & $(1,15 \pm 0,02) \times 10^{3}$ & $(6,6 \pm 0,1) \times 10^{4}$ \\
+7 & $700$ & $2,845098040014257$ & $(8,8 \pm 0,2) \times 10^{-2}$ & $(0,340 \pm 0,004)$ & $(0,25200 \pm 0,00447)$ & $(1,11 \pm 0,02) \times 10^{3}$ & $(6,35 \pm 0,11) \times 10^{4}$ \\
+8 & $800$ & $2,9030899869919438$ & $(8,8 \pm 0,2) \times 10^{-2}$ & $(0,292 \pm 0,004)$ & $(0,20400 \pm 0,00447)$ & $(1,03 \pm 0,02) \times 10^{3}$ & $(5,88 \pm 0,13) \times 10^{4}$ \\
+9 & $900$ & $2,9542425094393248$ & $(9,2 \pm 0,2) \times 10^{-2}$ & $(0,260 \pm 0,004)$ & $(0,16800 \pm 0,00447)$ & $(9,50 \pm 0,25) \times 10^{2}$ & $(5,44 \pm 0,14) \times 10^{4}$ \\
+10 & $1000$ & $3,0$ & $(8,4 \pm 0,2) \times 10^{-2}$ & $(0,236 \pm 0,004)$ & $(0,15200 \pm 0,00447)$ & $(9,55 \pm 0,28) \times 10^{2}$ & $(5,47 \pm 0,16) \times 10^{4}$ \\
+11 & $1100$ & $3,041392685158225$ & $(8,8 \pm 0,2) \times 10^{-2}$ & $(0,218 \pm 0,004)$ & $(0,13000 \pm 0,00447)$ & $(8,98 \pm 0,31) \times 10^{2}$ & $(5,15 \pm 0,18) \times 10^{4}$ \\
+12 & $1200$ & $3,0791812460476247$ & $(8,8 \pm 0,2) \times 10^{-2}$ & $(0,202 \pm 0,002)$ & $(0,11400 \pm 0,00283)$ & $(8,60 \pm 0,21) \times 10^{2}$ & $(4,92 \pm 0,12) \times 10^{4}$ \\
+13 & $1300$ & $3,113943352306837$ & $(8,2 \pm 0,2) \times 10^{-2}$ & $(0,182 \pm 0,002)$ & $(1,00 \pm 0,03) \times 10^{-1}$ & $(8,17 \pm 0,23) \times 10^{2}$ & $(4,68 \pm 0,13) \times 10^{4}$ \\
+14 & $1326$ & $3,1225435240687545$ & $(0,158 \pm 0,001)$ & $(0,253 \pm 0,001)$ & $(9,50 \pm 0,14) \times 10^{-2}$ & $(7,91 \pm 0,12) \times 10^{2}$ & $(4,53 \pm 0,07) \times 10^{4}$ \\
+15 & $1400$ & $3,146128035678238$ & $(7,8 \pm 0,2) \times 10^{-2}$ & $(0,168 \pm 0,002)$ & $(9,00 \pm 0,28) \times 10^{-2}$ & $(7,92 \pm 0,25) \times 10^{2}$ & $(4,54 \pm 0,14) \times 10^{4}$ \\
+16 & $1500$ & $3,1760912590556813$ & $(7,6 \pm 0,2) \times 10^{-2}$ & $(0,156 \pm 0,002)$ & $(8,00 \pm 0,28) \times 10^{-2}$ & $(7,54 \pm 0,27) \times 10^{2}$ & $(4,32 \pm 0,15) \times 10^{4}$ \\
+17 & $1600$ & $3,2041199826559246$ & $(6,6 \pm 0,2) \times 10^{-2}$ & $(0,148 \pm 0,002)$ & $(8,20 \pm 0,28) \times 10^{-2}$ & $(8,24 \pm 0,28) \times 10^{2}$ & $(4,72 \pm 0,16) \times 10^{4}$ \\
+18 & $1700$ & $3,230448921378274$ & $(6,6 \pm 0,2) \times 10^{-2}$ & $(0,134 \pm 0,002)$ & $(6,80 \pm 0,28) \times 10^{-2}$ & $(7,3 \pm 0,3) \times 10^{2}$ & $(4,16 \pm 0,17) \times 10^{4}$ \\
+19 & $1800$ & $3,255272505103306$ & $(6,8 \pm 0,2) \times 10^{-2}$ & $(0,126 \pm 0,002)$ & $(5,80 \pm 0,28) \times 10^{-2}$ & $(6,56 \pm 0,32) \times 10^{2}$ & $(3,76 \pm 0,18) \times 10^{4}$ \\
+20 & $1900$ & $3,278753600952829$ & $(7,7 \pm 0,1) \times 10^{-2}$ & $(0,131 \pm 0,001)$ & $(5,40 \pm 0,14) \times 10^{-2}$ & $(6,45 \pm 0,17) \times 10^{2}$ & $(3,7 \pm 0,1) \times 10^{4}$ \\
+21 & $2000$ & $3,3010299956639813$ & $(3,81 \pm 0,04) \times 10^{-2}$ & $(8,00 \pm 0,04) \times 10^{-2}$ & $(4,19 \pm 0,06) \times 10^{-2}$ & $(5,27 \pm 0,07) \times 10^{2}$ & $(3,02 \pm 0,04) \times 10^{4}$ \\
+22 & $3000$ & $3,4771212547196626$ & $(5,84 \pm 0,04) \times 10^{-2}$ & $(8,40 \pm 0,04) \times 10^{-2}$ & $(2,56 \pm 0,06) \times 10^{-2}$ & $(4,83 \pm 0,11) \times 10^{2}$ & $(2,76 \pm 0,06) \times 10^{4}$ \\
+23 & $4000$ & $3,6020599913279625$ & $(4,88 \pm 0,04) \times 10^{-2}$ & $(6,40 \pm 0,04) \times 10^{-2}$ & $(1,52 \pm 0,06) \times 10^{-2}$ & $(3,82 \pm 0,14) \times 10^{2}$ & $(2,19 \pm 0,08) \times 10^{4}$ \\
+24 & $5000$ & $3,6989700043360187$ & $(4,06 \pm 0,02) \times 10^{-2}$ & $(5,06 \pm 0,02) \times 10^{-2}$ & $(1,00 \pm 0,03) \times 10^{-2}$ & $(3,14 \pm 0,09) \times 10^{2}$ & $(1,80 \pm 0,05) \times 10^{4}$ \\
+25 & $6000$ & $3,7781512503836434$ & $(2,23 \pm 0,01) \times 10^{-2}$ & $(2,92 \pm 0,01) \times 10^{-2}$ & $(6,90 \pm 0,14) \times 10^{-3}$ & $(2,60 \pm 0,05) \times 10^{2}$ & $(1,49 \pm 0,03) \times 10^{4}$ \\
+26 & $7000$ & $3,845098040014257$ & $(1,98 \pm 0,01) \times 10^{-2}$ & $(2,56 \pm 0,01) \times 10^{-2}$ & $(5,80 \pm 0,14) \times 10^{-3}$ & $(2,55 \pm 0,06) \times 10^{2}$ & $(1,46 \pm 0,04) \times 10^{4}$ \\
 \hline
 \end{tabular}
 \caption{Desfases en función de la frecuencia}
-\label{tab:angulos}
+\label{tab:tiempos}
 \end{table}
+
+% \begin{table}[H]
+% \centering
+% \begin{tabular}{|c|c|c|c|c|c|}
+% \hline
+% Medidas & $f \hspace{4pt}(Hz)$ & $\log(f)$ &  $\Delta t\hspace{4pt} (s)$ & $\varphi \hspace{4pt} (\unit{\radian})$
+% & $\varphi \hspace{4pt} (\unit{\degree})$\\
+% \hline
+% 1 & $100$ & $2,0$ & $(2,360 \pm 0,057)\cdot 10^{-3}$ & $1,483 \pm 0,036$ & $85,0 \pm 2,1$\\
+% 2 & $200$ & $2,3010299956639813$ & $(1,12\pm 0,057)\cdot 10^{-3}$ & $1,407 \pm 0,072$ & $80,6 \pm 4,1$\\
+% 3 & $300$ & $2,4771212547196626$ & $(7,8\pm 0,45)\cdot 10^{-4}$ & $1,470 \pm 0,085$ & $84,2 \pm 4,9$\\
+% 4 & $400$ & $2,6020599913279625$ & $(5,0\pm 0,28)\cdot 10^{-4}$ & $1,257 \pm 0,070$ & $72,0 \pm 4,0$\\
+% 5 & $500$ & $2,6989700043360187$ & $(4,2\pm 0,28)\cdot 10^{-4}$ & $1,319 \pm 0,088$ & $75,6 \pm 5,0$\\
+% 6 & $600$ & $2,7781512503836434$ & $(3,04\pm 0,057)\cdot 10^{-4}$ & $1,146 \pm 0,021$ & $65,7 \pm 1,2$\\
+% 7 & $700$ & $2,845098040014257$ & $(2,52\pm 0,057)\cdot 10^{-4}$ & $1,108 \pm 0,025$ & $63,5 \pm 1,4$\\
+% 8 & $800$ & $2,9030899869919438$ & $(2,00\pm 0,045)\cdot 10^{-4}$ & $1,005 \pm 0,023$ & $57,6 \pm 1,3$\\
+% 9 & $900$ & $2,9542425094393248$ & $(1,76\pm 0,045)\cdot 10^{-4}$ & $0,995 \pm 0,025$ & $57,0 \pm 1,4$\\
+% 10 & $1000$ & $3,0$ & $(1,48\pm 0,045)\cdot 10^{-4}$ & $0,930 \pm 0,028$ & $53,3\pm 1,6$\\
+% 11 & $1100$ & $3,041392685158225$ &  $(1,36\pm 0,028)\cdot 10^{-4}$ & $0,940 \pm 0,019$ & $53,8 \pm 1,1$\\
+% 12 & $1200$ & $3,0791812460476247$ &  $(1,20\pm 0,028)\cdot 10^{-4}$ & $0,905 \pm 0,021$ & $51,9 \pm 1,2$\\
+% 13 & $1300$ & $3,113943352306837$ &   $(1,04\pm 0,028)\cdot 10^{-4}$ & $0,849 \pm 0,029$ & $48,6 \pm 1,7$\\
+% 14 & $1400$ & $3,146128035678238$ &   $(9,2\pm 0,28)\cdot 10^{-5}$ & $0,809 \pm 0,025$ & $46,3 \pm 1,4$\\
+% 15 & $1500$ & $3,1760912590556813$ &   $(9,2\pm 0,28)\cdot 10^{-5}$ & $0,867 \pm 0,026$ & $49,7 \pm 1,5$\\
+% 16 & $1600$ & $3,2041199826559246$ &   $(8,2\pm 0,28)\cdot 10^{-5}$ & $0,824 \pm 0,028$ & $47,2 \pm 1,6$\\
+% 17 & $1700$ & $3,230448921378274$ &   $(6,8\pm 0,28)\cdot 10^{-5}$ & $0,726 \pm 0,030$ & $41,6 \pm 1,7$\\
+% 18 & $1800$ & $3,255272505103306$ &   $(5,8\pm 0,28)\cdot 10^{-5}$ & $0,656 \pm 0,032$ & $37,6 \pm 1,8$\\
+% 19 & $1900$ & $3,278753600952829$ &   $(5,4\pm 0,14)\cdot 10^{-5}$ & $0,645 \pm 0,017$ & $37,0 \pm 1,0$\\
+% 20 & $2000$ & $3,3010299956639813$ &   $(4,92\pm 0,057)\cdot 10^{-5}$ & $0,6183 \pm 0,0072$ & $35,4 \pm 0,4$\\
+% 21 & $3000$ & $(5,84 \pm 0,04) \times 10^{-2}$ & $(8,40 \pm 0,04) \times 10^{-2}$ \\
+% 22 & $4000$ & $(4,88 \pm 0,04) \times 10^{-2}$ & $(6,40 \pm 0,04) \times 10^{-2}$ \\
+% 23 & $5000$ & $(4,06 \pm 0,02) \times 10^{-2}$ & $(5,06 \pm 0,02) \times 10^{-2}$ \\
+% 24 & $6000$ & $(2,23 \pm 0,01) \times 10^{-2}$ & $(2,92 \pm 0,01) \times 10^{-2}$ \\
+% 25 & $7000$ & $(1,98 \pm 0,01) \times 10^{-2}$ & $(2,56 \pm 0,01) \times 10^{-2}$ \\
+% \hline
+% \end{tabular}
+% \caption{Desfases en función de la frecuencia}
+% \label{tab:angulos}
+% \end{table}
 
 \section{Anexo}
 \subsection{Corriente Continua}
@@ -954,8 +1021,7 @@ Medidas & $f \hspace{4pt}(Hz)$ & $\log(f)$ &  $\Delta t\hspace{4pt} (s)$ & $\var
     \label{fig:Corriente Continua}
 \end{figure}
 
-% \begin{minted}{python3}
-    
+
 %     import pandas as pd
 %     import matplotlib.pyplot as plt
 %     import numpy as np
@@ -993,8 +1059,6 @@ Medidas & $f \hspace{4pt}(Hz)$ & $\log(f)$ &  $\Delta t\hspace{4pt} (s)$ & $\var
 %     plt.grid(True)
 %     plt.show()
 
-% \end{minted}
-
 \bigskip
 
 \subsection{Corriente Alterna}
@@ -1025,6 +1089,56 @@ Medidas & $f \hspace{4pt}(Hz)$ & $\log(f)$ &  $\Delta t\hspace{4pt} (s)$ & $\var
     \caption{Circuitos de corriente alterna}
     \label{fig:Corriente Alterna}
 \end{figure}
+
+% import pandas as pd
+% import numpy as np
+% import os
+
+% #df = pd.read_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4.csv")
+% df = pd.read_csv(r"d:\Programación\Git\Python\tabla4.csv")
+
+% f  = df["f"]
+% finc = df["f_unc"]
+
+% R = 10**4   
+% C = 12e-9      
+
+% Xc = 1 / (2 * np.pi * f * C)
+% df["Z"] = np.sqrt(R**2 + Xc**2)
+% dXc =Xc*(finc/f)
+% df["dZ"]=np.abs(Xc / df["Z"])*dXc
+% df["logz"]=20*np.log10(df["Z"])
+% df["dlogz"]=20*df["dZ"]/(df["Z"]*np.log10(10))
+% df["Vr/Vc"]=df["v_r"]/df["v_c"]
+% df["dvr"]=np.sqrt((df["v_r_unc"]**2)/(df["v_c"]**2)+(((df["v_r"]**2)*df["v_c_unc"]**2)/(df["v_r"]**4)))
+
+% orden = ["f","f_unc","v","v_unc","v_r","v_r_unc","v_c","v_c_unc","dZ","Z","logz","dlogz","Vr/Vc","dvr"]
+% df = df[orden]
+
+% #df.to_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv", index=False)
+% df.to_csv(r"d:\Programación\Git\Python\tabla4mod.csv", index=False)
+
+
+% import pandas as pd
+% import numpy as np
+% import os
+
+% #df = pd.read_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4.csv")
+% df = pd.read_csv(r"d:\Programación\Git\Python\tabla5b.csv")
+
+% t1  = df["t1"]
+% t1inc = df["t1_unc"]
+% t2  = df["t2"]
+% t2inc = df["t2_unc"]
+  
+% df["dt"]=t2-t1
+% df["dt_"]=np.sqrt(t1inc**2+t2inc**2)
+
+% # orden = []
+% # df = df[orden]
+
+% #df.to_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv", index=False)
+% df.to_csv(r"d:\Programación\Git\Python\tabla5bmod.csv", index=False)
 
 \section{Bibliografía}
 \printbibliography

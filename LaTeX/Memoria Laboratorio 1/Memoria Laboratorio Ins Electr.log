@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  28 FEB 2026 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  1 MAR 2026 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -675,6 +675,26 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count390
 \c@LT@chunks=\count391
 \LT@p@ftn=\toks45
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/bbold\bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 ) (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
@@ -958,24 +978,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `"Memoria Laboratorio Ins Electr.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count532
@@ -995,13 +1015,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 32.
  (Memoria Laboratorio Ins Electr.out) (Memoria Laboratorio Ins Electr.out)
 \@outlinefile=\write6
 \openout6 = `"Memoria Laboratorio Ins Electr.out"'.
 
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -1011,7 +1031,7 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 28.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 32.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
  (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-apa.lbx
@@ -1034,8 +1054,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Memoria Laboratorio Ins Electr".bbl' found.
  (Memoria Laboratorio Ins Electr.bbl)
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1074,7 +1094,7 @@ Package biblatex Info: Reference segment=0 on input line 28.
 <USClogo.png, id=126, 1284.8pt x 836.12375pt>
 File: USClogo.png Graphic file (type png)
 <use USClogo.png>
-Package pdftex.def Info: USClogo.png  used on input line 39.
+Package pdftex.def Info: USClogo.png  used on input line 43.
 (pdftex.def)             Requested size: 170.71652pt x 111.09843pt.
 [1
 
@@ -1082,7 +1102,20 @@ Package pdftex.def Info: USClogo.png  used on input line 39.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 3.
+ (C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd))
 \tf@toc=\write7
 \openout7 = `"Memoria Laboratorio Ins Electr.toc"'.
 
@@ -1108,73 +1141,85 @@ l.3 ...dos con el polímetro}}{4}{table.caption.5}
 \openout9 = `"Memoria Laboratorio Ins Electr.lot"'.
 
  [2] [3] [4]
-Package svg Info: Last page of `./svg-inkscape/Figure_1M1_svg-tex.pdf' is 1 on input line 200.
+Package svg Info: Last page of `./svg-inkscape/Figure_1M1_svg-tex.pdf' is 1 on input line 204.
  (svg-inkscape/Figure_1M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_1M1_svg-tex.pdf, id=268, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_1M1_svg-tex.pdf, id=262, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_1M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_1M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_1M1_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
 ) [5 <./svg-inkscape/Figure_1M1_svg-tex.pdf>] [6] [7] [8]
-Package svg Info: Last page of `./svg-inkscape/Figure_2M1_svg-tex.pdf' is 1 on input line 363.
+Package svg Info: Last page of `./svg-inkscape/Figure_2M1_svg-tex.pdf' is 1 on input line 367.
  (svg-inkscape/Figure_2M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_2M1_svg-tex.pdf, id=424, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_2M1_svg-tex.pdf, id=418, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_2M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_2M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_2M1_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
 ) [9 <./svg-inkscape/Figure_2M1_svg-tex.pdf>] [10] [11]
-Package svg Info: Last page of `./svg-inkscape/Figure_3M1_svg-tex.pdf' is 1 on input line 537.
+Package svg Info: Last page of `./svg-inkscape/Figure_3M1_svg-tex.pdf' is 1 on input line 541.
  (svg-inkscape/Figure_3M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_3M1_svg-tex.pdf, id=586, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_3M1_svg-tex.pdf, id=581, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_3M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_3M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_3M1_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
 ) [12] [13 <./svg-inkscape/Figure_3M1_svg-tex.pdf>] [14]
-Overfull \hbox (190.0323pt too wide) in paragraph at lines 684--711
+Overfull \hbox (190.0323pt too wide) in paragraph at lines 688--715
  [][] 
  []
 
-[15]
-d:/Programación/Git/LaTeX/Memoria Laboratorio 1/Memoria Laboratorio Ins Electr.tex:744: ignored: Infinite glue shrinkage found in box being split [16] [17] [18] [19]
-<Resistencia.png, id=774, 240.9pt x 207.77625pt>
+[15] [16]
+Package svg Info: Last page of `./svg-inkscape/Figure_5M1_svg-tex.pdf' is 1 on input line 831.
+ (svg-inkscape/Figure_5M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_5M1_svg-tex.pdf, id=758, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_5M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_5M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_5M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [17 <./svg-inkscape/Figure_5M1_svg-tex.pdf>]
+Overfull \hbox (273.47966pt too wide) in paragraph at lines 919--952
+ [][] 
+ []
+
+[18]
+<Resistencia.png, id=945, 240.9pt x 207.77625pt>
 File: Resistencia.png Graphic file (type png)
 <use Resistencia.png>
-Package pdftex.def Info: Resistencia.png  used on input line 934.
+Package pdftex.def Info: Resistencia.png  used on input line 1001.
 (pdftex.def)             Requested size: 145.87875pt x 125.8239pt.
-<Serie.png, id=775, 286.06876pt x 181.42781pt>
+<Serie.png, id=946, 286.06876pt x 181.42781pt>
 File: Serie.png Graphic file (type png)
 <use Serie.png>
-Package pdftex.def Info: Serie.png  used on input line 941.
+Package pdftex.def Info: Serie.png  used on input line 1008.
 (pdftex.def)             Requested size: 145.87875pt x 92.51865pt.
-<Paralelo.png, id=776, 266.49562pt x 144.54pt>
+<Paralelo.png, id=947, 266.49562pt x 144.54pt>
 File: Paralelo.png Graphic file (type png)
 <use Paralelo.png>
-Package pdftex.def Info: Paralelo.png  used on input line 948.
+Package pdftex.def Info: Paralelo.png  used on input line 1015.
 (pdftex.def)             Requested size: 145.87875pt x 79.1223pt.
-<Condensador1.png, id=777, 167.87718pt x 94.85437pt>
+<Condensador1.png, id=948, 167.87718pt x 94.85437pt>
 File: Condensador1.png Graphic file (type png)
 <use Condensador1.png>
-Package pdftex.def Info: Condensador1.png  used on input line 1006.
+Package pdftex.def Info: Condensador1.png  used on input line 1070.
 (pdftex.def)             Requested size: 145.87875pt x 82.4242pt.
-<Condensador2.png, id=778, 252.19218pt x 133.24782pt>
+<Condensador2.png, id=949, 252.19218pt x 133.24782pt>
 File: Condensador2.png Graphic file (type png)
 <use Condensador2.png>
-Package pdftex.def Info: Condensador2.png  used on input line 1013.
+Package pdftex.def Info: Condensador2.png  used on input line 1077.
 (pdftex.def)             Requested size: 145.87875pt x 77.07639pt.
-<Condensador3.png, id=779, 249.93375pt x 125.71968pt>
+<Condensador3.png, id=950, 249.93375pt x 125.71968pt>
 File: Condensador3.png Graphic file (type png)
 <use Condensador3.png>
-Package pdftex.def Info: Condensador3.png  used on input line 1020.
+Package pdftex.def Info: Condensador3.png  used on input line 1084.
 (pdftex.def)             Requested size: 145.87875pt x 73.38168pt.
 
-Underfull \hbox (badness 2689) in paragraph at lines 1021--1021
+Underfull \hbox (badness 2689) in paragraph at lines 1085--1085
 []\OT1/cmr/m/n/10 (c) |Con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
  []
 
-[20 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] [21 <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
-runsystem(latexminted cleantemp  --timestamp 20260228203812 3D8CE92F32C9C6BA99AC87AE494FBF71)...disabled (restricted).
+[19 <./Resistencia.png> <./Serie.png> <./Paralelo.png>] [20 <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
+runsystem(latexminted cleantemp  --timestamp 20260301134142 3D8CE92F32C9C6BA99AC87AE494FBF71)...disabled (restricted).
 
  (Memoria Laboratorio Ins Electr.aux
 LaTeX Info: Redefining \sptext on input line 15.
@@ -1192,17 +1237,17 @@ Package logreq Info: Writing requests to '"Memoria Laboratorio Ins Electr".run.x
 
  ) 
 Here is how much of TeX's memory you used:
- 42646 strings out of 467866
- 909373 string characters out of 5418325
- 1954263 words of memory out of 5000000
- 70864 multiletter control sequences out of 15000+600000
- 633945 words of font info for 61 fonts, out of 8000000 for 9000
+ 43498 strings out of 467866
+ 920996 string characters out of 5418325
+ 1944148 words of memory out of 5000000
+ 71677 multiletter control sequences out of 15000+600000
+ 636286 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,19n,104p,770b,3185s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Memoria Laboratorio Ins Electr.pdf" (22 pages, 546900 bytes).
+ <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on "Memoria Laboratorio Ins Electr.pdf" (21 pages, 605289 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1058 PDF objects out of 1200 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
