@@ -8,14 +8,14 @@ def flotante(s):
         s = '1' + s
     return float(s)
 
-csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla4mod.csv" 
+csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla1.csv" 
 #csv_path = r"d:\Programación\Git\Python\tabla4mod.csv"
 x_col = "f"
 x_err_col = "f_unc"
 y_col = "Vr/Vc"
 y_err_col = "dvr"
 regresion = True
-una_var = True
+una_var = False
 logar = False   
 rectas_extra = [] #(pendiente,ordenada)
 
@@ -44,7 +44,7 @@ a=(sy*sx2-sx*sxy)/(n*sx2-sx**2);b=(n*sxy-sx*sy)/(n*sx2-sx**2);
 s=np.sqrt(sum((y-a-b*x)**2)/(n-2));sa=s*np.sqrt(sx2/(n*sx2-sx**2));sb=s*np.sqrt(n/(n*sx2-sx**2));
 r=(n*sxy-sx*sy)/np.sqrt((n*sx2-sx**2)*(n*sy2-sy**2));r2=r**2
 
-Sb=sxy/sx2;Ss=np.sqrt(sum((y-b*x)**2)/(n-1));Ssb=Ss/np.sqrt(sx2);Sr=sxy/np.sqrt(sx2*sy2);Sr2=Sr**2;
+Sb=sxy/sx2;Ss=np.sqrt(sum((y-Sb*x)**2)/(n-1));Ssb=Ss/np.sqrt(sx2);Sr=sxy/np.sqrt(sx2*sy2);Sr2=Sr**2;
 
 print("Sumatorios:")
 print(sx,sy,sx2,sxy,sy2)
@@ -78,7 +78,7 @@ if regresion:
             x_extra_plot = x_recta
             plt.plot(x_extra_plot, y_extra, '--',color='green', label=f"Recta extra {idx}: y={m}x+{c}")
 if y_err is not None:
-    plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o', label="Datos",barsabove=True)
+    plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o',color='blue', label="Datos",barsabove=True)
 else:
     plt.scatter(x_plot, y, label="Datos",color='blue')
 plt.title("Regresión lineal $V_{mR}/V_{mC}$ para el circuito de corriente alterna") #.format(" logarítmica" if logar else ""))

@@ -21,11 +21,13 @@
 \contentsline {subsection}{\numberline {2.3}\textbf {Frecuencia de Corte}}{14}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Metodología}{14}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Discusión}{15}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Resultados}{19}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}\textbf {Desfase entre señales}}{19}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Metodología}{19}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Discusión}{19}{subsubsection.2.4.2}%
-\contentsline {section}{\numberline {3}Anexo}{23}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Corriente Continua}{23}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{23}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Bibliografía}{23}{section.4}%
+\contentsline {subsubsection}{\numberline {2.3.3}Resultados}{20}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}\textbf {Desfase entre señales}}{20}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Metodología}{20}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Discusión}{20}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Resultados}{23}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}\textbf {Conclusión}}{24}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Anexo}{24}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Corriente Continua}{24}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{24}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Bibliografía}{24}{section.4}%

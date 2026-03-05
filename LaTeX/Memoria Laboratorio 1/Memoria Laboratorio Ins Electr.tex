@@ -19,6 +19,7 @@
 \usepackage{bbold}
 \usepackage{stmaryrd}
 \usepackage{threeparttable}
+\usepackage[bottom]{footmisc}
 %\usepackage{memoize}
 %\usepackage{pgfplots}
 %\pgfplotsset{width=10cm,compat=1.9} 
@@ -31,6 +32,8 @@
 
 \addbibresource{bibliografia.bib}
 \begin{document}
+
+\setlength{\skip\footins}{1cm}
 
 \nocite{usclogo}
 \begin{titlepage}
@@ -145,17 +148,17 @@ la relación lineal que hay entre el voltaje y la intensidad de $R_1$, donde est
 \hline
 Medidas & $V \pm s(V) \hspace{4pt} (V)$ & $I \pm s(I) \hspace{4pt} (A)$ \\
 \hline
-1 & $(1,068 \pm 0,001)$ & $(4,8 \pm 0,1) \cdot 10^{-6}$ \\
-2 & $(2,05 \pm 0,01)$ & $(9,3 \pm 0,1) \cdot 10^{-6}$ \\
-3 & $(3,06 \pm 0,01)$ & $(1,39 \pm 0,01) \cdot 10^{-5}$ \\
-4 & $(4,04 \pm 0,01)$ & $(1,84 \pm 0,01) \cdot 10^{-5}$ \\
-5 & $(5,06 \pm 0,01)$ & $(2,30 \pm 0,01) \cdot 10^{-5}$ \\
-6 & $(6,07 \pm 0,01)$ & $(2,77 \pm 0,01) \cdot 10^{-5}$ \\
-7 & $(7,06 \pm 0,01)$ & $(3,22 \pm 0,01) \cdot 10^{-5}$ \\
-8 & $(8,04 \pm 0,01)$ & $(3,66 \pm 0,01) \cdot 10^{-5}$ \\
-9 & $(9,03 \pm 0,01)$ & $(4,12 \pm 0,01) \cdot 10^{-5}$ \\
-10 & $(10,04 \pm 0,01)$ & $(4,57 \pm 0,01) \cdot 10^{-5}$ \\
-11 & $(11,06 \pm 0,01)$ & $(5,04 \pm 0,01) \cdot 10^{-5}$ \\
+1 & $1,068 \pm 0,001$ & $(4,8 \pm 0,1) \cdot 10^{-6}$ \\
+2 & $2,05 \pm 0,01$ & $(9,3 \pm 0,1) \cdot 10^{-6}$ \\
+3 & $3,06 \pm 0,01$ & $(1,39 \pm 0,01) \cdot 10^{-5}$ \\
+4 & $4,04 \pm 0,01$ & $(1,84 \pm 0,01) \cdot 10^{-5}$ \\
+5 & $5,06 \pm 0,01$ & $(2,30 \pm 0,01) \cdot 10^{-5}$ \\
+6 & $6,07 \pm 0,01$ & $(2,77 \pm 0,01) \cdot 10^{-5}$ \\
+7 & $7,06 \pm 0,01$ & $(3,22 \pm 0,01) \cdot 10^{-5}$ \\
+8 & $8,04 \pm 0,01$ & $(3,66 \pm 0,01) \cdot 10^{-5}$ \\
+9 & $9,03 \pm 0,01$ & $(4,12 \pm 0,01) \cdot 10^{-5}$ \\
+10 & $10,04 \pm 0,01$ & $(4,57 \pm 0,01) \cdot 10^{-5}$ \\
+11 & $11,06 \pm 0,01$ & $(5,04 \pm 0,01) \cdot 10^{-5}$ \\
 \hline
 \end{tabular}
 \caption{Potenciales e intensidades para el circuito simple con la resistencia $R_1$ (Fig. \ref{fig:Resistenciaa})}
@@ -165,7 +168,8 @@ Medidas & $V \pm s(V) \hspace{4pt} (V)$ & $I \pm s(I) \hspace{4pt} (A)$ \\
 De los datos podemos realizar las siguientes operaciones (\ref{eq:sumx}) 
 con el fin de minimizar el ECM de la recta de regresión, seguido de los cálculos de los dos parámetros de la 
 recta de regresión simple y su incertidumbre (\ref{eq:a1}), (\ref{eq:b1}), (\ref{eq:s1}), (\ref{eq:s1a}), (\ref{eq:s1b});
-la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajuste (\ref{eq:R1}),(\ref{eq:R12}):
+la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajuste (\ref{eq:R1})\footnote{Se considerará que tanto los $\log$ como las $\exp$ son adimensionales y 
+se denotarán con $(-)$ o con ausencia de unidad}, (\ref{eq:R12}):
 
 \begin{center}
 \begin{equation}
@@ -188,16 +192,15 @@ la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajust
     s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-(a+b x_i))^2}{n-2} &\Rightarrow s_{y|x}= 0,0086 \hspace{6pt}[V] \label{eq:s1}\\
     s(a) =s_{y|x} \cdot \sqrt\frac{\sum^n_{i=1}x_i^2}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(a)= 0,0056 \hspace{6pt}[V] \label{eq:s1a}\\
     s(b) =s_{y|x} \cdot \sqrt\frac{n}{n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2} &\Rightarrow s(b) = 180 \hspace{6pt}[\Omega] \label{eq:s1b}\\
-    r = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{\sqrt{[n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2][n(\sum^n_{i=1} y_i^2)-(\sum^n_{i=1} y_i)^2]}}&\Rightarrow r= 0,999996 \label{eq:R1}\\
+    r = \frac{n(\sum^n_{i=1} x_i y_i)-(\sum^n_{i=1} x_i)(\sum^n_{i=1} y_i)}{\sqrt{[n(\sum^n_{i=1} x_i^2)-(\sum^n_{i=1} x_i)^2][n(\sum^n_{i=1} y_i^2)-(\sum^n_{i=1} y_i)^2]}}&\Rightarrow r= 0,999996\label{eq:R1}\\
     R^2 =r^2&\Rightarrow R^2=0.999993 \label{eq:R12}
 \end{align}
 \end{center}
 
-
 Quedando la mejor recta con la forma:
 
 \begin{equation}
-    \hat{y}= (0,0112 \pm 0,0056)\hspace{3pt}+ \hspace{3pt}(219180 \pm 180)x \hspace{6pt} [V]
+    \hat{y}= (0,0112 \pm 0,0056)\hspace{3pt}+ \hspace{3pt}(219180 \pm 180)\mathscr{V} \hspace{6pt} [V]
 \end{equation}
 
 \begin{figure}[H]
@@ -286,17 +289,17 @@ en Tabla \ref{tab:Serie2}:
 \hline
 Medidas &$V \pm s(V)\hspace{4pt}(V)$&$V_1 \pm s(V_1)\hspace{4pt}(V)$&$V_2 \pm s(V_2)\hspace{4pt}(V)$&$V_S\pm u(V_S)\hspace{4pt}(V)$\\
 \hline
-1 & $(1,034 \pm 0,001)$ &$(0,321 \pm 0,001)$& $(0,698 \pm 0,001)$ &($1,0190\pm 0,0014)$\\
-2 & $(2,06 \pm 0,01)$ &$(0,641 \pm 0,001)$& $(1,392 \pm 0,001)$ &($2,0330\pm 0,0014$) \\
-3 & $(3,03 \pm 0,01)$ &$(0,943 \pm 0,001)$& $(2,04 \pm 0,01)$ &($2,983\pm 0,01$) \\
-4 & $(4,03 \pm 0,01)$ &$(1,253 \pm 0,001)$& $(2,72 \pm 0,01)$ & ($3,973 \pm 0,01$) \\
-5 & $(5,07 \pm 0,01)$ &$(1,575 \pm 0,001)$& $(3,42 \pm 0,01)$ &($4,995 \pm 0,01$) \\
-6 & $(6,04 \pm 0,01)$ &$(1,87 \pm 0,01)$& $(4,07 \pm 0,01)$ & ($5,940 \pm 0,014$) \\
-7 & $(7,07 \pm 0,01)$ &$(2,19 \pm 0,01)$& $(4,76 \pm 0,01)$ & ($6,950 \pm 0,014$)\\
-8 & $(8,07 \pm 0,01)$ &$(2,51 \pm 0,01)$& $(5,44 \pm 0,01)$ &($7,950\pm 0,014$) \\
-9 & $(9,04 \pm 0,01)$ &$(2,80 \pm 0,01)$& $(6,09 \pm 0,01)$ &($8,890\pm 0,014$) \\
-10 & $(10,05 \pm 0,01)$ &$(3,12 \pm 0,01)$& $(6,78 \pm 0,01)$ & ($9,900\pm 0,014$)\\
-11 & $(11,09 \pm 0,01)$ &$(3,44 \pm 0,01)$& $(7,47 \pm 0,01)$ & ($10,91 \pm 0,014$)\\
+1 & $1,034 \pm 0,001$ &$0,321 \pm 0,001$& $0,698 \pm 0,001$ &($1,0190\pm 0,0014)$\\
+2 & $2,06 \pm 0,01$ &$0,641 \pm 0,001$& $1,392 \pm 0,001$ &($2,0330\pm 0,0014$) \\
+3 & $3,03 \pm 0,01$ &$0,943 \pm 0,001$& $2,04 \pm 0,01$ &($2,983\pm 0,01$) \\
+4 & $4,03 \pm 0,01$ &$1,253 \pm 0,001$& $2,72 \pm 0,01$ & ($3,973 \pm 0,01$) \\
+5 & $5,07 \pm 0,01$ &$1,575 \pm 0,001$& $3,42 \pm 0,01$ &($4,995 \pm 0,01$) \\
+6 & $6,04 \pm 0,01$ &$1,87 \pm 0,01$& $4,07 \pm 0,01$ & ($5,940 \pm 0,014$) \\
+7 & $7,07 \pm 0,01$ &$2,19 \pm 0,01$& $4,76 \pm 0,01$ & ($6,950 \pm 0,014$)\\
+8 & $8,07 \pm 0,01$ &$2,51 \pm 0,01$& $5,44 \pm 0,01$ &($7,950\pm 0,014$) \\
+9 & $9,04 \pm 0,01$ &$2,80 \pm 0,01$& $6,09 \pm 0,01$ &($8,890\pm 0,014$) \\
+10 & $10,05 \pm 0,01$ &$3,12 \pm 0,01$& $6,78 \pm 0,01$ & ($9,900\pm 0,014$)\\
+11 & $11,09 \pm 0,01$ &$3,44 \pm 0,01$& $7,47 \pm 0,01$ & ($10,91 \pm 0,014$)\\
 \hline
 \end{tabular}
 \caption{Potenciales del circuito en serie y cálculo de (Ec. \ref{eq:voltajes})}
@@ -311,17 +314,17 @@ Tras esto, se siguieron los pasos de la metodología para obtener once datos tal
 \hline
 Medidas &$V \pm s(V)\hspace{4pt}(V)$&$V_1 \pm s(V_1)\hspace{4pt}(V)$&$V_2 \pm s(V_2)\hspace{4pt}(V)$&$I \pm s(I)\hspace{4pt}(A)$\\
 \hline
-1 & $(1,034 \pm 0,001)$ &$(0,321 \pm 0,001)$& $(0,698 \pm 0,001)$ & $(1,4 \pm 0,1) \cdot 10^{-6}$ \\
-2 & $(2,06 \pm 0,01)$ &$(0,641 \pm 0,001)$& $(1,392 \pm 0,001)$ & $(2,9 \pm 0,1) \cdot 10^{-6}$ \\
-3 & $(3,03 \pm 0,01)$ &$(0,943 \pm 0,001)$& $(2,04 \pm 0,01)$ & $(4,3 \pm 0,1) \cdot 10^{-6}$ \\
-4 & $(4,03 \pm 0,01)$ &$(1,253 \pm 0,001)$& $(2,72 \pm 0,01)$ & $(5,7 \pm 0,1) \cdot 10^{-6}$ \\
-5 & $(5,07 \pm 0,01)$ &$(1,575 \pm 0,001)$& $(3,42 \pm 0,01)$ & $(7,2 \pm 0,1) \cdot 10^{-6}$ \\
-6 & $(6,04 \pm 0,01)$ &$(1,87 \pm 0,01)$& $(4,07 \pm 0,01)$ & $(8,6 \pm 0,1) \cdot 10^{-6}$ \\
-7 & $(7,07 \pm 0,01)$ &$(2,19 \pm 0,01)$& $(4,76 \pm 0,01)$ & $(1,01 \pm 0,01) \cdot 10^{-5}$ \\
-8 & $(8,07 \pm 0,01)$ &$(2,51 \pm 0,01)$& $(5,44 \pm 0,01)$ & $(1,15 \pm 0,01) \cdot 10^{-5}$ \\
-9 & $(9,04 \pm 0,01)$ &$(2,80 \pm 0,01)$& $(6,09 \pm 0,01)$ & $(1,29 \pm 0,01) \cdot 10^{-5}$ \\
-10 & $(10,05 \pm 0,01)$ &$(3,12 \pm 0,01)$& $(6,78 \pm 0,01)$ & $(1,44 \pm 0,01) \cdot 10^{-5}$ \\
-11 & $(11,09 \pm 0,01)$ &$(3,44 \pm 0,01)$& $(7,47 \pm 0,01)$ & $(1,59 \pm 0,01) \cdot 10^{-5}$ \\
+1 & $1,034 \pm 0,001$ &$0,321 \pm 0,001$& $0,698 \pm 0,001$ & $(1,4 \pm 0,1) \cdot 10^{-6}$ \\
+2 & $2,06 \pm 0,01$ &$0,641 \pm 0,001$& $1,392 \pm 0,001$ & $(2,9 \pm 0,1) \cdot 10^{-6}$ \\
+3 & $3,03 \pm 0,01$ &$0,943 \pm 0,001$& $2,04 \pm 0,01$ & $(4,3 \pm 0,1) \cdot 10^{-6}$ \\
+4 & $4,03 \pm 0,01$ &$1,253 \pm 0,001$& $2,72 \pm 0,01$ & $(5,7 \pm 0,1) \cdot 10^{-6}$ \\
+5 & $5,07 \pm 0,01$ &$1,575 \pm 0,001$& $3,42 \pm 0,01$ & $(7,2 \pm 0,1) \cdot 10^{-6}$ \\
+6 & $6,04 \pm 0,01$ &$1,87 \pm 0,01$& $4,07 \pm 0,01$ & $(8,6 \pm 0,1) \cdot 10^{-6}$ \\
+7 & $7,07 \pm 0,01$ &$2,19 \pm 0,01$& $4,76 \pm 0,01$ & $(1,01 \pm 0,01) \cdot 10^{-5}$ \\
+8 & $8,07 \pm 0,01$ &$2,51 \pm 0,01$& $5,44 \pm 0,01$ & $(1,15 \pm 0,01) \cdot 10^{-5}$ \\
+9 & $9,04 \pm 0,01$ &$2,80 \pm 0,01$& $6,09 \pm 0,01$ & $(1,29 \pm 0,01) \cdot 10^{-5}$ \\
+10 & $10,05 \pm 0,01$ &$3,12 \pm 0,01$& $6,78 \pm 0,01$ & $(1,44 \pm 0,01) \cdot 10^{-5}$ \\
+11 & $11,09 \pm 0,01$ &$3,44 \pm 0,01$& $7,47 \pm 0,01$ & $(1,59 \pm 0,01) \cdot 10^{-5}$ \\
 \hline
 \end{tabular}
 \caption{Potenciales e intensidades para el circuito en serie (Fig. \ref{fig:Seriee})}
@@ -485,17 +488,17 @@ A continuación, se siguieron los pasos de la metodología para obtener los sigu
 \hline
 Medidas & $V \pm s(V)\hspace{4pt}(V)$ & $I_1 \pm s(I_1)\hspace{4pt}(A)$ & $I_2 \pm s(I_2)\hspace{4pt}(A)$ & $I \pm s(I)\hspace{4pt}(A)$ \\
 \hline
-1 & $(1,041 \pm 0,001)$ & $(4,7 \pm 0,1) \cdot 10^{-6}$ & $(2,1 \pm 0,1) \cdot 10^{-6}$ & $(6,9 \pm 0,1) \cdot 10^{-6}$ \\
-2 & $(2,02 \pm 0,01)$ & $(9,2 \pm 0,1) \cdot 10^{-6}$ & $(4,2 \pm 0,1) \cdot 10^{-6}$ & $(1,34 \pm 0,01) \cdot 10^{-5}$ \\
-3 & $(3,02 \pm 0,01)$ & $(1,37 \pm 0,01) \cdot 10^{-5}$ & $(6,3 \pm 0,1) \cdot 10^{-6}$ & $(2,01 \pm 0,01) \cdot 10^{-5}$ \\
-4 & $(4,05 \pm 0,01)$ & $(1,84 \pm 0,01) \cdot 10^{-5}$ & $(8,5 \pm 0,1) \cdot 10^{-6}$ & $(2,70 \pm 0,01) \cdot 10^{-5}$ \\
-5 & $(5,03 \pm 0,01)$ & $(2,29 \pm 0,01) \cdot 10^{-5}$ & $(1,05 \pm 0,01) \cdot 10^{-5}$ & $(3,35 \pm 0,01) \cdot 10^{-5}$ \\
-6 & $(6,04 \pm 0,01)$ & $(2,75 \pm 0,01) \cdot 10^{-5}$ & $(1,27 \pm 0,01) \cdot 10^{-5}$ & $(4,02 \pm 0,01) \cdot 10^{-5}$ \\
-7 & $(7,04 \pm 0,01)$ & $(3,21 \pm 0,01) \cdot 10^{-5}$ & $(1,48 \pm 0,01) \cdot 10^{-5}$ & $(4,68 \pm 0,01) \cdot 10^{-5}$ \\
-8 & $(8,06 \pm 0,01)$ & $(3,67 \pm 0,01) \cdot 10^{-5}$ & $(1,69 \pm 0,01) \cdot 10^{-5}$ & $(5,37 \pm 0,01) \cdot 10^{-5}$ \\
-9 & $(9,04 \pm 0,01)$ & $(4,12 \pm 0,01) \cdot 10^{-5}$ & $(1,90 \pm 0,01) \cdot 10^{-5}$ & $(6,02 \pm 0,01) \cdot 10^{-5}$ \\
-10 & $(10,05 \pm 0,01)$ & $(4,58 \pm 0,01) \cdot 10^{-5}$ & $(2,11 \pm 0,01) \cdot 10^{-5}$ & $(6,69 \pm 0,01) \cdot 10^{-5}$ \\
-11 & $(11,06 \pm 0,01)$ & $(5,04 \pm 0,01) \cdot 10^{-5}$ & $(2,32 \pm 0,01) \cdot 10^{-5}$ & $(7,36 \pm 0,01) \cdot 10^{-5}$ \\
+1 & $1,041 \pm 0,001$ & $(4,7 \pm 0,1) \cdot 10^{-6}$ & $(2,1 \pm 0,1) \cdot 10^{-6}$ & $(6,9 \pm 0,1) \cdot 10^{-6}$ \\
+2 & $2,02 \pm 0,01$ & $(9,2 \pm 0,1) \cdot 10^{-6}$ & $(4,2 \pm 0,1) \cdot 10^{-6}$ & $(1,34 \pm 0,01) \cdot 10^{-5}$ \\
+3 & $3,02 \pm 0,01$ & $(1,37 \pm 0,01) \cdot 10^{-5}$ & $(6,3 \pm 0,1) \cdot 10^{-6}$ & $(2,01 \pm 0,01) \cdot 10^{-5}$ \\
+4 & $4,05 \pm 0,01$ & $(1,84 \pm 0,01) \cdot 10^{-5}$ & $(8,5 \pm 0,1) \cdot 10^{-6}$ & $(2,70 \pm 0,01) \cdot 10^{-5}$ \\
+5 & $5,03 \pm 0,01$ & $(2,29 \pm 0,01) \cdot 10^{-5}$ & $(1,05 \pm 0,01) \cdot 10^{-5}$ & $(3,35 \pm 0,01) \cdot 10^{-5}$ \\
+6 & $6,04 \pm 0,01$ & $(2,75 \pm 0,01) \cdot 10^{-5}$ & $(1,27 \pm 0,01) \cdot 10^{-5}$ & $(4,02 \pm 0,01) \cdot 10^{-5}$ \\
+7 & $7,04 \pm 0,01$ & $(3,21 \pm 0,01) \cdot 10^{-5}$ & $(1,48 \pm 0,01) \cdot 10^{-5}$ & $(4,68 \pm 0,01) \cdot 10^{-5}$ \\
+8 & $8,06 \pm 0,01$ & $(3,67 \pm 0,01) \cdot 10^{-5}$ & $(1,69 \pm 0,01) \cdot 10^{-5}$ & $(5,37 \pm 0,01) \cdot 10^{-5}$ \\
+9 & $9,04 \pm 0,01$ & $(4,12 \pm 0,01) \cdot 10^{-5}$ & $(1,90 \pm 0,01) \cdot 10^{-5}$ & $(6,02 \pm 0,01) \cdot 10^{-5}$ \\
+10 & $10,05 \pm 0,01$ & $(4,58 \pm 0,01) \cdot 10^{-5}$ & $(2,11 \pm 0,01) \cdot 10^{-5}$ & $(6,69 \pm 0,01) \cdot 10^{-5}$ \\
+11 & $11,06 \pm 0,01$ & $(5,04 \pm 0,01) \cdot 10^{-5}$ & $(2,32 \pm 0,01) \cdot 10^{-5}$ & $(7,36 \pm 0,01) \cdot 10^{-5}$ \\
 \hline
 \end{tabular}
 \caption{Potenciales e intensidades para el circuito paralelo(Fig. \ref{fig:Paraleloo})}
@@ -694,26 +697,26 @@ medir los voltajes como ya se ha indicado, se calculan el resto de datos con las
 Med. & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \pm u(\log f)$ & $V_m\tnote{$\dagger$} \hspace{4pt}(V)$ & $V_{mR}\hspace{4pt} (V)$ 
 & $V_{mC}\hspace{4pt}(V)$ \\
 \hline
-1 & $(100 \pm 0,2)$ & $2,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(1,50 \pm 0,02)$ & $(20,0 \pm 0,2)$ \\
-2 & $(200 \pm 0,2)$ & $2,30103 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(2,92 \pm 0,04)$ & $(20,0 \pm 0,2)$ \\
-3 & $(300 \pm 0,3)$ & $2,47712 \pm 0,00043$ & $(20,4 \pm 0,2)$ & $(4,36 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
-4 & $(400 \pm 0,6)$ & $2,60206 \pm 0,00065$ & $(20,4 \pm 0,2)$ & $(5,80 \pm 0,04)$ & $(19,8 \pm 0,2)$ \\
-5 & $(500 \pm 1)$ & $2,69897 \pm 0,00087$ & $(20,4 \pm 0,2)$ & $(7,0 \pm 0,2)$ & $(19,0 \pm 0,2)$ \\
-6 & $(600 \pm 1,5)$ & $2,7782 \pm 0,0011$  & $(20,4 \pm 0,2)$ & $(8,2 \pm 0,2)$ & $(18,4 \pm 0,2)$ \\
-7 & $(700 \pm 2)$ & $2,8451 \pm 0,0012$ & $(20,4 \pm 0,2)$ & $(9,2 \pm 0,2)$ & $(18,0 \pm 0,2)$ \\
-8 & $(800 \pm 1,3)$ & $2,90308 \pm 0,00071$ & $(20,2 \pm 0,2)$ & $(10,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ \\
-9 & $(900 \pm 0,8)$ & $2,95424 \pm 0,00039$ & $(20,2 \pm 0,2)$ & $(11,0 \pm 0,2)$ & $(16,8 \pm 0,2)$ \\
-10 & $(1000 \pm 2)$ & $3,00000 \pm 0,00087$ & $(20,2 \pm 0,2)$ & $(11,8 \pm 0,2)$ & $(16,4 \pm 0,2)$ \\
-11 & $(1101 \pm 2)$ & $3,04178 \pm 0,00079$ & $(20,2 \pm 0,2)$ & $(12,6 \pm 0,2)$ & $(15,8 \pm 0,2)$ \\
-12 & $(1199 \pm 3)$ & $3,0788 \pm 0,0011$ & $(20,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ \\
-13 & $(1302 \pm 3)$ & $3,1146 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(13,8 \pm 0,2)$ & $(14,8 \pm 0,2)$ \\
-14 & $(1601 \pm 2)$ & $3,20439 \pm 0,00054$ & $(20,2 \pm 0,2)$ & $(15,2 \pm 0,2)$ & $(13,2 \pm 0,2)$ \\
-15 & $(1901 \pm 3)$ & $3,27898 \pm 0,00069$ & $(20,2 \pm 0,2)$ & $(16,2 \pm 0,2)$ & $(12,0 \pm 0,2)$ \\
-16 & $(2199 \pm 6)$ & $3,3422 \pm 0,0012$ & $(20,2 \pm 0,2)$ & $(17,0 \pm 0,2)$ & $(10,8 \pm 0,2)$ \\
-17 & $(2500 \pm 6)$ & $3,3979 \pm 0,0010$ & $(20,2 \pm 0,2)$ & $(17,6 \pm 0,2)$ & $(9,8 \pm 0,2)$ \\
-18 & $(3503 \pm 6)$ & $3,54444 \pm 0,00074$ & $(20,2 \pm 0,2)$ & $(18,6 \pm 0,2)$ & $(7,6 \pm 0,2)$ \\
-19 & $(4499 \pm 10)$ & $3,69888 \pm 0,00097$ & $(20,6 \pm 0,2)$ & $(19,6 \pm 0,2)$ & $(6,4 \pm 0,2)$ \\
-20 & $(5510 \pm 10)$ & $3,74115 \pm 0,00079$ & $(20,6 \pm 0,2)$ & $(19,8 \pm 0,2)$ & $(5,4 \pm 0,2)$ \\
+1 & $100 \pm 0,2$ & $2,00000 \pm 0,00087$ & $20,2 \pm 0,2$ & $1,50 \pm 0,02$ & $20,0 \pm 0,2$ \\
+2 & $200 \pm 0,2$ & $2,30103 \pm 0,00043$ & $20,4 \pm 0,2$ & $2,92 \pm 0,04$ & $20,0 \pm 0,2$ \\
+3 & $300 \pm 0,3$ & $2,47712 \pm 0,00043$ & $20,4 \pm 0,2$ & $4,36 \pm 0,04$ & $19,8 \pm 0,2$ \\
+4 & $400 \pm 0,6$ & $2,60206 \pm 0,00065$ & $20,4 \pm 0,2$ & $5,80 \pm 0,04$ & $19,8 \pm 0,2$ \\
+5 & $500 \pm 1$ & $2,69897 \pm 0,00087$ & $20,4 \pm 0,2$ & $7,0 \pm 0,2$ & $19,0 \pm 0,2$ \\
+6 & $600 \pm 1,5$ & $2,7782 \pm 0,0011$  & $20,4 \pm 0,2$ & $8,2 \pm 0,2$ & $18,4 \pm 0,2$ \\
+7 & $700 \pm 2$ & $2,8451 \pm 0,0012$ & $20,4 \pm 0,2$ & $9,2 \pm 0,2$ & $18,0 \pm 0,2$ \\
+8 & $800 \pm 1,3$ & $2,90308 \pm 0,00071$ & $20,2 \pm 0,2$ & $10,2 \pm 0,2$ & $17,6 \pm 0,2$ \\
+9 & $900 \pm 0,8$ & $2,95424 \pm 0,00039$ & $20,2 \pm 0,2$ & $11,0 \pm 0,2$ & $16,8 \pm 0,2$ \\
+10 & $1000 \pm 2$ & $3,00000 \pm 0,00087$ & $20,2 \pm 0,2$ & $11,8 \pm 0,2$ & $16,4 \pm 0,2$ \\
+11 & $1101 \pm 2$ & $3,04178 \pm 0,00079$ & $20,2 \pm 0,2$ & $12,6 \pm 0,2$ & $15,8 \pm 0,2$ \\
+12 & $1199 \pm 3$ & $3,0788 \pm 0,0011$ & $20,2 \pm 0,2$ & $13,2 \pm 0,2$ & $15,2 \pm 0,2$ \\
+13 & $1302 \pm 3$ & $3,1146 \pm 0,0010$ & $20,2 \pm 0,2$ & $13,8 \pm 0,2$ & $14,8 \pm 0,2$ \\
+14 & $1601 \pm 2$ & $3,20439 \pm 0,00054$ & $20,2 \pm 0,2$ & $15,2 \pm 0,2$ & $13,2 \pm 0,2$ \\
+15 & $1901 \pm 3$ & $3,27898 \pm 0,00069$ & $20,2 \pm 0,2$ & $16,2 \pm 0,2$ & $12,0 \pm 0,2$ \\
+16 & $2199 \pm 6$ & $3,3422 \pm 0,0012$ & $20,2 \pm 0,2$ & $17,0 \pm 0,2$ & $10,8 \pm 0,2$ \\
+17 & $2500 \pm 6$ & $3,3979 \pm 0,0010$ & $20,2 \pm 0,2$ & $17,6 \pm 0,2$ & $9,8 \pm 0,2$ \\
+18 & $3503 \pm 6$ & $3,54444 \pm 0,00074$ & $20,2 \pm 0,2$ & $18,6 \pm 0,2$ & $7,6 \pm 0,2$ \\
+19 & $4499 \pm 10$ & $3,69888 \pm 0,00097$ & $20,6 \pm 0,2$ & $19,6 \pm 0,2$ & $6,4 \pm 0,2$ \\
+20 & $5510 \pm 10$ & $3,74115 \pm 0,00079$ & $20,6 \pm 0,2$ & $19,8 \pm 0,2$ & $5,4 \pm 0,2$ \\
 \hline
 \end{tabular}
 \begin{tablenotes}
@@ -733,30 +736,30 @@ Med. & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \pm u(\log f)$ & $V_m\tnote{$\dag
 \hline
 Medidas & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \tnote{$\ddagger$}$ & $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
 \hline
-1 & $(100 \pm 0,2)$ & $2,00000 \pm 0,00087$ & $133000 \pm 260$&$102.477,0.040$&$0.075,0.13$\\
-2 & $(200 \pm 0,2)$ & $2,30103 \pm 0,00043$ & $67064 \pm 66$&$96.530,0.020$&$0.146,0.069$\\
-3 & $(300 \pm 0,3)$ & $2,47712 \pm 0,00043$ & $45327 \pm 43$&$93.127,0.019$&$0.220,0.046$\\
-4 & $(400 \pm 0,6)$ & $2,60206 \pm 0,00065$ & $34632 \pm 48$&$90.790,0.027$&$0.293,0.0354$\\
-5 & $(500 \pm 1)$ & $2,69897 \pm 0,00087$ & $28348 \pm 50$&$89.0505,0.035$&$0.368,0.030$\\
-6 & $(600 \pm 1,5)$ & $2,7782 \pm 0,0011$  & $24262 \pm 50$&$87.698,0.042$&$0.446,0.027$\\
-7 & $(700 \pm 2)$ & $2,8451 \pm 0,0012$ & $21424 \pm 48$&$86.618,0.045$&$0.511,0.024$\\
-8 & $(800 \pm 1,3)$ & $2,90308 \pm 0,00071$ & $19361 \pm 23$&$85.739,0.024$&$0.580,0.023$\\
-9 & $(900 \pm 0,8)$ & $2,95424 \pm 0,00039$ & $17809 \pm 11$&$85.013,0.012$&$0.655,0.022$\\
-10 & $(1000 \pm 2)$ & $3,00000 \pm 0,00087$ & $16610 \pm 21$&$84.408,0.026$&$0.720,0.021$\\
-11 & $(1101 \pm 2)$ & $3,04178 \pm 0,00079$ & $15656 \pm 17$&$83.894,0.022$&$0.797,0.021$\\
-12 & $(1199 \pm 3)$ & $3,0788 \pm 0,0011$ & $14912\pm 21$&$83.471,0.028$&$0.868,0.020$\\
-13 & $(1302 \pm 3)$ & $3,1146 \pm 0,0010$ & $14275\pm 17$&$83.091,0.023$&$0.932,0.020$\\
-14 & $(1601 \pm 2)$ & $3,20439 \pm 0,00054$ & $12985,6\pm 7,0$&$82.269,0.010$&$1.152,0.020$\\
-15 & $(1901 \pm 3)$ & $3,27898 \pm 0,00069$ & $12193,3\pm 4,0$&$81.7224,0.0069$&$1.350,0.021$\\
-16 & $(2199 \pm 6)$ & $3,3422 \pm 0,0012$ & $11678,1\pm 8,5$&$81.3474,0.015$&$1.574,0.022$\\
-17 & $(2500 \pm 6)$ & $3,3979 \pm 0,0010$ & $11320,1\pm 6,0$&$81.0770,0.011$&$1.796,0.023$\\
-18 & $(3503 \pm 6)$ & $3,54444 \pm 0,00074$ & $10692,8\pm 2,3$&$80.5818,0.0043$&$2.447,0.028$\\
-19 & $(4499 \pm 10)$ & $3,69888 \pm 0,00097$ & $10346,0\pm 1,4$&$80.2954,0.0026$&$3.062,0.033$\\
-20 & $(5510 \pm 10)$ & $3,74115 \pm 0,00079$ & $10285,6\pm 1,0$&$80.2446,0.0020$&$3.667,0.038$\\
+1 & $100 \pm 0,2$ & $2,00000 \pm 0,00087$ & $133000 \pm 260$&$102.477\pm 0.040$&$0.08\pm0.13$\\
+2 & $200 \pm 0,2$ & $2,30103 \pm 0,00043$ & $67064 \pm 66$&$96.530\pm0.020$&$0.146\pm0.069$\\
+3 & $300 \pm 0,3$ & $2,47712 \pm 0,00043$ & $45327 \pm 43$&$93.127\pm0.019$&$0.220\pm0.046$\\
+4 & $400 \pm 0,6$ & $2,60206 \pm 0,00065$ & $34632 \pm 48$&$90.790\pm0.027$&$0.293\pm0.0354$\\
+5 & $500 \pm 1$ & $2,69897 \pm 0,00087$ & $28348 \pm 50$&$89.0505\pm0.035$&$0.368\pm0.030$\\
+6 & $600 \pm 1,5$ & $2,7782 \pm 0,0011$  & $24262 \pm 50$&$87.698\pm0.042$&$0.446\pm0.027$\\
+7 & $700 \pm 2$ & $2,8451 \pm 0,0012$ & $21424 \pm 48$&$86.618\pm0.045$&$0.511\pm0.024$\\
+8 & $800 \pm 1,3$ & $2,90308 \pm 0,00071$ & $19361 \pm 23$&$85.739\pm0.024$&$0.580\pm0.023$\\
+9 & $900 \pm 0,8$ & $2,95424 \pm 0,00039$ & $17809 \pm 11$&$85.013\pm0.012$&$0.655\pm0.022$\\
+10 & $1000 \pm 2$ & $3,00000 \pm 0,00087$ & $16610 \pm 21$&$84.408\pm0.026$&$0.720\pm0.021$\\
+11 & $1101 \pm 2$ & $3,04178 \pm 0,00079$ & $15656 \pm 17$&$83.894\pm0.022$&$0.797\pm0.021$\\
+12 & $1199 \pm 3$ & $3,0788 \pm 0,0011$ & $14912\pm 21$&$83.471\pm0.028$&$0.868\pm0.020$\\
+13 & $1302 \pm 3$ & $3,1146 \pm 0,0010$ & $14275\pm 17$&$83.091\pm0.023$&$0.932\pm0.020$\\
+14 & $1601 \pm 2$ & $3,20439 \pm 0,00054$ & $12985,6\pm 7$&$82.269\pm0.010$&$1.152\pm0.020$\\
+15 & $1901 \pm 3$ & $3,27898 \pm 0,00069$ & $12193,3\pm 4$&$81.7224\pm0.0069$&$1.350\pm0.021$\\
+16 & $2199 \pm 6$ & $3,3422 \pm 0,0012$ & $11678,1\pm 8,5$&$81.3474\pm0.015$&$1.574\pm0.022$\\
+17 & $2500 \pm 6$ & $3,3979 \pm 0,0010$ & $11320,1\pm 6$&$81.0770\pm0.011$&$1.796\pm0.023$\\
+18 & $3503 \pm 6$ & $3,54444 \pm 0,00074$ & $10692,8\pm 2$&$80.5818\pm0.0043$&$2.447\pm0.028$\\
+19 & $4499 \pm 10$ & $3,69888 \pm 0,00097$ & $10346,0\pm 1,4$&$80.2954\pm0.0026$&$3.062\pm0.033$\\
+20 & $5510 \pm 10$ & $3,74115 \pm 0,00079$ & $10285,6\pm 1$&$80.2446\pm0.0020$&$3.667\pm0.038$\\
 \hline
 \end{tabular}
 \begin{tablenotes}
-\item[$\ddagger$] Todas las magnitudes vienen también sus incertidumbres.
+\item[$\ddagger$] Todas las magnitudes vienen también con sus incertidumbres asociadas.
 \end{tablenotes}
 \end{threeparttable}
 \caption{Impedancia y cociente de voltajes en función de la frecuencia}
@@ -764,14 +767,28 @@ Medidas & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \tnote{$\ddagger$}$ & $Z \hspa
 \end{table}
 
 
+Antes de continuar, hallamos de forma teórica los puntos de lo que llamaremos $Curva \hspace{4pt}R$, $Curva \hspace{4pt}C$
+ y $Curva\hspace{4pt} RC$ en la gráfica:
+
+\begin{center}
+\begin{equation}
+\begin{split}
+    Curva \hspace{3pt}R \hspace{10pt} |Z_R|=R \Rightarrow 20\log |Z_R| = 80 \hspace{4pt} \\
+    Curva \hspace{3pt}C \hspace{10pt} |Z_C|=X_C \Rightarrow 20\log|Z_C| =20\log \frac{1}{2\pi f C}\hspace{4pt} \\
+    Curva \hspace{3pt}RC \hspace{10pt} Z=\sqrt{|Z_R|^2+|Z_C|^2}\hspace{4pt}
+\end{split}
+\end{equation}
+\end{center}
+
 El objetivo ahora es hallar la frecuencia de corte (\ref{eq:freccorte}) con estos datos. Representaremos los puntos en una gráfica
 $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto de corte la frecuencia de corte $f_c$:
 
 \begin{figure}[H]
     \begin{center}
-%        \includesvg[width=14cm]{Figure_4M1.svg}
+        \includesvg[width=14cm]{Figure_4M1.svg}
     \end{center}
     \caption{cambiar}
+    \label{}
 \end{figure}
 
 De nuevo, se procede de manera distinta con el mismo objetivo de hallar $f_c$. Se representa la Ec. \ref{eq:ventre} y los datos de 
@@ -786,10 +803,10 @@ este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{e
 
 \begin{equation}
 \begin{split}
-    \sum^n_{i=1} x_i = 31315 \hspace{3pt}[Hz] \hspace{20pt}
+    \sum^n_{i=1} x_i = 30815 \hspace{3pt}[Hz] \hspace{20pt}
     \sum^n_{i=1} y_i = 21.65949972536621 \hspace{20pt}
-    \sum^n_{i=1} x_i^2 = 93078719 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
-    \sum^n_{i=1} x_i y_i = 62382.03570919058 \hspace{3pt} [Hz] \hspace{20pt}
+    \sum^n_{i=1} x_i^2 = 88329719 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
+    \sum^n_{i=1} x_i y_i = 60850.78570919058 \hspace{3pt} [Hz] \hspace{20pt}
     \sum^n_{i=1} y_i^2 = 41.96311902698367  \hspace{20pt}
     n=20\hspace{20pt}
     \label{eq:sumx4}
@@ -798,18 +815,18 @@ este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{e
 \bigskip
 \begin{center}
 \begin{align}
-    b = \frac{\sum^n_{i=1} x_i y_i}{\sum^n_{i=1} x_i^2} &\Rightarrow b= 0,00067 \hspace{6pt}[s] \label{eq:b4}\\
-    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-b x_i)^2}{n-1} &\Rightarrow s_{y|x}= 0,10446 \hspace{6pt} \label{eq:s4}\\
-    s(b) =\frac{s_{y|x}}{\sqrt{\sum^n_{i=1} x_i^2}} &\Rightarrow s(b)= 0,00001 \hspace{6pt}[s] \label{eq:s4b}\\
-    r = \frac{\sum^n_{i=1} x_i y_i}{\sqrt{(\sum^n_{i=1} x_i^2)(\sum^n_{i=1} y_i^2)}}&\Rightarrow r= 0,998 \label{eq:R4}\\
-    R^2 =r^2&\Rightarrow R^2=0.996 \label{eq:R24}
+    b = \frac{\sum^n_{i=1} x_i y_i}{\sum^n_{i=1} x_i^2} &\Rightarrow b= 0,000689 \hspace{6pt}[s] \label{eq:b4}\\
+    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-b x_i)^2}{n-1} &\Rightarrow s_{y|x}= 0,047411 \hspace{6pt} \label{eq:s4}\\
+    s(b) =\frac{s_{y|x}}{\sqrt{\sum^n_{i=1} x_i^2}} &\Rightarrow s(b)= 0,000005 \hspace{6pt}[s] \label{eq:s4b}\\
+    r = \frac{\sum^n_{i=1} x_i y_i}{\sqrt{(\sum^n_{i=1} x_i^2)(\sum^n_{i=1} y_i^2)}}&\Rightarrow r= 0,9994 \label{eq:R4}\\
+    R^2 =r^2&\Rightarrow R^2=0.998 \label{eq:R24}
 \end{align}
 \end{center}
 
 Quedando la mejor recta como:
 
 \begin{equation}
-    \hat{y}=\hspace{3pt}(0,00067 \pm 0,00001)\mathscr{F} \hspace{6pt}
+    \hat{y}=\hspace{3pt}(0,000689 \pm 0,000005)\mathscr{F} \hspace{6pt}
 \end{equation}
 
 \begin{figure}[H]
@@ -845,8 +862,9 @@ Con todo, se esperaría una frecuencia $f_C$ como sigue:
 \subsubsection{Discusión}
 
 Tras cambiar la configuración del osciloscopio se realizaron las medidas de los desfases tomando como puntos de referencia dos máximos consecutivos
-de la diferencia de potencial total y de la resistencia. Tras eso se calcula $\Delta t$ y $\varphi$ de desfase con las siguientes fórmulas, teniendo
-en cuenta que se tomará un desfase positivo (Se supondrá la frecuencia sin incertidumbre porque así se nos dijo en clase):
+de la diferencia de potencial total y de la resistencia. Tras eso se calcula $\Delta t$ y $\varphi$ de desfase con las siguientes fórmulas 
+[(\ref{eq:deltat}) y (\ref{eq:varphi})], teniendo en cuenta que se tomará un desfase 
+positivo\footnote{Se supondrá la frecuencia sin incertidumbre porque así se nos dijo en clase}:
 
 \begin{equation}
 \begin{split}
@@ -869,30 +887,31 @@ en cuenta que se tomará un desfase positivo (Se supondrá la frecuencia sin inc
 
 \begin{table}[H]
 \centering
+\begin{threeparttable}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Medidas & $f \hspace{4pt}(Hz)$ & $\log f$ & $t_1 \hspace{4pt}(ms)$ & $t_2 \hspace{4pt} (ms)$ &  $\Delta t\hspace{4pt} (s)$ \\
+Medidas \tnote{$\S$} & $f \hspace{4pt}(Hz)$ & $\log f$ & $t_1 \hspace{4pt}(ms)$ & $t_2 \hspace{4pt} (ms)$ &  $\Delta t\hspace{4pt} (s)$ \\
 \hline
-1 & $100$ & $2,00000$ & $(0,00 \pm 0,04)$ & $(2,36 \pm 0,04)$ & $(2,36 \pm 0,06) \cdot 10^{-3}$ \\
-2 & $200$ & $2,30103$ & $(0,00 \pm 0,04)$ & $(1,12 \pm 0,04)$ & $(1,12 \pm 0,06) \cdot 10^{-3}$ \\
-3 & $300$ & $2,47712$ & $(0,00 \pm 0,04)$ & $(0,78 \pm 0,02)$ & $(7,80 \pm 0,45) \cdot 10^{-4}$ \\
-4 & $400$ & $2,60206$ & $(8 \pm 2) \cdot 10^{-2}$ & $(0,58 \pm 0,02)$ & $(5,00 \pm 0,28) \cdot 10^{-4}$ \\
-5 & $500$ & $2,69897$ & $(6 \pm 2) \cdot 10^{-2}$ & $(0,48 \pm 0,02)$ & $(4,20 \pm 0,28) \cdot 10^{-4}$ \\
-6 & $600$ & $2,77815$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $(0,392 \pm 0,004)$ & $(3,04 \pm 0,04) \cdot 10^{-4}$ \\
-7 & $700$ & $2,84510$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $(0,340 \pm 0,004)$ & $(2,52 \pm 0,04) \cdot 10^{-4}$ \\
-8 & $800$ & $2,90309$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $(0,292 \pm 0,004)$ & $(2,04 \pm 0,04) \cdot 10^{-4}$ \\
-9 & $900$ & $2,95424$ & $(9,2 \pm 0,2) \cdot 10^{-2}$ & $(0,260 \pm 0,004)$ & $(1,68 \pm 0,04) \cdot 10^{-4}$ \\
-10 & $1000$ & $3,00000$ & $(8,4 \pm 0,2) \cdot 10^{-2}$ & $(0,236 \pm 0,004)$ & $(1,52 \pm 0,04) \cdot 10^{-4}$ \\
-11 & $1100$ & $3,04139$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $(0,218 \pm 0,004)$ & $(1,30 \pm 0,04) \cdot 10^{-4}$ \\
-12 & $1200$ & $3,07918$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $(0,202 \pm 0,002)$ & $(1,14 \pm 0,03) \cdot 10^{-4}$ \\
-13 & $1300$ & $3,11394$ & $(8,2 \pm 0,2) \cdot 10^{-2}$ & $(0,182 \pm 0,002)$ & $(1,00 \pm 0,03) \cdot 10^{-4}$ \\
-14 & $1326$ & $3,12254$ & $(0,158 \pm 0,001)$ & $(0,253 \pm 0,001)$ & $(9,50 \pm 0,14) \cdot 10^{-5}$ \\
-15 & $1400$ & $3,14613$ & $(7,8 \pm 0,2) \cdot 10^{-2}$ & $(0,168 \pm 0,002)$ & $(9,00 \pm 0,28) \cdot 10^{-5}$ \\
-16 & $1500$ & $3,17609$ & $(7,6 \pm 0,2) \cdot 10^{-2}$ & $(0,156 \pm 0,002)$ & $(8,00 \pm 0,28) \cdot 10^{-5}$ \\
-17 & $1600$ & $3,20412$ & $(6,6 \pm 0,2) \cdot 10^{-2}$ & $(0,148 \pm 0,002)$ & $(8,20 \pm 0,28) \cdot 10^{-5}$ \\
-18 & $1700$ & $3,23045$ & $(6,6 \pm 0,2) \cdot 10^{-2}$ & $(0,134 \pm 0,002)$ & $(6,80 \pm 0,28) \cdot 10^{-5}$ \\
-19 & $1800$ & $3,25527$ & $(6,8 \pm 0,2) \cdot 10^{-2}$ & $(0,126 \pm 0,002)$ & $(5,80 \pm 0,28) \cdot 10^{-5}$ \\
-20 & $1900$ & $3,27875$ & $(7,7 \pm 0,1) \cdot 10^{-2}$ & $(0,131 \pm 0,001)$ & $(5,40 \pm 0,14) \cdot 10^{-5}$ \\
+1 & $100$ & $2,00000$ & $0,00 \pm 0,04$ & $2,36 \pm 0,04$ & $(2,36 \pm 0,06) \cdot 10^{-3}$ \\
+2 & $200$ & $2,30103$ & $0,00 \pm 0,04$ & $1,12 \pm 0,04$ & $(1,12 \pm 0,06) \cdot 10^{-3}$ \\
+3 & $300$ & $2,47712$ & $0,00 \pm 0,04$ & $0,78 \pm 0,02$ & $(7,80 \pm 0,45) \cdot 10^{-4}$ \\
+4 & $400$ & $2,60206$ & $(8 \pm 2) \cdot 10^{-2}$ & $0,58 \pm 0,02$ & $(5,00 \pm 0,28) \cdot 10^{-4}$ \\
+5 & $500$ & $2,69897$ & $(6 \pm 2) \cdot 10^{-2}$ & $0,48 \pm 0,02$ & $(4,20 \pm 0,28) \cdot 10^{-4}$ \\
+6 & $600$ & $2,77815$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $0,392 \pm 0,004$ & $(3,04 \pm 0,04) \cdot 10^{-4}$ \\
+7 & $700$ & $2,84510$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $0,340 \pm 0,004$ & $(2,52 \pm 0,04) \cdot 10^{-4}$ \\
+8 & $800$ & $2,90309$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $0,292 \pm 0,004$ & $(2,04 \pm 0,04) \cdot 10^{-4}$ \\
+9 & $900$ & $2,95424$ & $(9,2 \pm 0,2) \cdot 10^{-2}$ & $0,260 \pm 0,004$ & $(1,68 \pm 0,04) \cdot 10^{-4}$ \\
+10 & $1000$ & $3,00000$ & $(8,4 \pm 0,2) \cdot 10^{-2}$ & $0,236 \pm 0,004$ & $(1,52 \pm 0,04) \cdot 10^{-4}$ \\
+11 & $1100$ & $3,04139$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $0,218 \pm 0,004$ & $(1,30 \pm 0,04) \cdot 10^{-4}$ \\
+12 & $1200$ & $3,07918$ & $(8,8 \pm 0,2) \cdot 10^{-2}$ & $0,202 \pm 0,002$ & $(1,14 \pm 0,03) \cdot 10^{-4}$ \\
+13 & $1300$ & $3,11394$ & $(8,2 \pm 0,2) \cdot 10^{-2}$ & $0,182 \pm 0,002$ & $(1,00 \pm 0,03) \cdot 10^{-4}$ \\
+14 & $1326$ & $3,12254$ & $0,158 \pm 0,001$ & $0,253 \pm 0,001$ & $(9,50 \pm 0,14) \cdot 10^{-5}$ \\
+15 & $1400$ & $3,14613$ & $(7,8 \pm 0,2) \cdot 10^{-2}$ & $0,168 \pm 0,002$ & $(9,00 \pm 0,28) \cdot 10^{-5}$ \\
+16 & $1500$ & $3,17609$ & $(7,6 \pm 0,2) \cdot 10^{-2}$ & $0,156 \pm 0,002$ & $(8,00 \pm 0,28) \cdot 10^{-5}$ \\
+17 & $1600$ & $3,20412$ & $(6,6 \pm 0,2) \cdot 10^{-2}$ & $0,148 \pm 0,002$ & $(8,20 \pm 0,28) \cdot 10^{-5}$ \\
+18 & $1700$ & $3,23045$ & $(6,6 \pm 0,2) \cdot 10^{-2}$ & $0,134 \pm 0,002$ & $(6,80 \pm 0,28) \cdot 10^{-5}$ \\
+19 & $1800$ & $3,25527$ & $(6,8 \pm 0,2) \cdot 10^{-2}$ & $0,126 \pm 0,002$ & $(5,80 \pm 0,28) \cdot 10^{-5}$ \\
+20 & $1900$ & $3,27875$ & $(7,7 \pm 0,1) \cdot 10^{-2}$ & $0,131 \pm 0,001$ & $(5,40 \pm 0,14) \cdot 10^{-5}$ \\
 21 & $2000$ & $3,30103$ & $(3,81 \pm 0,04) \cdot 10^{-2}$ & $(8,00 \pm 0,04) \cdot 10^{-2}$ & $(4,19 \pm 0,06) \cdot 10^{-5}$ \\
 22 & $3000$ & $3,47712$ & $(5,84 \pm 0,04) \cdot 10^{-2}$ & $(8,40 \pm 0,04) \cdot 10^{-2}$ & $(2,56 \pm 0,06) \cdot 10^{-5}$ \\
 23 & $4000$ & $3,60206$ & $(4,88 \pm 0,04) \cdot 10^{-2}$ & $(6,40 \pm 0,04) \cdot 10^{-2}$ & $(1,52 \pm 0,06) \cdot 10^{-5}$ \\
@@ -901,6 +920,10 @@ Medidas & $f \hspace{4pt}(Hz)$ & $\log f$ & $t_1 \hspace{4pt}(ms)$ & $t_2 \hspac
 26 & $7000$ & $3,84510$ & $(1,98 \pm 0,01) \cdot 10^{-2}$ & $(2,56 \pm 0,01) \cdot 10^{-2}$ & $(5,80 \pm 0,14) \cdot 10^{-6}$ \\
 \hline
 \end{tabular}
+\begin{tablenotes}
+\item[$\S$] Se tomaron más de 20 medidas porque de lo contrario en la gráfica no se apreciaría la curva.
+\end{tablenotes}
+\end{threeparttable}
 \caption{Tiempo entre máximos en función de la frecuencia}
 \label{tab:tiempos}
 \end{table}
@@ -911,45 +934,47 @@ Medidas & $f \hspace{4pt}(Hz)$ & $\log f$ & $t_1 \hspace{4pt}(ms)$ & $t_2 \hspac
 \hline
 Medidas & $f \hspace{4pt}(Hz)$ & $\log f$ & $\varphi \hspace{4pt} (\unit{\radian})$ & $\varphi \hspace{4pt} (\unit{\degree})$\\
 \hline
-1 & $100$ & $2,00000$ & $(1,4828 \pm 0,0355)$ & $(84,96 \pm 2,04)$ \\
-2 & $200$ & $2,30103$ & $(1,4074 \pm 0,0711)$ & $(80,64 \pm 4,07)$ \\
-3 & $300$ & $2,47712$ & $(1,4703 \pm 0,0843)$ & $(84,24 \pm 4,83)$ \\
-4 & $400$ & $2,60206$ & $(1,2566 \pm 0,0711)$ & $(72,00 \pm 4,07)$ \\
-5 & $500$ & $2,69897$ & $(1,3195 \pm 0,0889)$ & $(75,60 \pm 5,09)$ \\
-6 & $600$ & $2,77815$ & $(1,1461 \pm 0,0169)$ & $(65,664 \pm 0,966)$ \\
-7 & $700$ & $2,84510$ & $(1,1084 \pm 0,0197)$ & $(63,50 \pm 1,13)$ \\
-8 & $800$ & $2,90309$ & $(1,0254 \pm 0,0225)$ & $(58,75 \pm 1,29)$ \\
-9 & $900$ & $2,95424$ & $(0,9500 \pm 0,0253)$ & $(54,43 \pm 1,45)$ \\
-10 & $1000$ & $3,00000$ & $(0,9550 \pm 0,0281)$ & $(54,72 \pm 1,61)$ \\
-11 & $1100$ & $3,04139$ & $(0,8985 \pm 0,0309)$ & $(51,48 \pm 1,77)$ \\
-12 & $1200$ & $3,07918$ & $(0,8595 \pm 0,0213)$ & $(49,25 \pm 1,22)$ \\
-13 & $1300$ & $3,11394$ & $(0,8168 \pm 0,0231)$ & $(46,80 \pm 1,32)$ \\
-14 & $1326$ & $3,12254$ & $(0,7915 \pm 0,0118)$ & $(45,349 \pm 0,675)$ \\
-15 & $1400$ & $3,14613$ & $(0,7917 \pm 0,0249)$ & $(45,36 \pm 1,43)$ \\
-16 & $1500$ & $3,17609$ & $(0,7540 \pm 0,0267)$ & $(43,20 \pm 1,53)$ \\
-17 & $1600$ & $3,20412$ & $(0,8244 \pm 0,0284)$ & $(47,23 \pm 1,63)$ \\
-18 & $1700$ & $3,23045$ & $(0,7263 \pm 0,0302)$ & $(41,62 \pm 1,73)$ \\
-19 & $1800$ & $3,25527$ & $(0,656 \pm 0,032)$ & $(37,58 \pm 1,83)$ \\
-20 & $1900$ & $3,27875$ & $(0,6447 \pm 0,0169)$ & $(36,936 \pm 0,967)$ \\
-21 & $2000$ & $3,30103$ & $(0,52678 \pm 0,00711)$ & $(30,182 \pm 0,407)$ \\
-22 & $3000$ & $3,47712$ & $(0,4825 \pm 0,0107)$ & $(27,648 \pm 0,611)$ \\
-23 & $4000$ & $3,60206$ & $(0,3820 \pm 0,0142)$ & $(21,888 \pm 0,815)$ \\
-24 & $5000$ & $3,69897$ & $(0,31416 \pm 0,00889)$ & $(18,000 \pm 0,509)$ \\
-25 & $6000$ & $3,77815$ & $(0,26012 \pm 0,00533)$ & $(14,904 \pm 0,305)$ \\
-26 & $7000$ & $3,84510$ & $(0,25510 \pm 0,00622)$ & $(14,616 \pm 0,356)$ \\
+1 & $100$ & $2,00000$ & $1,483 \pm 0,036$ & $84,96 \pm 2$ \\
+2 & $200$ & $2,30103$ & $1,407 \pm 0,071$ & $80,64 \pm 4,1$ \\
+3 & $300$ & $2,47712$ & $1,470 \pm 0,084$ & $84,24 \pm 4,8$ \\
+4 & $400$ & $2,60206$ & $1,257 \pm 0,071$ & $72,00 \pm 4,1$ \\
+5 & $500$ & $2,69897$ & $1,320 \pm 0,089$ & $75,60 \pm 5,1$ \\
+6 & $600$ & $2,77815$ & $1,146 \pm 0,017$ & $65,66 \pm 1$ \\
+7 & $700$ & $2,84510$ & $1,108 \pm 0,020$ & $63,50 \pm 1,1$ \\
+8 & $800$ & $2,90309$ & $1,025 \pm 0,022$ & $58,75 \pm 1,3$ \\
+9 & $900$ & $2,95424$ & $0,950 \pm 0,025$ & $54,43 \pm 1,4$ \\
+10 & $1000$ & $3,00000$ & $0,955 \pm 0,028$ & $54,72 \pm 1,6$ \\
+11 & $1100$ & $3,04139$ & $0,898 \pm 0,031$ & $51,48 \pm 1,8$ \\
+12 & $1200$ & $3,07918$ & $0,860 \pm 0,021$ & $49,25 \pm 1,2$ \\
+13 & $1300$ & $3,11394$ & $0,817 \pm 0,023$ & $46,80 \pm 1,3$ \\
+14 & $1326$ & $3,12254$ & $0,792 \pm 0,012$ & $45,35 \pm 0,68$ \\
+15 & $1400$ & $3,14613$ & $0,792 \pm 0,025$ & $45,36 \pm 1,4$ \\
+16 & $1500$ & $3,17609$ & $0,754 \pm 0,027$ & $43,20 \pm 1,5$ \\
+17 & $1600$ & $3,20412$ & $0,824 \pm 0,028$ & $47,23 \pm 1,6$ \\
+18 & $1700$ & $3,23045$ & $0,726 \pm 0,030$ & $41,62 \pm 1,7$ \\
+19 & $1800$ & $3,25527$ & $0,656 \pm 0,032$ & $37,58 \pm 1,8$ \\
+20 & $1900$ & $3,27875$ & $0,645 \pm 0,017$ & $36,94 \pm 0,97$ \\
+21 & $2000$ & $3,30103$ & $0,5268 \pm 0,0071$ & $30,18 \pm 0,41$ \\
+22 & $3000$ & $3,47712$ & $0,482 \pm 0,010$ & $27,65 \pm 0,61$ \\
+23 & $4000$ & $3,60206$ & $0,382 \pm 0,014$ & $21,89 \pm 0,82$ \\
+24 & $5000$ & $3,69897$ & $0,3142 \pm 0,0089$ & $18,00 \pm 0,51$ \\
+25 & $6000$ & $3,77815$ & $0,2601 \pm 0,0053$ & $14,90 \pm 0,30$ \\
+26 & $7000$ & $3,84510$ & $0,2551 \pm 0,0062$ & $14,62 \pm 0,36$ \\
 \hline
 \end{tabular}
 \caption{Desfases en función de la frecuencia}
 \label{tab:desfases}
 \end{table}
 
+A continuación, se representan los datos (Fig. \ref{fig:ddoff}) junto con dos rectas auxiliares que marcan la frecuencia de corte $f_c$ y el ángulo
+de $45\unit{\degree}$ para marcar el punto que debiera pertenecer a la representación teórica:
 
 \begin{figure}[H]
     \begin{center}
         \includesvg[width=14cm]{Figure_6M1.svg}
     \end{center}
-    \caption{cambiar volver a hacer pero esta vez con la leyenda bien}
-    \label{fig:cambiar}
+    \caption{Desfase de la onda frente a la frecuencia}
+    \label{fig:ddoff}
 \end{figure}
 
 Para terminar se comprueba que el desfase $\varphi_c$ para la frecuencia de corte $f_c$ es de $45\unit{\degree}$, para ello se utilizará el dato
@@ -958,6 +983,22 @@ calculado de la frecuencia de corte y el dato experimental de $\Delta t$:
 \begin{equation}
     \Delta \varphi=-2\pi f_c\Delta t \Rightarrow \Delta \varphi=45,35911\unit{\degree}\pm 0,675\unit{\degree} \approx 45\unit{\degree}
 \end{equation}
+
+\subsubsection{Resultados}
+
+En cuanto a la gráfica de la frecuencia (Fig. \ref{fig:ddoff}), se puede apreciar que la incertidumbre para frecuencias bajas es mucho
+mayor, pues la apreciación del osciloscopio no era tanta como para frecuencias altas, basta ver como decrece la incertidumbre desde
+los $\pm 5\unit{\degree}$ hasta $\pm 0,3\unit{\degree}$. Es, por tanto, que las conclusiones que se pueden sacar en ese intervalo de 
+frecuencias son pocas. No obstante, si se aprecia un carácter logarítmico constante para $\log f \in(2,75;3,50)$ aunque cabe remarcar 
+que en $\log f= 3,25$ hay muchos tres datos con ordenada similar y angulos muy distintos. La explicación procede de que a partir de
+ese umbral, el osciloscopio cambia el modo en el que mide y se producen algunas incongruencias con los valores inmediatamente anteriores.
+Basta ver que para $\log f$ mayores la curva se aplana y recupera el carácter monótono que debiera tener la representación. La conclusión
+experimental es que sí es un circuito de filtro pasabaja.
+
+Para la segunda parte, medimos en exclusivo $\Delta t$ para $f_c$. El cálculo confirma de forma experimental que el valor teórico está
+contenido en el intervalo de confianza dado por la propagación de errores.
+
+\subsection{\textbf{Conclusión}}
 
 \section{Anexo}
 \subsection{Corriente Continua}
@@ -1083,6 +1124,9 @@ calculado de la frecuencia de corte y el dato experimental de $\Delta t$:
 % orden = ["f","f_unc","v","v_unc","v_r","v_r_unc","v_c","v_c_unc","dZ","Z","logz","dlogz","Vr/Vc","dvr"]
 % df = df[orden]
 
+
+
+
 % #df.to_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv", index=False)
 % df.to_csv(r"d:\Programación\Git\Python\tabla4mod.csv", index=False)
 
@@ -1107,6 +1151,67 @@ calculado de la frecuencia de corte y el dato experimental de $\Delta t$:
 
 % #df.to_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv", index=False)
 % df.to_csv(r"d:\Programación\Git\Python\tabla5bmod.csv", index=False)
+
+
+
+
+% import matplotlib.pyplot as plt
+% import pandas as pd
+% import numpy as np
+
+% df = pd.read_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv")
+% #df = pd.read_csv(r"d:\Programación\Git\Python\tabla5bmod.csv")
+
+% log_f=np.log10(df["f"])
+% z=df["logz"]
+% z_err=df["dlogz"]
+
+% x1=np.linspace(min(df["f"]),max(df["f"]),1000)
+% x2=np.log10(x1)
+% zt=20*np.log10(np.sqrt(10**8+(1/(2*np.pi*12*10**(-9)*x1))**2))
+% ztt=np.linspace(min(df["f"]),max(df["f"]),1000)
+
+% plt.errorbar(log_f, z, yerr=z_err, fmt='o', capsize=3, color='blue',label="datos")
+% plt.xlabel('$\log f \ (-)$')
+% plt.ylabel('$20\log Z \ (-)$')
+% plt.title('')
+% plt.grid(True)
+
+
+% plt.axvline(x=np.log10(1326.29),linestyle='--',color='darkorange',label="Frecuencia de corte")
+% plt.plot(x2,zt,color='fuchsia',label="Curva RC")
+% plt.axhline(y=20*np.log10(10000),color='r',label="Curva R")
+% plt.plot(np.log10(ztt),20*np.log10(1/(2*np.pi*12*ztt*10**(-9))),color='springgreen',label="Curva C")
+% plt.legend()
+% plt.show()
+
+% \begin{minted}[fontsize=\small, breaklines, linenos]{python}
+% # --- Plantilla Python ---
+% import numpy as np
+% import pandas as pd
+% import matplotlib.pyplot as plt
+
+
+% def main():
+%     # 1) Carga de datos
+%     # datos = pd.read_csv("ruta/al/archivo.csv")
+
+%     # 2) Cálculos
+%     # resultado = ...
+
+%     # 3) Gráfica
+%     # plt.plot(x, y)
+%     # plt.xlabel("x")
+%     # plt.ylabel("y")
+%     # plt.grid(True)
+%     # plt.show()
+
+%     pass
+
+
+% if __name__ == "__main__":
+%     main()
+% \end{minted}
 
 \section{Bibliografía}
 \printbibliography
