@@ -20,20 +20,46 @@
 \usepackage{stmaryrd}
 \usepackage{threeparttable}
 \usepackage[bottom]{footmisc}
+\usepackage{parskip}
+\usepackage[style = apa, backend = biber, sorting = nty]{biblatex}
+\usepackage[top=2.5cm, bottom=3cm, left=2.5cm, right=2cm]{geometry}
 %\usepackage{memoize}
 %\usepackage{pgfplots}
 %\pgfplotsset{width=10cm,compat=1.9} 
 %\usepgfplotslibrary{clickable}
 %\usepgfplotslibrary{external}
 %\tikzexternalize
-\usepackage[style = apa, backend = biber, sorting = nty]{biblatex}
-\usepackage[top=2.5cm, bottom=3cm, left=2.5cm, right=2cm]{geometry}
 
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0.9cm}
+\setlength{\skip\footins}{1cm}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
+\definecolor{mintedbg}{HTML}{F8F9FA}
+\definecolor{mintedframe}{HTML}{D0D7DE}
+\definecolor{mintedlineno}{HTML}{6E7781}
+
+\usemintedstyle{xcode}
+\renewcommand{\theFancyVerbLine}{\sffamily\textcolor{mintedlineno}{\scriptsize\arabic{FancyVerbLine}}}
+
+\setminted{
+    fontsize=\footnotesize,
+    linenos,
+    bgcolor=mintedbg,
+    numbersep=8pt,
+    framesep=2mm,
+    xleftmargin=6pt,
+    breaklines,
+    breakanywhere,
+    breakautoindent,
+    frame=none,
+    tabsize=4,
+    numberblanklines=false
+}
 
 \addbibresource{bibliografia.bib}
 \begin{document}
-
-\setlength{\skip\footins}{1cm}
 
 \nocite{usclogo}
 \begin{titlepage}
@@ -56,9 +82,6 @@
     {\large Febrero 2026}
 \end{center}
 \end{titlepage}
-
-\renewcommand{\listtablename}{Índice de tablas}
-\renewcommand{\tablename}{Tabla}
 
 \tableofcontents
 \listoffigures
@@ -606,16 +629,16 @@ errores en la interpretación de datos experimentales.
 \subsubsection{Metodología}
 
 \begin{itemize}
-    \item Construir del circuito, como se muestra en la Fig \ref{fig:Condensador1}.
+    \item Construir del circuito, como se muestra en la Fig. \ref{fig:Condensador1}.
     \item Generar con la fuente una onda sinusoidal con un voltaje constante ($10V$).
     \item Calcular la frecuancia de corte y la constante de tiempo para el circuito.
     \item Medir los potenciales como sigue:
     \begin{itemize}
         \item Fijar una determinada frecuancia.
         \item Utilizar el osciloscopio para medir voltaje total, caida de potencial de la resistencia y 
-        frecuancia (Fig \ref{fig:Condensador2}).
+        frecuancia (Fig. \ref{fig:Condensador2}).
         \item Utilizar nuevamente el osciloscopio para medir voltaje del condensador recordando invertir 
-        la polaridad del osciloscopio tal y como se indica en la Fig \ref{fig:Condensador3}.
+        la polaridad del osciloscopio tal y como se indica en la Fig. \ref{fig:Condensador3}.
     \end{itemize}
     \item Calcular la impedancia de cada medida
     \item Construir la representación gráfica de esta magnitud en escala logarítmica $(20 \cdot \log(Z))$ 
@@ -627,7 +650,7 @@ errores en la interpretación de datos experimentales.
 
 \subsubsection{Discusión}
 Comenzamos la segunda práctica calculando la frecuencia de corte del circuito (Ec. \ref{eq:freccorte}) 
-y la constante de tiempo (Ec. \ref{eq:ctetiempo})
+y la constante de tiempo (Ec. \ref{eq:ctetiempo}). A su vez también se calcula la pendiente de la recta $m_{rec}$ para un estudio posterior.
 
 \begin{center}
 \begin{equation}
@@ -639,21 +662,24 @@ y la constante de tiempo (Ec. \ref{eq:ctetiempo})
 
 \begin{equation}
 \begin{split}
-    T=RC = 1,2 \cdot 10^{-4} \hspace{4pt}[s]
+    T=RC = 1,2 \cdot 10^{-4} \hspace{4pt}[s]\\
+    m_{rec}=2\pi \cdot T=2\pi \cdot R C= 7,53982 \cdot 10^{-4} \hspace{4pt}[s]
     \label{eq:ctetiempo}
 \end{split}
 \end{equation}
 \end{center}
-Comenzamos la segunda práctica fijando una frecuencia como se observa en la Tab. \ref{tab:Potenciales vs. frecuencia}. Después de 
-medir los voltajes como ya se ha indicado, se calculan el resto de datos con las Ecs. (\ref{eq:logferr}), (\ref{eq:imped})
-\footnote{Tomaremos para el resto de la práctica $s(R)=0$ y $s(C)=0$ porque son valores que suponemos ciertos desde el apartado de Material}
-, (\ref{eq:logzerr}) y (\ref{eq:VR/VC}):
+Comenzamos la segunda práctica fijando una frecuencia como se observa en la Tab. \ref{tab:Potenciales vs. frecuencia} y 
+Tab. \ref{tab:impedancia vs. frecuencia}. Después de
+medir los voltajes pico a pico como ya se ha indicado, se calculan el resto de datos con las Ecs. \ref{eq:logferr},
+\ref{eq:imped}\footnote{Tomaremos para el resto de la práctica $s(R)=0$ y $s(C)=0$ porque son valores que suponemos ciertos desde el apartado de Material},
+\ref{eq:logzerr} y \ref{eq:VR/VC}. Algo en lo que incidir es la diferencia entre $V_{pi}$ y $V_{mi}$ cumpliendo estos la relación Ec.
+\ref{eq:aclaraciones} por linealidad y tener la propagación de errores solo un elemento, pero el cálculo es idéntico:
 
+\begin{center}
 \begin{equation}
 \begin{split}
     u(\log f)=\sqrt{\sum^n_{i=1} \left( \frac{\partial (\log f)}{\partial f} \right)^2\hspace{2 pt} s^2(f)}=
-    \frac{1}{f \cdot \ln 10}s(f)
-    \hspace{4pt}
+    \frac{1}{f \cdot \ln 10}s(f) \\
     \label{eq:logferr}
 \end{split}
 \end{equation}
@@ -682,12 +708,26 @@ medir los voltajes como ya se ha indicado, se calculan el resto de datos con las
 
 \begin{equation}
 \begin{split}
+    V_{mi} \pm s(V_{mi}) = \frac{1}{2}\cdot \left(V_{pi} \pm s(V_{pi})\right) \\
+    \frac{V_{mR}}{V_{mC}} = \frac{\frac{1}{2}\cdot V_{pR}}{\frac{1}{2}\cdot V_{pC}} = \frac{V_{pR}}{V_{pC}}
+    \label{eq:aclaraciones}
+\end{split}
+\end{equation}
+\end{center}
+\bigskip
+
+Entonces se sigue que de forma general para ambos $V_i$:
+
+\begin{center}
+\begin{equation}
+\begin{split}
     u(V_R/V_C)=\sqrt{\sum^n_{i=1} \left( \frac{\partial (V_R/V_C)}{\partial V_i} \right)^2\hspace{2 pt} s^2(V_i)}=
     \sqrt{\frac{s^2(V_R)}{V_C^2}+\frac{V_R^2\cdot s^2(V_C)}{V_C^4}}
     \hspace{4pt}
     \label{eq:VR/VC}
 \end{split}
 \end{equation}
+\end{center}
 
 \begin{table}[H]
 \centering
@@ -727,14 +767,12 @@ Med. & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \pm u(\log f)$ & $V_m\tnote{$\dag
 \label{tab:Potenciales vs. frecuencia}
 \end{table}
 
-
-
 \begin{table}[H]
 \centering
 \begin{threeparttable}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Medidas & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \tnote{$\ddagger$}$ & $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
+Med. & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \tnote{$\ddagger$}$ & $Z \hspace{4pt} (\Omega)$ & $20\log Z$ & $V_{mR}/V_{mC}$\\
 \hline
 1 & $100 \pm 0,2$ & $2,00000 \pm 0,00087$ & $133000 \pm 260$&$102.477\pm 0.040$&$0.08\pm0.13$\\
 2 & $200 \pm 0,2$ & $2,30103 \pm 0,00043$ & $67064 \pm 66$&$96.530\pm0.020$&$0.146\pm0.069$\\
@@ -765,7 +803,7 @@ Medidas & $f \pm s(f)\hspace{4pt} (Hz)$ & $\log f \tnote{$\ddagger$}$ & $Z \hspa
 \caption{Impedancia y cociente de voltajes en función de la frecuencia}
 \label{tab:impedancia vs. frecuencia}
 \end{table}
-
+\bigskip
 
 Antes de continuar, hallamos de forma teórica los puntos de lo que llamaremos $Curva \hspace{4pt}R$, $Curva \hspace{4pt}C$
  y $Curva\hspace{4pt} RC$ en la gráfica:
@@ -788,7 +826,7 @@ $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto
         \includesvg[width=14cm]{Figure_4M1.svg}
     \end{center}
     \caption{cambiar}
-    \label{}
+    \label{fig:curvaRC}
 \end{figure}
 
 De nuevo, se procede de manera distinta con el mismo objetivo de hallar $f_c$. Se representa la Ec. \ref{eq:ventre} y los datos de 
@@ -848,6 +886,18 @@ Con todo, se esperaría una frecuencia $f_C$ como sigue:
 \end{equation}
 
 \subsubsection{Resultados}
+
+Para rematar la sección, se observa que al aplicar $\log f$ la incertidumbre es muy pequeña,
+dando como resultado puntos que están
+indistinguiblemente sobre la recta. (CAMBIAR CUANDO SE SEPA ALGO DE LA RECTA)
+
+Por otra parte, es claro que la pendiente resultante de minimizar el $ECM$ no coincide con el valor teórico,
+pero tras un análisis más minucioso de la gráfica, distinguimos que todos los puntos quedan por encima de la recta, en otras palabras,
+contribuyen a una mayor pendiente; salvo los dos últimos, justo donde el osciloscopio cambia de rango en las mediciones. Es, por tanto,
+un error razonable que no saltaría de forma tan notable a la vista de hacer la regresión lineal con dos parámetros (perdiendo así 
+un orden de aproximación de $r=0,9994\approx 1$). En cuanto a la calidad del ajuste, $R^2=0,998\approx 1$ es bueno y se concluye que
+los datos siguen una regresión lineal. Mediante una estimación indirecta llegamos a que $$f_c\in\mathscr{F}_C\hspace{6pt} ,si\hspace{4pt} k=3 \iff 1426,29\in (1426,1558)\hspace{4pt}
+[Hz]$$ lo cual no es muy bueno porque abarca un rango de más de $100\hspace{4pt} [Hz]$
 
 \subsection{\textbf{Desfase entre señales}}
 \subsubsection{Metodología}
@@ -1027,7 +1077,7 @@ contenido en el intervalo de confianza dado por la propagación de errores.
     \end{subfigure}
 
     \caption{Circuitos de corriente continua}
-    \label{fig:Corriente Continua}
+    \label{fig:CorrienteContinua}
 \end{figure}
 
 
@@ -1096,7 +1146,7 @@ contenido en el intervalo de confianza dado por la propagación de errores.
     \end{subfigure}
 
     \caption{Circuitos de corriente alterna}
-    \label{fig:Corriente Alterna}
+    \label{fig:CorrienteAlterna}
 \end{figure}
 
 % import pandas as pd
@@ -1155,63 +1205,42 @@ contenido en el intervalo de confianza dado por la propagación de errores.
 
 
 
-% import matplotlib.pyplot as plt
-% import pandas as pd
-% import numpy as np
-
-% df = pd.read_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv")
-% #df = pd.read_csv(r"d:\Programación\Git\Python\tabla5bmod.csv")
-
-% log_f=np.log10(df["f"])
-% z=df["logz"]
-% z_err=df["dlogz"]
-
-% x1=np.linspace(min(df["f"]),max(df["f"]),1000)
-% x2=np.log10(x1)
-% zt=20*np.log10(np.sqrt(10**8+(1/(2*np.pi*12*10**(-9)*x1))**2))
-% ztt=np.linspace(min(df["f"]),max(df["f"]),1000)
-
-% plt.errorbar(log_f, z, yerr=z_err, fmt='o', capsize=3, color='blue',label="datos")
-% plt.xlabel('$\log f \ (-)$')
-% plt.ylabel('$20\log Z \ (-)$')
-% plt.title('')
-% plt.grid(True)
 
 
-% plt.axvline(x=np.log10(1326.29),linestyle='--',color='darkorange',label="Frecuencia de corte")
-% plt.plot(x2,zt,color='fuchsia',label="Curva RC")
-% plt.axhline(y=20*np.log10(10000),color='r',label="Curva R")
-% plt.plot(np.log10(ztt),20*np.log10(1/(2*np.pi*12*ztt*10**(-9))),color='springgreen',label="Curva C")
-% plt.legend()
-% plt.show()
 
-% \begin{minted}[fontsize=\small, breaklines, linenos]{python}
-% # --- Plantilla Python ---
-% import numpy as np
-% import pandas as pd
-% import matplotlib.pyplot as plt
+\begin{minted}{python}
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import numpy as np
 
+    df = pd.read_csv(r"c:\Users\sorry\Downloads\Programación\Python\tabla4mod.csv")
+    #df = pd.read_csv(r"d:\Programación\Git\Python\tabla5bmod.csv")
 
-% def main():
-%     # 1) Carga de datos
-%     # datos = pd.read_csv("ruta/al/archivo.csv")
+    log_f=np.log10(df["f"])
+    z=df["logz"]
+    z_err=df["dlogz"]
 
-%     # 2) Cálculos
-%     # resultado = ...
+    x1=np.linspace(min(df["f"]),max(df["f"]),1000)
+    x2=np.log10(x1)
+    zt=20*np.log10(np.sqrt(10**8+(1/(2*np.pi*12*10**(-9)*x1))**2))
+    ztt=np.linspace(min(df["f"]),max(df["f"]),1000)
 
-%     # 3) Gráfica
-%     # plt.plot(x, y)
-%     # plt.xlabel("x")
-%     # plt.ylabel("y")
-%     # plt.grid(True)
-%     # plt.show()
-
-%     pass
+    plt.errorbar(log_f, z, yerr=z_err, fmt='o', capsize=3, color='blue',label="datos")
+    plt.xlabel('$\log f \ (-)$')
+    plt.ylabel('$20\log Z \ (-)$')
+    plt.title('')
+    plt.grid(True)
 
 
-% if __name__ == "__main__":
-%     main()
-% \end{minted}
+    plt.axvline(x=np.log10(1326.29),linestyle='--',color='darkorange',label="Frecuencia de corte")
+    plt.plot(x2,zt,color='fuchsia',label="Curva RC")
+    plt.axhline(y=20*np.log10(10000),color='r',label="Curva R")
+    plt.plot(np.log10(ztt),20*np.log10(1/(2*np.pi*12*ztt*10**(-9))),color='springgreen',label="Curva C")
+    plt.legend()
+    plt.show()
+\end{minted}
+
+
 
 \section{Bibliografía}
 \printbibliography
