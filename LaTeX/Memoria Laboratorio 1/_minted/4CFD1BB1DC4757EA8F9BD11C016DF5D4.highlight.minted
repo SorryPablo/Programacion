@@ -4,7 +4,6 @@
     \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{numpy}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{np}
 
     \PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}c:\PYGZbs{}Users\PYGZbs{}sorry\PYGZbs{}Downloads\PYGZbs{}Programación\PYGZbs{}Python\PYGZbs{}tabla4mod.csv\PYGZdq{}}\PYG{p}{)}
-    \PYG{c+c1}{\PYGZsh{}df = pd.read\PYGZus{}csv(r\PYGZdq{}d:\PYGZbs{}Programación\PYGZbs{}Git\PYGZbs{}Python\PYGZbs{}tabla5bmod.csv\PYGZdq{})}
 
     \PYG{n}{log\PYGZus{}f}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}f\PYGZdq{}}\PYG{p}{])}
     \PYG{n}{z}\PYG{o}{=}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}logz\PYGZdq{}}\PYG{p}{]}
@@ -18,10 +17,12 @@
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{errorbar}\PYG{p}{(}\PYG{n}{log\PYGZus{}f}\PYG{p}{,} \PYG{n}{z}\PYG{p}{,} \PYG{n}{yerr}\PYG{o}{=}\PYG{n}{z\PYGZus{}err}\PYG{p}{,} \PYG{n}{fmt}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}o\PYGZsq{}}\PYG{p}{,} \PYG{n}{capsize}\PYG{o}{=}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}blue\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}datos\PYGZdq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}\PYGZbs{}log f \PYGZbs{} (\PYGZhy{})\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}20\PYGZbs{}log Z \PYGZbs{} (\PYGZhy{})\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
-    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Curvas de la impedancia \PYGZdl{}Z\PYGZdl{} frente a la frecuencia \PYGZdl{}\PYGZbs{}log f\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{grid}\PYG{p}{(}\PYG{k+kc}{True}\PYG{p}{)}
 
-
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{scatter}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{l+m+mf}{1326.29}\PYG{p}{),}\PYG{n}{y}\PYG{o}{=}\PYG{l+m+mi}{80}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}gold\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Pto de corte de R y C\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{scatter}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{l+m+mf}{1326.29}\PYG{p}{),}\PYG{n}{y}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{l+m+mi}{10000}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{/}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{*}\PYG{l+m+mf}{12e\PYGZhy{}9}\PYG{o}{*}\PYG{l+m+mf}{1326.29}\PYG{p}{))}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)),}
+    \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}aqua\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Impedancia teórica en \PYGZdl{}f\PYGZus{}c\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{axvline}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{l+m+mf}{1326.29}\PYG{p}{),}\PYG{n}{linestyle}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}\PYGZhy{}\PYGZsq{}}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}darkorange\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Frecuencia de corte\PYGZdq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{x2}\PYG{p}{,}\PYG{n}{zt}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}fuchsia\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Curva RC\PYGZdq{}}\PYG{p}{)}
     \PYG{n}{plt}\PYG{o}{.}\PYG{n}{axhline}\PYG{p}{(}\PYG{n}{y}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{l+m+mi}{10000}\PYG{p}{),}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Curva R\PYGZdq{}}\PYG{p}{)}

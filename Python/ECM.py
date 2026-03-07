@@ -8,12 +8,12 @@ def flotante(s):
         s = '1' + s
     return float(s)
 
-csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla1.csv" 
-#csv_path = r"d:\Programación\Git\Python\tabla4mod.csv"
-x_col = "f"
-x_err_col = "f_unc"
-y_col = "Vr/Vc"
-y_err_col = "dvr"
+#csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla1.csv" 
+csv_path = r"d:\Programación\Git\Python\tabla3.csv"
+x_col = "i"
+x_err_col = "i_inc"
+y_col = "v"
+y_err_col = "v_inc"
 regresion = True
 una_var = False
 logar = False   
@@ -81,9 +81,9 @@ if y_err is not None:
     plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o',color='blue', label="Datos",barsabove=True)
 else:
     plt.scatter(x_plot, y, label="Datos",color='blue')
-plt.title("Regresión lineal $V_{mR}/V_{mC}$ para el circuito de corriente alterna") #.format(" logarítmica" if logar else ""))
-plt.xlabel("Frecuencia $(Hz)$")#.format(" [log]" if logar else ""))
-plt.ylabel("$V_{mR}/V_{mC}$")
+plt.title("Regresión lineal $V(I)$ para el circuito en paralelo") #.format(" logarítmica" if logar else ""))
+plt.xlabel("Intensidad $(A)$")#.format(" [log]" if logar else ""))
+plt.ylabel("Voltaje$(V)$")
 plt.legend()
 plt.grid(True)
 if logar:
