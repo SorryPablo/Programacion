@@ -3072,6 +3072,14 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1" nocite="1">usclogo</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">apuntesProfesor</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">apuntesProfesor2</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">apuntesProfesor</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">apuntesProfesor</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">apuntesProfesor2</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">apuntesProfesor2</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">codigo</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">codigo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

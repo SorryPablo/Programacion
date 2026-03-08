@@ -1,1 +1,1 @@
-Los siguientes archivos son solo para consulta y uso del propietario a no ser que sean compartidos con un tercero.
+Aquí se recogen todos los trabajos hechos hasta el momento de programación

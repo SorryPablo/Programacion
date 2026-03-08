@@ -1,6 +1,6 @@
-PWD d:\Programación\Git\LaTeX\Memoria Laboratorio 1
+PWD c:\Users\sorry\Downloads\Programación\LaTeX\Memoria Laboratorio 1
 INPUT C:\Users\sorry\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Programación\Git\LaTeX\Memoria Laboratorio 1\Memoria Laboratorio Ins Electr.tex
+INPUT c:\Users\sorry\Downloads\Programación\LaTeX\Memoria Laboratorio 1\Memoria Laboratorio Ins Electr.tex
 OUTPUT Memoria Laboratorio Ins Electr.log
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -313,9 +313,9 @@ INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\apa.bb
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\apa.cbx
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\apa.cbx
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
@@ -598,16 +598,19 @@ INPUT .\_minted\_3D8CE92F32C9C6BA99AC87AE494FBF71.index.minted
 INPUT .\_minted\xcode.style.minted
 INPUT .\_minted\xcode.style.minted
 INPUT _minted\xcode.style.minted
-INPUT .\_minted\1239E2BA11ED6EE800CE355C417DF9EE.highlight.minted
-INPUT .\_minted\1239E2BA11ED6EE800CE355C417DF9EE.highlight.minted
-INPUT _minted\1239E2BA11ED6EE800CE355C417DF9EE.highlight.minted
+INPUT .\_minted\DC1EBF0256BAE028407B3D49196BD877.highlight.minted
+INPUT .\_minted\DC1EBF0256BAE028407B3D49196BD877.highlight.minted
+INPUT _minted\DC1EBF0256BAE028407B3D49196BD877.highlight.minted
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT .\_minted\2E545250AAE03F43CBF66DB2DCBBBA4E.highlight.minted
+INPUT .\_minted\2E545250AAE03F43CBF66DB2DCBBBA4E.highlight.minted
+INPUT _minted\2E545250AAE03F43CBF66DB2DCBBBA4E.highlight.minted
+INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT .\_minted\4CFD1BB1DC4757EA8F9BD11C016DF5D4.highlight.minted
 INPUT .\_minted\4CFD1BB1DC4757EA8F9BD11C016DF5D4.highlight.minted
 INPUT _minted\4CFD1BB1DC4757EA8F9BD11C016DF5D4.highlight.minted
-INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT .\_minted\B1F4FF0CF860D02B3F2C457E27F11CED.highlight.minted
 INPUT .\_minted\B1F4FF0CF860D02B3F2C457E27F11CED.highlight.minted
 INPUT _minted\B1F4FF0CF860D02B3F2C457E27F11CED.highlight.minted

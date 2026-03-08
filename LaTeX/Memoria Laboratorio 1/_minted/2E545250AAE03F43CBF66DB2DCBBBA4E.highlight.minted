@@ -1,0 +1,27 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+    \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+    \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{numpy}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{np}
+    \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{os}
+
+    \PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}d:\PYGZbs{}Programación\PYGZbs{}Git\PYGZbs{}Python\PYGZbs{}tabla4.csv\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{n}{f}  \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}f\PYGZdq{}}\PYG{p}{]}
+    \PYG{n}{finc} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}f\PYGZus{}unc\PYGZdq{}}\PYG{p}{]}
+
+    \PYG{n}{R} \PYG{o}{=} \PYG{l+m+mi}{10}\PYG{o}{**}\PYG{l+m+mi}{4}
+    \PYG{n}{C} \PYG{o}{=} \PYG{l+m+mf}{12e\PYGZhy{}9}
+
+    \PYG{n}{Xc} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi} \PYG{o}{*} \PYG{n}{f} \PYG{o}{*} \PYG{n}{C}\PYG{p}{)}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{R}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{Xc}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{dXc} \PYG{o}{=}\PYG{n}{Xc}\PYG{o}{*}\PYG{p}{(}\PYG{n}{finc}\PYG{o}{/}\PYG{n}{f}\PYG{p}{)}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}dZ\PYGZdq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n}{Xc} \PYG{o}{/} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}\PYG{p}{])}\PYG{o}{*}\PYG{n}{dXc}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}logz\PYGZdq{}}\PYG{p}{]}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}\PYG{p}{])}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}dlogz\PYGZdq{}}\PYG{p}{]}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{o}{*}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}dZ\PYGZdq{}}\PYG{p}{]}\PYG{o}{/}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}\PYG{p}{]}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{log10}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{))}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Vr/Vc\PYGZdq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZdq{}}\PYG{p}{]}\PYG{o}{/}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}c\PYGZdq{}}\PYG{p}{]}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}dvr\PYGZdq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{((}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZus{}unc\PYGZdq{}}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}c\PYGZdq{}}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{+}\PYG{p}{(((}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZdq{}}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{*}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}c\PYGZus{}unc\PYGZdq{}}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZdq{}}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{4}\PYG{p}{)))}
+
+    \PYG{n}{orden} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}f\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}f\PYGZus{}unc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}unc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}r\PYGZus{}unc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}c\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}c\PYGZus{}unc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}dZ\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}logz\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}dlogz\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}Vr/Vc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}dvr\PYGZdq{}}\PYG{p}{]}
+    \PYG{n}{df} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{n}{orden}\PYG{p}{]}
+
+    \PYG{n}{df}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}d:\PYGZbs{}Programación\PYGZbs{}Git\PYGZbs{}Python\PYGZbs{}tabla4mod.csv\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}
