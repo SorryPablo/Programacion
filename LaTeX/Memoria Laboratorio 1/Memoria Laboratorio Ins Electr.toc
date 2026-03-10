@@ -27,8 +27,8 @@
 \contentsline {subsubsection}{\numberline {2.4.2}Discusión}{20}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}Resultados}{23}{subsubsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.5}\textbf {Conclusión}}{24}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Anexo}{24}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Corriente Continua}{24}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{24}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Código y archivos \blx@tocontentsinit {0}\cite {codigo}}{24}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Bibliografía}{28}{section.4}%
+\contentsline {section}{\numberline {3}Anexo}{25}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Corriente Continua}{25}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Corriente Alterna}{25}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Código y archivos \blx@tocontentsinit {0}\cite {codigo}}{25}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Bibliografía}{29}{section.4}%

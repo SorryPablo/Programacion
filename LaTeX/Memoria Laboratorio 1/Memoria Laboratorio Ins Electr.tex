@@ -819,7 +819,18 @@ Antes de continuar, hallamos de forma teórica los puntos de lo que llamaremos $
 \end{equation}
 \end{center}
 
-El objetivo ahora es hallar la frecuencia de corte (\ref{eq:freccorte}) con estos datos. Representaremos los puntos en una gráfica
+El objetivo ahora es comprobar la frecuencia de corte (\ref{eq:freccorte}) con estos datos sabiendo que es el punto de corte entre
+las dos $Curvas\hspace{4pt} R$ y $C$. Sin embargo, el resultado será el teórico porque fue la única forma de calcularlas:
+
+\begin{center}
+\begin{equation}
+\begin{split}
+    20\log|Z_C|= 20\log |Z_R|\Rightarrow 20\log R = 20\log \frac{1}{2\pi f C} \Rightarrow f=\frac{1}{2\pi R C}=f_c \hspace{8pt}\text{por definición}
+\end{split}
+\end{equation}
+\end{center}
+
+Representaremos los puntos en una gráfica
 $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto de corte la frecuencia de corte $f_c$:
 
 \begin{figure}[H]
@@ -833,7 +844,8 @@ $(\log f) - (20\log Z)$ y se trazarán la Curva C y la Curva R, dando como punto
 De nuevo, se procede de manera distinta con el mismo objetivo de hallar $f_c$. Se representa la Ec. \ref{eq:ventre} y los datos de 
 la Tab. \ref{tab:Potenciales vs. frecuencia} frente a la frecuencia. Realizamos también una regresión por mínimos cuadrados [(\ref{eq:b4}), (\ref{eq:s4})
 y (\ref{eq:s4b})], pero en
-este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{eq:R24})]:
+este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{eq:R24})], y contando los distintos pesos estadísticos
+de las distintas medias teniendo en cuenta solo $s(y_i)$, pues es resoluble sin métodos numéricos (\ref{eq:pesos}):
 
 \begin{equation}
     \frac{V_{mR}}{V_{mC}}=\omega R C
@@ -841,31 +853,38 @@ este caso de solo un parámetro, pues tiene mayor $R^2$ [(\ref{eq:R4}) y (\ref{e
 \end{equation}
 
 \begin{equation}
+    w_i=\frac{1}{s(y_i)^2}
+    \label{eq:pesos}
+\end{equation}
+
+\begin{center}
+\begin{equation}
 \begin{split}
-    \sum^n_{i=1} x_i = 30815 \hspace{3pt}[Hz] \hspace{20pt}
-    \sum^n_{i=1} y_i = 21.65949972536621 \hspace{20pt}
-    \sum^n_{i=1} x_i^2 = 88329719 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
-    \sum^n_{i=1} x_i y_i = 60850.78570919058 \hspace{3pt} [Hz] \hspace{20pt}
-    \sum^n_{i=1} y_i^2 = 41.96311902698367  \hspace{20pt}
-    n=20\hspace{20pt}
+    \sum^n_{i=1} w_i x_i = 47583607,46646 \hspace{3pt}[Hz] \hspace{20pt}
+    \sum^n_{i=1} w_i y_i = 33805.54777 \hspace{20pt}
+    \sum^n_{i=1} w_i x_i^2 = 108645872127.1947 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
+    \sum^n_{i=1} w_i x_i y_i = 75948412.81598 \hspace{3pt} [Hz] \hspace{20pt}
+    \sum^n_{i=1} w_i y_i^2 = 53142.60278  \hspace{20pt}
+    \sum^n_{i=1} w_i=\hspace{20pt}
     \label{eq:sumx4}
 \end{split}
 \end{equation}
+\end{center}
 \bigskip
 \begin{center}
 \begin{align}
-    b = \frac{\sum^n_{i=1} x_i y_i}{\sum^n_{i=1} x_i^2} &\Rightarrow b= 0,000689 \hspace{6pt}[s] \label{eq:b4}\\
-    s_{y|x} =\sqrt\frac{\sum^n_{i=1}(y_i-b x_i)^2}{n-1} &\Rightarrow s_{y|x}= 0,047411 \hspace{6pt} \label{eq:s4}\\
-    s(b) =\frac{s_{y|x}}{\sqrt{\sum^n_{i=1} x_i^2}} &\Rightarrow s(b)= 0,000005 \hspace{6pt}[s] \label{eq:s4b}\\
-    r = \frac{\sum^n_{i=1} x_i y_i}{\sqrt{(\sum^n_{i=1} x_i^2)(\sum^n_{i=1} y_i^2)}}&\Rightarrow r= 0,9994 \label{eq:R4}\\
-    R^2 =r^2&\Rightarrow R^2=0.998 \label{eq:R24}
+    b = \frac{\sum^n_{i=1} w_i x_i y_i}{\sum^n_{i=1} x_i^2} &\Rightarrow b= 0.0006990 \hspace{6pt}[s] \label{eq:b4}\\
+    s_{y|x} =\sqrt\frac{n \sum^n_{i=1}[w_i (y_i-b x_i)^2]}{(n-1)\sum^n_{i=1} w_i} &\Rightarrow s_{y|x}= 0.0416208 \hspace{6pt} \label{eq:s4}\\
+    s(b) =\frac{1}{\sqrt{\sum^n_{i=1} w_i x_i^2}} &\Rightarrow s(b)= 0,0000030 \hspace{6pt}[s] \label{eq:s4b}\\
+    r = \frac{\sum^n_{i=1} w_i x_i y_i}{\sqrt{(\sum^n_{i=1} w_i x_i^2)(\sum^n_{i=1} w_i y_i^2)}}&\Rightarrow r= 0.9995 \label{eq:R4}\\
+    R^2 =r^2&\Rightarrow R^2=0.9990 \label{eq:R24}
 \end{align}
 \end{center}
 
 Quedando la mejor recta como:
 
 \begin{equation}
-    \hat{y}=\hspace{3pt}(0,000689 \pm 0,000005)\mathscr{F} \hspace{6pt}
+    \hat{y}=\hspace{3pt}(0,0006990 \pm 0,0000030)\mathscr{F} \hspace{6pt}
 \end{equation}
 
 \begin{figure}[H]
@@ -880,25 +899,29 @@ Con todo, se esperaría una frecuencia $f_C$ como sigue:
 
 \begin{equation}
 \begin{split}
-    \frac{V_{mR}}{V_{mC}}=1 \Rightarrow  1=0,00067 \cdot \mathscr{F}_C \Rightarrow \mathscr{F}_C = 1492,53731\hspace{4pt}[Hz]\\
-    u(\mathscr{F}_C)=\frac{\partial \mathscr{F}_C}{\partial b}s(b)= \frac{s(b)}{b^2}=22 \hspace{4pt}[Hz]\\
-    \mathscr{F}_C= 1492 \pm 22 \hspace{4pt}[Hz]
+    \frac{V_{mR}}{V_{mC}}=1 \Rightarrow  1=0,000699 \cdot \mathscr{F}_C \Rightarrow \mathscr{F}_C = 1430,6\hspace{4pt}[Hz]\\
+    u(\mathscr{F}_C)=\frac{\partial \mathscr{F}_C}{\partial b}s(b)= \frac{s(b)}{b^2}=6,1 \hspace{4pt}[Hz]\\
+    \mathscr{F}_C= 1430,6 \pm 6,1 \hspace{4pt}[Hz]
 \end{split}
 \end{equation}
 
 \subsubsection{Resultados}
 
 Para rematar la sección, se observa que al aplicar $\log f$ la incertidumbre es muy pequeña,
-dando como resultado puntos que están
-indistinguiblemente sobre la recta. (CAMBIAR CUANDO SE SEPA ALGO DE LA RECTA)
+dando como resultado puntos que están indistinguiblemente sobre la recta. Gracias a esta representación se aprecia
+el comportamiento asintótico tanto para $f\to0$ como para $f\to\infty$. Para $f\approx0$ $|Z_C|$ es mucho mayor y el comportamiento
+es claramente el de la $Curva \hspace{4pt}C$ y lo contrario ocurre para $f\gg f_c$ ya que $Z\to |Z_R|=R$ que es constante (Se comporta como la
+$Curva\hspace{4pt} R$).
 
 Por otra parte, es claro que la pendiente resultante de minimizar el $ECM$ no coincide con el valor teórico,
-pero tras un análisis más minucioso de la gráfica, distinguimos que todos los puntos quedan por encima de la recta, en otras palabras,
+pero tras un análisis más minucioso de la gráfica, distinguimos que casi todos los puntos quedan por encima de la recta, en otras palabras,
 contribuyen a una mayor pendiente; salvo los dos últimos, justo donde el osciloscopio cambia de rango en las mediciones. Es, por tanto,
-un error razonable que no saltaría de forma tan notable a la vista de hacer la regresión lineal con dos parámetros (perdiendo así 
-un orden de aproximación de $r=0,9994\approx 1$). En cuanto a la calidad del ajuste, $R^2=0,998\approx 1$ es bueno y se concluye que
-los datos siguen una regresión lineal. Mediante una estimación indirecta llegamos a que $$f_c\in\mathscr{F}_C\hspace{6pt} ,si\hspace{4pt} k=3 \iff 1426,29\in (1426,1558)\hspace{4pt}
-[Hz]$$ lo cual no es muy bueno porque abarca un rango de más de $100\hspace{4pt} [Hz]$.
+razonable que surja esa discrepancia con el valor teórico. No saltaría de forma tan notable a la vista de hacer la regresión lineal con dos parámetros (en perjuicio de 
+un orden de aproximación de $r=0,9995\approx 1$). Aun con todo, Son los valores centrales los que poseen menor incertidumbre y son los que 
+aumentan el $R^2$ puesto que los valores iniciales, aunque cercanos a la recta de regresión, tienen incertidumbres muy altas.
+En cuanto a la calidad del ajuste, $R^2=0,9990\approx 1$ es bueno y se concluye que
+los datos siguen una regresión lineal. Mediante una estimación indirecta llegamos a que $$f_c\in\mathscr{F}_C\hspace{6pt} \iff 1426,29\in (1424,5;1436,7)\hspace{4pt}
+[Hz] \hspace{8pt} \text{y se verifica para}\hspace{4pt} k>1$$
 
 \subsection{\textbf{Desfase entre señales}}
 \subsubsection{Metodología}
@@ -1051,6 +1074,22 @@ contenido en el intervalo de confianza dado por la propagación de errores.
 
 \subsection{\textbf{Conclusión}}
 
+La práctica permitió comprobar experimentalmente el comportamiento característico de un circuito $RC$ sometido a una señal alterna.
+A partir de las medidas realizadas con el osciloscopio se observó cómo la respuesta del sistema depende de la frecuencia,
+mostrando dos regímenes bien diferenciados: a bajas frecuencias domina el comportamiento capacitivo, mientras que a altas
+frecuencias el circuito se aproxima al comportamiento puramente resistivo. Este cambio de régimen se produce alrededor de la
+frecuencia de corte, magnitud fundamental que caracteriza el funcionamiento del circuito.
+
+Los resultados obtenidos mediante el análisis de la impedancia y del cociente de voltajes muestran un alto grado de coherencia con el
+modelo teórico del circuito $RC$, lo que confirma la validez de las relaciones utilizadas para describir la respuesta en frecuencia.
+Del mismo modo, el estudio del desfase entre señales permitió verificar experimentalmente que en la frecuencia de corte el desfase es aproximadamente
+de $45^\circ$, tal como predice la teoría.
+
+En conjunto, la práctica no solo permitió determinar experimentalmente los parámetros característicos del circuito, sino también comprobar
+que el sistema actúa como un filtro pasabaja. Las pequeñas desviaciones observadas pueden atribuirse principalmente a limitaciones
+experimentales en la medida de los voltajes y de los tiempos con el osciloscopio, así como a cambios de rango en el instrumento durante algunas mediciones.
+
+\newpage
 \section{Anexo}
 \subsection{Corriente Continua}
 
@@ -1216,20 +1255,24 @@ o también:
             s = '1' + s
         return float(s)
 
-    csv_path = r"d:\Programación\Git\Python\tabla3.csv"
-    x_col = "i"
-    x_err_col = "i_inc"
-    y_col = "v"
-    y_err_col = "v_inc"
+    csv_path = r"c:\users\sorry\Downloads\Programación\Python\tabla4mod.csv" 
+    #csv_path = r"d:\Programación\Git\Python\tabla4mod.csv"
+    x_col = "f"
+    x_err_col = "f_unc"
+    y_col = "Vr/Vc"
+    y_err_col = "dvr"
     regresion = True
-    una_var = False
-    logar = False   
+    una_var = True
+    logarx = False
+    logary = False
+    ponderado = True
     rectas_extra = [] #(pendiente,ordenada)
 
     datos = pd.read_csv(csv_path)
 
+
     x1=datos[x_col]
-    y=datos[y_col]
+    y1=datos[y_col]
     if y_err_col:
         y_err=datos[y_err_col].apply(flotante)
     else:
@@ -1238,19 +1281,41 @@ o también:
         x_err=datos[x_err_col].apply(flotante)
     else:
         x_err=None
-    if logar:
+    if ponderado:
+        w=1/((y_err)**2)
+    else:
+        w=1
+    if logarx:
         x=np.log(x1)
+        if x_err is not None:
+            x_err=x_err/(x1*np.log(10))
     else:
         x=x1.copy()
+    if logary:
+        y=np.log(y1)
+        if y_err is not None:
+            y_err=y_err/(y1*np.log(10))
+    else:
+        y=y1.copy()
 
     n=len(x)
 
-    sx=sum(x);sy=sum(y);sx2=sum(x**2);sxy=sum(x*y);sy2=sum(y**2)
-    a=(sy*sx2-sx*sxy)/(n*sx2-sx**2);b=(n*sxy-sx*sy)/(n*sx2-sx**2);
-    s=np.sqrt(sum((y-a-b*x)**2)/(n-2));sa=s*np.sqrt(sx2/(n*sx2-sx**2));sb=s*np.sqrt(n/(n*sx2-sx**2));
-    r=(n*sxy-sx*sy)/np.sqrt((n*sx2-sx**2)*(n*sy2-sy**2));r2=r**2
+    if ponderado:
+        sw=sum(w);sx=sum(w*x);sy=sum(w*y);sx2=sum(w*x**2);sxy=sum(w*x*y);sy2=sum(w*y**2)
+        a=(sy*sx2-sx*sxy)/(sw*sx2-sx**2);b=(sw*sxy-sx*sy)/(sw*sx2-sx**2);
+        s=np.sqrt((n/((n-2)*sw))*sum(w*(y-a-b*x)**2));sa=np.sqrt(sx2/(sw*sx2-sx**2));sb=np.sqrt(sw/(sw*sx2-sx**2));
+        r=(sw*sxy-sx*sy)/np.sqrt((sw*sx2-sx**2)*(sw*sy2-sy**2));r2=r**2
 
-    Sb=sxy/sx2;Ss=np.sqrt(sum((y-Sb*x)**2)/(n-1));Ssb=Ss/np.sqrt(sx2);Sr=sxy/np.sqrt(sx2*sy2);Sr2=Sr**2;
+        Sb=sxy/sx2;Ss=np.sqrt((sum(w*(y-Sb*x)**2)*n)/((n-1)*sw));
+        Ssb=1/np.sqrt(sx2);Sr=sxy/np.sqrt(sx2*sy2);Sr2=Sr**2;
+        print("Ponderado: dato extra:");print(sw)
+    else:
+        sx=sum(x);sy=sum(y);sx2=sum(x**2);sxy=sum(x*y);sy2=sum(y**2)
+        a=(sy*sx2-sx*sxy)/(n*sx2-sx**2);b=(n*sxy-sx*sy)/(n*sx2-sx**2);
+        s=np.sqrt(sum((y-a-b*x)**2)/(n-2));sa=s*np.sqrt(sx2/(n*sx2-sx**2));sb=s*np.sqrt(n/(n*sx2-sx**2));
+        r=(n*sxy-sx*sy)/np.sqrt((n*sx2-sx**2)*(n*sy2-sy**2));r2=r**2
+
+        Sb=sxy/sx2;Ss=np.sqrt(sum((y-Sb*x)**2)/(n-1));Ssb=Ss/np.sqrt(sx2);Sr=sxy/np.sqrt(sx2*sy2);Sr2=Sr**2;
 
     print("Sumatorios:")
     print(sx,sy,sx2,sxy,sy2)
@@ -1258,41 +1323,56 @@ o también:
     print(r,r2,a,b,s,sa,sb)
     print("Recta de un parm.")
     print(Sb,Sr,Sr2,Ss,Ssb)
-    if logar:
-    x_plot=x1
+
+    if logarx:
+        x_plot=x1
     else:
         x_plot=x
+    if logary:
+        y_plot=y1
+    else:
+        y_plot=y.copy()
     x_recta=np.linspace(min(x), max(x), 100)
     y_recta=b*x_recta+a
     y_recta2=Sb*x_recta
-    if logar:
+    if logarx:
         x_recta_plot=np.exp(x_recta)
     else:
         x_recta_plot=x_recta
+    if logary:
+        y_recta_plot=np.exp(y_recta);y_recta2_plot=np.exp(y_recta2)
+    else:
+        y_recta_plot=y_recta;y_recta2_plot=y_recta2
     if regresion:
         if una_var:
-            plt.plot(x_recta_plot, y_recta2, color='r', label="Recta ajustada")
+            plt.plot(x_recta_plot, y_recta2_plot, color='r', label="Recta ajustada")
         else:
-            plt.plot(x_recta_plot, y_recta, color='r', label="Recta ajustada")
+            plt.plot(x_recta_plot, y_recta_plot, color='r', label="Recta ajustada")
 
         for idx,(m,c) in enumerate(rectas_extra, start=1):
             y_extra = m * x_recta + c
-            if logar:
+            if logarx:
                 x_extra_plot = np.exp(x_recta)
             else:
                 x_extra_plot = x_recta
-                plt.plot(x_extra_plot, y_extra, '--',color='green', label=f"Recta extra {idx}: y={m}x+{c}")
+            if logary:
+                y_extra_plot = np.exp(y_extra)
+            else:
+                y_extra_plot = y_extra
+            plt.plot(x_extra_plot, y_extra_plot, '--',color='green', label=f"Recta extra {idx}: y={m}x+{c}")
     if y_err is not None:
-        plt.errorbar(x_plot, y, yerr=y_err,xerr=x_err, fmt='o',color='blue', label="Datos",barsabove=True)
+        plt.errorbar(x_plot, y_plot, yerr=y_err,xerr=x_err, fmt='o',color='blue', label="Datos",barsabove=True)
     else:
-        plt.scatter(x_plot, y, label="Datos",color='blue')
+        plt.scatter(x_plot, y_plot, label="Datos",color='blue')
     plt.title()
     plt.xlabel()
     plt.ylabel()
     plt.legend()
     plt.grid(True)
-    if logar:
+    if logarx:
         plt.xscale('log')
+    if logary:
+        plt.yscale('log')
     plt.show()
 \end{minted}
 \end{enumerate}
