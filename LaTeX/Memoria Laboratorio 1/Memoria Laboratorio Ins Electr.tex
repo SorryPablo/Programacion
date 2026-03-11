@@ -2,7 +2,7 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{csquotes}
-\usepackage{hyperref}%[hidelinks]
+\usepackage[hidelinks]{hyperref}
 \usepackage[spanish]{babel}
 \usepackage{tikz}
 \usepackage{float}
@@ -33,8 +33,6 @@
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{0.9cm}
 \setlength{\skip\footins}{1cm}
-\renewcommand{\listtablename}{Índice de tablas}
-\renewcommand{\tablename}{Tabla}
 
 \definecolor{mintedbg}{HTML}{E8EEF5}
 \definecolor{mintedframe}{HTML}{D0D7DE}
@@ -61,6 +59,9 @@
 \addbibresource{bibliografia.bib}
 \begin{document}
 
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
 \nocite{usclogo}
 \begin{titlepage}
 \definecolor{AzulUSC}{RGB}{0,68,140}
@@ -84,6 +85,7 @@
 \end{titlepage}
 
 \tableofcontents
+\newpage
 \listoffigures
 \listoftables
 \newpage
@@ -190,7 +192,9 @@ Medidas & $V \pm s(V) \hspace{4pt} (V)$ & $I \pm s(I) \hspace{4pt} (A)$ \\
 
 De los datos podemos realizar las siguientes operaciones (\ref{eq:sumx}) 
 con el fin de minimizar el $ECM$ de la recta de regresión, seguido de los cálculos de los dos parámetros de la 
-recta de regresión simple y su incertidumbre (\ref{eq:a1}), (\ref{eq:b1}), (\ref{eq:s1}), (\ref{eq:s1a}), (\ref{eq:s1b});
+recta de regresión simple\footnote{Se relizarán tres rectas de regresión con dos parámetros con el objetivo de
+no imponer que pase por el punto $\vec{0}$ y así comentar el error sistemático del multímetro}
+y su incertidumbre (\ref{eq:a1}), (\ref{eq:b1}), (\ref{eq:s1}), (\ref{eq:s1a}), (\ref{eq:s1b});
 la incertidumbre y los coeficientes $R$ y $R^2$ que indican la calidad del ajuste (\ref{eq:R1})\footnote{Se considerará que tanto los $\log$ como las $\exp$ son adimensionales y 
 se denotarán con $(-)$ o con ausencia de unidad}, (\ref{eq:R12}):
 
@@ -237,7 +241,7 @@ Quedando la mejor recta con la forma:
 \label{sec:1.3}
 
 A la luz de las tablas y de la experimentación previamente expuesta, se puede concluir que para $R_1$ la resistividad medida
-con el polímetro, así como sus ramas, caen dentro del intervalo de confianza delimitado por el fabricante (Para $k\leq1$), pues 
+con el polímetro, así como sus ramas, caen dentro del intervalo de confianza delimitado por el fabricante, pues 
 $(2,18 \pm 0,01) \cdot 10^5 \subset ((2,2 - 0,11)\cdot 10^5;(2,2 + 0,11)\cdot 10^5)$. 
 
 \medskip
@@ -245,11 +249,10 @@ $(2,18 \pm 0,01) \cdot 10^5 \subset ((2,2 - 0,11)\cdot 10^5;(2,2 + 0,11)\cdot 10
 Por otra parte, la recta de regresión de V-I 
 se ajusta con un $R^2$ muy próximo a $1$, lo que indica que los datos son casi lineales. La justificación de esta discrepancia es el 
 error que puede llevar cada medida, así como la presencia de un entorno que puede cambiar y alterar cada medida (Errores aleatorios).
-Además, durante todas las mediciones se observó que el polímetro presentaba un error sistemático al medir voltaje, ya que al conectarlo a la
-fuente de alimentación con $0V$ este indicaba valores en un intervalo $[0,03;0,04] \hspace{4pt}V$. Con todo, $b=219176,3651$ 
-implica una diferencia de menos de $1 \hspace{4pt} k\Omega$ con la media del valor ofrecido por el fabricante y una diferencia 
-similar con el medido experimentalmente, en ambos casos dentro del intervalo de confianza que aporta $s(b)$ 
-(Con $k=2$ para la medida experimental) con una confianza superior al 99\%; 
+Además, durante todas las mediciones se observó que el multímetro presentaba un error sistemático al medir voltaje, ya que al conectarlo a la
+fuente de alimentación con $0\hspace{4pt}[V]$ este indicaba valores en un intervalo $[0,03;0,04] \hspace{4pt}[V]$. Con todo, $b=219176,3651$ 
+implica una diferencia de menos de $1 \hspace{4pt} [k\Omega]$ con la media del valor ofrecido por el fabricante y una diferencia 
+similar con el medido experimentalmente, en ambos casos dentro del intervalo de confianza que aporta $s(b)$ (Redondeado); 
 y $a=0,0112$ implica que la recta no pasa por el origen, pero de nuevo, esto se debe, probablemente, a errores aleatorios y al 
 bajo número de datos.
 
@@ -451,7 +454,7 @@ Primero se realizará el cálculo teórico de la resistencia equivalente de acue
     s^2(R_i)}=\\ 
     \medskip
     =\sqrt{\sum^n_{i=1} \left( \frac{\partial}{\partial R_i}\left[\frac{R_1 \cdot R_2}{R_1+R_2}\right] \right)^2\hspace{2 pt} s^2(R_i)}=%\\
-    \sqrt{\frac{1}{(R_1+R_2)^4} \cdot \left(R_2^4 \hspace{2 pt}s^2(R_1) + R_1^4 \hspace{2 pt}s^2(R_2)\right)}
+    \sqrt{\frac{1}{(R_1+R_2)^4} \cdot \left(R_2^4 \hspace{2 pt}s^2(R_1) + R_1^4 \hspace{2 pt}s^2(R_2)\right)}=\\
     =0,0563521 \cdot 10^5 \hspace{4pt}[\Omega] \\
     \bigskip
     R_{P_T} \pm u(R_{P_T})=(1,499 \pm 0,056)\cdot 10^5 \hspace{4pt}[\Omega]
@@ -862,10 +865,10 @@ de las distintas medias teniendo en cuenta solo $s(y_i)$, pues es resoluble sin 
 \begin{split}
     \sum^n_{i=1} w_i x_i = 47583607,46646 \hspace{3pt}[Hz] \hspace{20pt}
     \sum^n_{i=1} w_i y_i = 33805.54777 \hspace{20pt}
-    \sum^n_{i=1} w_i x_i^2 = 108645872127.1947 \hspace{3pt} [{Hz}^2] \hspace{20pt} \\
+    \sum^n_{i=1} w_i x_i^2 = 108645872127.1947 \hspace{3pt} [{Hz}^2]\\
     \sum^n_{i=1} w_i x_i y_i = 75948412.81598 \hspace{3pt} [Hz] \hspace{20pt}
     \sum^n_{i=1} w_i y_i^2 = 53142.60278  \hspace{20pt}
-    \sum^n_{i=1} w_i=\hspace{20pt}
+    \sum^n_{i=1} w_i=31113.83863
     \label{eq:sumx4}
 \end{split}
 \end{equation}
@@ -1377,6 +1380,7 @@ o también:
 \end{minted}
 \end{enumerate}
 
+\newpage
 \printbibliography[title={Bibliografía},heading=bibnumbered]
 
 \end{document}
