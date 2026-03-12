@@ -1,19 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Memoria Laboratorio Ins Electr.blg'
-[126] biber-MSWIN64:342> INFO - === 
-[177] Biber.pm:421> INFO - Reading 'Memoria Laboratorio Ins Electr.bcf'
-[326] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[345] Biber.pm:4487> INFO - Processing section 0
-[356] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[437] bibtex.pm:1713> INFO - LaTeX decoding ...
-[444] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[498] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[500] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[500] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[512] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[512] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[512] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[519] bbl.pm:676> INFO - Writing 'Memoria Laboratorio Ins Electr.bbl' with encoding 'UTF-8'
-[523] bbl.pm:779> INFO - Output to Memoria Laboratorio Ins Electr.bbl
-[524] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\sorry\AppData\Local\Temp\biber_tmp_skSc\499af1e6906591d6961f19d66c065a09_8392.utf8, line 69, warning: 1210 characters of junk seen at toplevel
-[524] Biber.pm:134> INFO - WARNINGS: 1
+[149] biber-MSWIN64:342> INFO - === 
+[199] Biber.pm:421> INFO - Reading 'Memoria Laboratorio Ins Electr.bcf'
+[318] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
+[354] Biber.pm:4487> INFO - Processing section 0
+[364] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[465] bibtex.pm:1713> INFO - LaTeX decoding ...
+[492] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[533] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[535] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[535] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[543] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[543] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[543] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[549] bbl.pm:676> INFO - Writing 'Memoria Laboratorio Ins Electr.bbl' with encoding 'UTF-8'
+[553] bbl.pm:779> INFO - Output to Memoria Laboratorio Ins Electr.bbl
+[553] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\sorry\AppData\Local\Temp\biber_tmp_qAqW\499af1e6906591d6961f19d66c065a09_20056.utf8, line 69, warning: 1210 characters of junk seen at toplevel
+[553] Biber.pm:134> INFO - WARNINGS: 1
