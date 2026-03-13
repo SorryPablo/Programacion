@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{csquotes}
@@ -21,8 +21,10 @@
 \usepackage{threeparttable}
 \usepackage[bottom]{footmisc}
 \usepackage{parskip}
-\usepackage[style = apa, backend = biber,citestyle=numeric, sorting = nty]{biblatex}
+\usepackage{titlesec}
+\usepackage[style = apa, backend = biber,citestyle=numeric, sorting = nty, defernumbers=true]{biblatex}
 \usepackage[top=2.5cm, bottom=3cm, left=2.5cm, right=2cm]{geometry}
+\usepackage{tocloft}
 %\usepackage{memoize}
 %\usepackage{pgfplots}
 %\pgfplotsset{width=10cm,compat=1.9} 
@@ -30,9 +32,19 @@
 %\usepgfplotslibrary{external}
 %\tikzexternalize
 
+\setlength{\cftbeforechapskip}{0.5em}
+
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{0.9cm}
 \setlength{\skip\footins}{1cm}
+\setlength{\bibitemsep}{1em}
+
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}
+    {}
+    {0pt}
+    {\Huge}
+\titlespacing*{\chapter}{0pt}{-20pt}{1.2em}
 
 \definecolor{mintedbg}{HTML}{E8EEF5}
 \definecolor{mintedframe}{HTML}{D0D7DE}
@@ -55,6 +67,14 @@
     tabsize=4,
     numberblanklines=false
 }
+
+\titleformat{\chapter}
+  [display]
+    {\bfseries\Huge}
+    {\hfill\Huge\color{black}\thechapter}
+  {1ex}
+    {\titlerule\vspace{1ex}\centering}
+  [\vspace{1ex}\titlerule]
 
 \addbibresource{bibliografia.bib}
 \begin{document}
@@ -90,15 +110,16 @@
 \listoftables
 \newpage
 
-\section{Práctica I (Corriente Continua) \cite{apuntesProfesor}}
-\subsection{\textbf{Objetivos}}
+\begin{refsection}[bibliografia.bib]
+\chapter{Práctica I (Corriente Continua)}
+\section{\textbf{Objetivos}}
 \begin{enumerate}%[label=\alph*)]
     \item Uso del polímetro (multímetro)
     \item Aplicación del código de colores para interpretar el valor de una resistencia
     \item Comprobación de la ley de Ohm y del cumplimiento de las leyes básicas de asociación de resistencias
 \end{enumerate}
 
-\subsection{\textbf{Materiales}}
+\section{\textbf{Materiales}}
 \begin{enumerate}%[label=\alph*)]
     \item Placa base y cables de conexión
     \item Polímetro
@@ -106,8 +127,8 @@
     \item Fuente de alimentación de corriente continua
 \end{enumerate}
 
-\subsection{\textbf{Resistencias individuales}}
-\subsubsection{Metodología}
+\section{\textbf{Resistencias individuales}}
+\subsection{Metodología}
 
 \begin{itemize}
     \item Anotar el código de color de cada resistencia.
@@ -124,7 +145,7 @@
     \item Estimar mediante una recta de regresión la resistencia ($Ley$ $de$ $Ohm$).
 \end{itemize}
 
-\subsubsection{Discusión}
+\subsection{Discusión}
 
 Para el transcurso de la práctica dispusimos de dos resistencias, la primera de ellas con un código de colores
 Rojo-Rojo-Amarillo-Dorado y la segunda Amarillo-Violeta-Amarillo-Dorado, cuyas equivalencias numéricas se 
@@ -237,7 +258,7 @@ Quedando la mejor recta con la forma:
     \caption{Regresión lineal $V(I)$ para la resistencia $R_1$}
 \end{figure}
 
-\subsubsection{Resultados}
+\subsection{Resultados}
 \label{sec:1.3}
 
 A la luz de las tablas y de la experimentación previamente expuesta, se puede concluir que para $R_1$ la resistividad medida
@@ -256,8 +277,8 @@ similar con el medido experimentalmente, en ambos casos dentro del intervalo de 
 y $a=0,0112$ implica que la recta no pasa por el origen, pero de nuevo, esto se debe, probablemente, a errores aleatorios y al 
 bajo número de datos.
 
-\subsection{\textbf{Circuito Serie}}
-\subsubsection{Metodología}
+\section{\textbf{Circuito Serie}}
+\subsection{Metodología}
 
 \begin{itemize}
     \item Estimación teórica de las resistencias en serie y la resistencia total equivalente mediante
@@ -276,7 +297,7 @@ bajo número de datos.
     \item Estimar mediante suma y propagación de errores la suma de los voltajes $V_1$ y $V_2$ con $V_T$.
 \end{itemize}
 
-\subsubsection{Discusión}
+\subsection{Discusión}
 
 Primero se realizará el cálculo teórico de la resistencia equivalente de acuerdo con (\ref{eq:qwer}):
 \begin{equation}
@@ -400,7 +421,7 @@ Quedando la mejor recta con la forma:
 \end{figure}
 
 
-\subsubsection{Resultados}
+\subsection{Resultados}
 \label{sec:1.4}
 
 Podemos concluir que la medición experimental cae de lleno en el intervalo  dado por la $Ley$ $de$ $Ohm$ 
@@ -419,8 +440,8 @@ En cuanto a la pendiente de la recta, $b=694883,579\hspace{6pt}[\Omega]$
 está también en el intervalo teórico; y en específico, se aproxima mucho más al medido por el polímetro $(R_{S_e})$, apreciando
 una discrepancia similar a la de la Sección \ref{sec:1.3}.
 
-\subsection{\textbf{Circuito Paralelo}}
-\subsubsection{Metodología}
+\section{\textbf{Circuito Paralelo}}
+\subsection{Metodología}
 
 \begin{itemize}
     \item Estimación teórica de las resistencias en paralelo y la resistencia total equivalente mediante
@@ -440,7 +461,7 @@ una discrepancia similar a la de la Sección \ref{sec:1.3}.
     \item Estimar mediante suma y propagación de errores la suma de las intensidades $I_1$ y $I_2$ con $I_T$.
 \end{itemize}
 
-\subsubsection{Discusión}
+\subsection{Discusión}
 
 Primero se realizará el cálculo teórico de la resistencia equivalente de acuerdo con (\ref{eq:qwertr}):
 \begin{center}
@@ -573,7 +594,7 @@ Quedando la mejor recta con la forma:
     \caption{Regresión lineal $V(I)$ del circuito en paralelo}
 \end{figure}
 
-\subsubsection{Resultados}
+\subsection{Resultados}
 
 Como en los anteriores casos, podemos concluir que la medición experimental está en el intervalo dado por la $Ley$ $de$ $Ohm$ 
 y la propagación de errores (\ref{eq:qwertr}) $[(1,495 \pm 0,001) \cdot 10^5 \subset ((1,499 - 0,056)\cdot 10^5,(1,499 + 0,056)\cdot 10^5)\hspace{6pt} [\Omega]]$.
@@ -591,7 +612,7 @@ El error sistemático de antes ya no se aprecia de la misma manera, puesto que e
 En cuanto a la pendiente de la recta, $b=150176,4158\hspace{6pt}[\Omega]$ está en el intervalo teórico pero no en el experimental. Una
 explicación es la tara que presenta el aparato de medida con el voltaje.
 
-\subsection{\textbf{Conclusión}}
+\section{\textbf{Conclusión}}
 
 En esta práctica se ha verificado experimentalmente la $Ley$ $de$ $Ohm$ y sus consecuencias 
 tanto en resistencias individuales como en circuitos en serie y
@@ -612,24 +633,29 @@ En conjunto, los resultados muestran una buena concordancia entre teoría y expe
 manifiesto la validez de las leyes fundamentales de la corriente continua y la importancia del análisis de
 errores en la interpretación de datos experimentales.
 
-\section{Práctica II (Corriente Alterna) \cite{apuntesProfesor2}}
+\nocite{*}
+\printbibliography[keyword={parteA},title={\textbf{Bibliografía}},heading=subbibnumbered]
+\end{refsection}
 
-\subsection{\textbf{Objetivos}}
-\begin{enumerate}%[label=\alph*)]
+\begin{refsection}[bibliografia.bib]
+\chapter{Práctica II (Corriente Alterna)}
+
+\section{\textbf{Objetivos}}
+\begin{enumerate}
     \item Uso del osciloscopio
     \item Obtener los parámetros característicos de la respuesta de un circuito $RC$
 \end{enumerate}
 
-\subsection{\textbf{Materiales}}
-\begin{enumerate}%[label=\alph*)]
+\section{\textbf{Materiales}}
+\begin{enumerate}
     \item Placa base y cables de conexión
     \item Resistencia ($10 \hspace{3pt} k\Omega$) y condensador ($12k\hspace{3pt} pF$)
     \item Generador de señales (fuente de fem senoidal)
     \item Osciloscopio digital
 \end{enumerate}
 
-\subsection{\textbf{Frecuencia de Corte}}
-\subsubsection{Metodología}
+\section{\textbf{Frecuencia de Corte}}
+\subsection{Metodología}
 
 \begin{itemize}
     \item Construir del circuito, como se muestra en la Fig. \ref{fig:Condensador1}.
@@ -651,7 +677,7 @@ errores en la interpretación de datos experimentales.
     \item Realizar una regresión lineal que minimice el $ECM$ y hallar la frecuencia de corte con $\frac{V_{mR}}{V_{mC}} = 1$.
 \end{itemize}
 
-\subsubsection{Discusión}
+\subsection{Discusión}
 Comenzamos la segunda práctica calculando la frecuencia de corte del circuito (Ec. \ref{eq:freccorte}) 
 y la constante de tiempo (Ec. \ref{eq:ctetiempo}). A su vez también se calcula la pendiente de la recta $m_{rec}$ para un estudio posterior.
 
@@ -908,7 +934,7 @@ Con todo, se esperaría una frecuencia $f_C$ como sigue:
 \end{split}
 \end{equation}
 
-\subsubsection{Resultados}
+\subsection{Resultados}
 
 Para rematar la sección, se observa que al aplicar $\log f$ la incertidumbre es muy pequeña,
 dando como resultado puntos que están indistinguiblemente sobre la recta. Gracias a esta representación se aprecia
@@ -926,8 +952,8 @@ En cuanto a la calidad del ajuste, $R^2=0,9990\approx 1$ es bueno y se concluye 
 los datos siguen una regresión lineal. Mediante una estimación indirecta llegamos a que $$f_c\in\mathscr{F}_C\hspace{6pt} \iff 1426,29\in (1424,5;1436,7)\hspace{4pt}
 [Hz] \hspace{8pt} \text{y se verifica para}\hspace{4pt} k>1$$
 
-\subsection{\textbf{Desfase entre señales}}
-\subsubsection{Metodología}
+\section{\textbf{Desfase entre señales}}
+\subsection{Metodología}
 
 \begin{itemize}
     \item Configurar el osciloscopio en modo dual para visualizar en pantalla las señales del 
@@ -936,7 +962,7 @@ los datos siguen una regresión lineal. Mediante una estimación indirecta llega
     \item Comprobar que para la frecuencia de corte el desfase es de $45\unit{\degree}$.
 \end{itemize}
 
-\subsubsection{Discusión}
+\subsection{Discusión}
 
 Tras cambiar la configuración del osciloscopio se realizaron las medidas de los desfases tomando como puntos de referencia dos máximos consecutivos
 de la diferencia de potencial total y de la resistencia. Tras eso se calcula $\Delta t$ y $\varphi$ de desfase con las siguientes fórmulas 
@@ -1061,7 +1087,7 @@ calculado de la frecuencia de corte y el dato experimental de $\Delta t$:
     \Delta \varphi=-2\pi f_c\Delta t \Rightarrow \Delta \varphi=45,35911\unit{\degree}\pm 0,675\unit{\degree} \approx 45\unit{\degree}
 \end{equation}
 
-\subsubsection{Resultados}
+\subsection{Resultados}
 
 En cuanto a la gráfica de la frecuencia (Fig. \ref{fig:ddoff}), se puede apreciar que la incertidumbre para frecuencias bajas es mucho
 mayor, pues la apreciación del osciloscopio no era tanta como para frecuencias altas, basta ver como decrece la incertidumbre desde
@@ -1075,7 +1101,7 @@ experimental es que sí es un circuito de filtro pasabaja.
 Para la segunda parte, medimos en exclusivo $\Delta t$ para $f_c$. El cálculo confirma de forma experimental que el valor teórico está
 contenido en el intervalo de confianza dado por la propagación de errores.
 
-\subsection{\textbf{Conclusión}}
+\section{\textbf{Conclusión}}
 
 La práctica permitió comprobar experimentalmente el comportamiento característico de un circuito $RC$ sometido a una señal alterna.
 A partir de las medidas realizadas con el osciloscopio se observó cómo la respuesta del sistema depende de la frecuencia,
@@ -1092,9 +1118,13 @@ En conjunto, la práctica no solo permitió determinar experimentalmente los par
 que el sistema actúa como un filtro pasabaja. Las pequeñas desviaciones observadas pueden atribuirse principalmente a limitaciones
 experimentales en la medida de los voltajes y de los tiempos con el osciloscopio, así como a cambios de rango en el instrumento durante algunas mediciones.
 
+\nocite{*}
+\printbibliography[keyword={parteB},title={\textbf{Bibliografía}},heading=subbibnumbered]
+\end{refsection}
+
 \newpage
-\section{Anexo}
-\subsection{Corriente Continua}
+\chapter{Anexo}
+\section{Corriente Continua}
 
 \begin{figure}[H]
     \centering
@@ -1124,7 +1154,7 @@ experimentales en la medida de los voltajes y de los tiempos con el osciloscopio
 \end{figure}
 \bigskip
 
-\subsection{Corriente Alterna}
+\section{Corriente Alterna}
 
 \begin{figure}[H]
     \centering
@@ -1154,7 +1184,7 @@ experimentales en la medida de los voltajes y de los tiempos con el osciloscopio
 \end{figure}
 \bigskip
 
-\subsection{Código y archivos \cite{codigo}}
+\section{Código y archivos}
 
 Para acceder a la totalidad de código referirse a \cite[GitHub]{codigo} en la bibliografía (Ahí estará los datos originales en .csv 
 en la carpeta /Programacion/Python/tabla.csv).
@@ -1482,7 +1512,9 @@ o también:
 \end{enumerate}
 
 \newpage
-\printbibliography[title={Bibliografía\protect\footnotemark[5]},heading=bibnumbered]
-\footnotetext[5]{Única porque se han usado los mismos recursos en ambas prácticas}
+\nocite{*}
+\printbibliography[keyword={parteG},title={Bibliografía General},heading=bibnumbered]
 
 \end{document}
+
+
