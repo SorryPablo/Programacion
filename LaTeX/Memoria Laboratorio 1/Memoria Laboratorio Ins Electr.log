@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  13 MAR 2026 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.13)  20 MAR 2026 11:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1162,14 +1162,16 @@ Package biblatex Info: Reference segment=0 on input line 80.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<USClogo.png, id=146, 1284.8pt x 836.12375pt>
-File: USClogo.png Graphic file (type png)
-<use USClogo.png>
-Package pdftex.def Info: USClogo.png  used on input line 94.
-(pdftex.def)             Requested size: 170.71652pt x 111.09843pt.
-[1
+Package svg Info: Last page of `./svg-inkscape/USClogo_svg-tex.pdf' is 1 on input line 94.
+(svg-inkscape/USClogo_svg-tex.pdf_tex
+<./svg-inkscape/USClogo_svg-tex.pdf, id=147, page=1, 115.76205pt x 75.2645pt>
+File: ./svg-inkscape/USClogo_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/USClogo_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/USClogo_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 170.71652pt x 111.00496pt.
+) [1
 
-{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./USClogo.png>] (Memoria Laboratorio Ins Electr.toc
+{C:/Users/sorry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./svg-inkscape/USClogo_svg-tex.pdf>] (Memoria Laboratorio Ins Electr.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1223,7 +1225,7 @@ Cap\'{\i }tulo 1.
 ] [4]
 Package svg Info: Last page of `./svg-inkscape/Figure_1M1_svg-tex.pdf' is 1 on input line 256.
  (svg-inkscape/Figure_1M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_1M1_svg-tex.pdf, id=292, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_1M1_svg-tex.pdf, id=320, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_1M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_1M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_1M1_svg-tex.pdf , page1 used on input line 56.
@@ -1231,7 +1233,7 @@ Package pdftex.def Info: ./svg-inkscape/Figure_1M1_svg-tex.pdf , page1 used on i
 ) [5] [6 <./svg-inkscape/Figure_1M1_svg-tex.pdf>] [7] [8]
 Package svg Info: Last page of `./svg-inkscape/Figure_2M1_svg-tex.pdf' is 1 on input line 418.
  (svg-inkscape/Figure_2M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_2M1_svg-tex.pdf, id=459, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_2M1_svg-tex.pdf, id=487, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_2M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_2M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_2M1_svg-tex.pdf , page1 used on input line 56.
@@ -1239,7 +1241,7 @@ Package pdftex.def Info: ./svg-inkscape/Figure_2M1_svg-tex.pdf , page1 used on i
 ) [9] [10 <./svg-inkscape/Figure_2M1_svg-tex.pdf>] [11] [12]
 Package svg Info: Last page of `./svg-inkscape/Figure_3M1_svg-tex.pdf' is 1 on input line 592.
  (svg-inkscape/Figure_3M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_3M1_svg-tex.pdf, id=626, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_3M1_svg-tex.pdf, id=654, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_3M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_3M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_3M1_svg-tex.pdf , page1 used on input line 56.
@@ -1257,9 +1259,113 @@ Cap\'{\i }tulo 2.
 ] [17] [18]
 Package svg Info: Last page of `./svg-inkscape/Figure_4M1_svg-tex.pdf' is 1 on input line 867.
  (svg-inkscape/Figure_4M1_svg-tex.pdf_tex
-<./svg-inkscape/Figure_4M1_svg-tex.pdf, id=801, page=1, 462.52798pt x 346.89601pt>
+<./svg-inkscape/Figure_4M1_svg-tex.pdf, id=829, page=1, 462.52798pt x 346.89601pt>
 File: ./svg-inkscape/Figure_4M1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Figure_4M1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Figure_4M1_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
-) [19
+) [19] [20 <./svg-inkscape/Figure_4M1_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/Figure_5M1_svg-tex.pdf' is 1 on input line 921.
+ (svg-inkscape/Figure_5M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_5M1_svg-tex.pdf, id=1133, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_5M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_5M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_5M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [21 <./svg-inkscape/Figure_5M1_svg-tex.pdf>] [22] [23]
+Package svg Info: Last page of `./svg-inkscape/Figure_6M1_svg-tex.pdf' is 1 on input line 1077.
+ (svg-inkscape/Figure_6M1_svg-tex.pdf_tex
+<./svg-inkscape/Figure_6M1_svg-tex.pdf, id=1438, page=1, 462.52798pt x 346.89601pt>
+File: ./svg-inkscape/Figure_6M1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Figure_6M1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Figure_6M1_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.76938pt.
+) [24] [25 <./svg-inkscape/Figure_6M1_svg-tex.pdf>]
+Package biblatex Info: Reference section=0 on input line 1123.
+ [26]
+Cap\'{\i }tulo 3.
+<Resistencia.png, id=1601, 240.9pt x 207.77625pt>
+File: Resistencia.png Graphic file (type png)
+<use Resistencia.png>
+Package pdftex.def Info: Resistencia.png  used on input line 1133.
+(pdftex.def)             Requested size: 145.87875pt x 125.8239pt.
+<Serie.png, id=1603, 286.06876pt x 181.42781pt>
+File: Serie.png Graphic file (type png)
+<use Serie.png>
+Package pdftex.def Info: Serie.png  used on input line 1140.
+(pdftex.def)             Requested size: 145.87875pt x 92.51865pt.
+<Paralelo.png, id=1604, 266.49562pt x 144.54pt>
+File: Paralelo.png Graphic file (type png)
+<use Paralelo.png>
+Package pdftex.def Info: Paralelo.png  used on input line 1147.
+(pdftex.def)             Requested size: 145.87875pt x 79.1223pt.
+<Condensador1.png, id=1607, 167.87718pt x 94.85437pt>
+File: Condensador1.png Graphic file (type png)
+<use Condensador1.png>
+Package pdftex.def Info: Condensador1.png  used on input line 1163.
+(pdftex.def)             Requested size: 145.87875pt x 82.4242pt.
+<Condensador2.png, id=1608, 252.19218pt x 133.24782pt>
+File: Condensador2.png Graphic file (type png)
+<use Condensador2.png>
+Package pdftex.def Info: Condensador2.png  used on input line 1170.
+(pdftex.def)             Requested size: 145.87875pt x 77.07639pt.
+<Condensador3.png, id=1609, 249.93375pt x 125.71968pt>
+File: Condensador3.png Graphic file (type png)
+<use Condensador3.png>
+Package pdftex.def Info: Condensador3.png  used on input line 1177.
+(pdftex.def)             Requested size: 145.87875pt x 73.38168pt.
+
+Underfull \hbox (badness 2689) in paragraph at lines 1178--1178
+[]\OT1/cmr/m/n/10 (c) |Con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
+ []
+
+[27
+
+ <./Resistencia.png> <./Serie.png> <./Paralelo.png> <./Condensador1.png> <./Condensador2.png> <./Condensador3.png>]
+\pydata@fh@0=\write10
+\openout10 = `_3D8CE92F32C9C6BA99AC87AE494FBF71.data.minted'.
+
+runsystem(latexminted config  --timestamp 20260320110532 3D8CE92F32C9C6BA99AC87AE494FBF71)...executed.
+
+ (_3D8CE92F32C9C6BA99AC87AE494FBF71.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20260320110532 3D8CE92F32C9C6BA99AC87AE494FBF71)...executed.
+
+ (_minted/xcode.style.minted) (_minted/DC1EBF0256BAE028407B3D49196BD877.highlight.minted) (_minted/2E545250AAE03F43CBF66DB2DCBBBA4E.highlight.minted) (_minted/4CFD1BB1DC4757EA8F9BD11C016DF5D4.highlight.minted [28]) (_minted/D8B2C5CEE5B1690D136E959D03524591.highlight.minted [29] [30] [31] [32]) [33]
+Cap\'{\i }tulo 4.
+
+Overfull \hbox (9.1157pt too wide) in paragraph at lines 1516--1516
+[][]\OT1/cmr/m/n/10.95 M^^Sendez Fres-co, P. (2026, mar-zo). \OT1/cmr/m/it/10.95 Re-po-si-to-rio de GitHub\OT1/cmr/m/n/10.95 . []$https : / / github . com / SorryPablo / Programacion /
+ []
+
+[34
+
+] (Memoria Laboratorio Ins Electr.aux
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `"Memoria Laboratorio Ins Electr".out' has not changed.
+(rerunfilecheck)             Checksum: 02108ADE41E6FB2FAE3BCA3CBA67387E;4435.
+Package logreq Info: Writing requests to '"Memoria Laboratorio Ins Electr".run.xml'.
+\openout1 = `"Memoria Laboratorio Ins Electr.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 45301 strings out of 467866
+ 960669 string characters out of 5418325
+ 1981303 words of memory out of 5000000
+ 73371 multiletter control sequences out of 15000+600000
+ 640154 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,19n,104p,1210b,3525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\sorry\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/sorry/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on "Memoria Laboratorio Ins Electr.pdf" (35 pages, 887184 bytes).
+PDF statistics:
+ 1794 PDF objects out of 2073 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
+

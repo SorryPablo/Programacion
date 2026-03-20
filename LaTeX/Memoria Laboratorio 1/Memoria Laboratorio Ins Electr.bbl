@@ -1,0 +1,1313 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/apasortcite//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{nty/apasortcite//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \true{nocite}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \true{nocite}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \true{nocite}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \true{nocite}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nty/apasortcite//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \true{nocite}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \true{nocite}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{matplotlib_cheatsheets}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=301c29e920e5ae91a271c9dd0eec3c9a}{%
+           family={{Matplotlib Development Team}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Matplotlib Project}%
+      }
+      \strng{namehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{fullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{bibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorbibnamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authornamehash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhash}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \strng{authorfullhashraw}{301c29e920e5ae91a271c9dd0eec3c9a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Matplotlib Cheat Sheets}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/cheatsheets/
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{codigo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2ae0e79d1a87a63acd017dd065d3e14}{%
+           family={Méndez\bibnamedelima Fresco},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{fullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{bibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorbibnamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authornamehash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhash}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \strng{authorfullhashraw}{d2ae0e79d1a87a63acd017dd065d3e14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Repositorio de GitHub}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \verb{url}
+      \verb https://github.com/SorryPablo/Programacion/tree/main/LaTeX/Memoria%20Laboratorio%201
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{overleaf_learn}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={{Overleaf}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Usado para dominar las gráficas}
+      \field{title}{Learn LaTeX}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn
+      \endverb
+      \keyw{parteG}
+    \endentry
+    \entry{apuntesProfesor}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{1. Circuitos eléctricos cc}
+      \true{nocite}
+      \keyw{parteA,parteG}
+    \endentry
+    \entry{apuntesProfesor2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd938d6ecfd2064de90794aaee76a4c6}{%
+           family={Taboada\bibnamedelima Antelo},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{fullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{bibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorbibnamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authornamehash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhash}{cd938d6ecfd2064de90794aaee76a4c6}
+      \strng{authorfullhashraw}{cd938d6ecfd2064de90794aaee76a4c6}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USC, Campus Virtual}
+      \field{title}{2. Circuitos eléctricos ca}
+      \true{nocite}
+      \keyw{parteB,parteG}
+    \endentry
+    \entry{usclogo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=280e844b3a4b959b54ff86aaeaccceb2}{%
+           family={{Universidade de Santiago de Compostela}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{fullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{bibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorbibnamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authornamehash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhash}{280e844b3a4b959b54ff86aaeaccceb2}
+      \strng{authorfullhashraw}{280e844b3a4b959b54ff86aaeaccceb2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{The logotype of Universidade de Santiago de Compostela.svg}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg
+      \endverb
+      \keyw{parteG}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

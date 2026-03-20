@@ -379,13 +379,22 @@ INPUT .\Memoria Laboratorio Ins Electr.bbl
 INPUT .\Memoria Laboratorio Ins Electr.bbl
 INPUT .\Memoria Laboratorio Ins Electr.bbl
 INPUT Memoria Laboratorio Ins Electr.bbl
-INPUT .\USClogo.png
-INPUT .\USClogo.png
-INPUT .\USClogo.png
-INPUT .\USClogo.png
-INPUT .\USClogo.png
-INPUT .\USClogo.png
-INPUT .\USClogo.png
+INPUT .\USClogo.svg
+INPUT .\USClogo.svg
+INPUT .\USClogo.svg
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf_tex
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf_tex
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf_tex
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf_tex
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT svg-inkscape\USClogo_svg-tex.pdf_tex
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
+INPUT .\svg-inkscape\USClogo_svg-tex.pdf
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\sorry\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm

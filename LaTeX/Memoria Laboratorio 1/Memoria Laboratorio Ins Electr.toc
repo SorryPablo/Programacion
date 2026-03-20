@@ -1,0 +1,36 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Práctica I (Corriente Continua)}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}\textbf {Objetivos}}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}\textbf {Materiales}}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}\textbf {Resistencias individuales}}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Metodología}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Discusión}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Resultados}{6}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}\textbf {Circuito Serie}}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Metodología}{7}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Discusión}{7}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Resultados}{10}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}\textbf {Circuito Paralelo}}{11}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Metodología}{11}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Discusión}{11}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Resultados}{14}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}\textbf {Conclusión}}{14}{section.1.6}%
+\contentsline {section}{\numberline {1.7}\textbf {Bibliografía}}{15}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Práctica II (Corriente Alterna)}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\textbf {Objetivos}}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.2}\textbf {Materiales}}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\textbf {Frecuencia de Corte}}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Metodología}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Discusión}{17}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Resultados}{22}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}\textbf {Desfase entre señales}}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Metodología}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Discusión}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Resultados}{25}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}\textbf {Conclusión}}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}\textbf {Bibliografía}}{26}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Anexo}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Corriente Continua}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Corriente Alterna}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Código y archivos}{27}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Bibliografía General}{34}{chapter.4}%

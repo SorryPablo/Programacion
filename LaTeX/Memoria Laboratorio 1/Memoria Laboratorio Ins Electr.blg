@@ -1,39 +1,39 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'Memoria Laboratorio Ins Electr.blg'
-[266] biber-MSWIN64:342> INFO - === 
-[344] Biber.pm:421> INFO - Reading 'Memoria Laboratorio Ins Electr.bcf'
-[672] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[673] Biber.pm:999> INFO - Using all citekeys in bib section 1
-[673] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[673] Biber.pm:999> INFO - Using all citekeys in bib section 2
-[673] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[787] Biber.pm:4487> INFO - Processing section 0
-[809] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[0] Config.pm:331> INFO - Logfile is 'Memoria Laboratorio Ins Electr.blg'
+[274] biber-MSWIN64:342> INFO - === 
+[360] Biber.pm:421> INFO - Reading 'Memoria Laboratorio Ins Electr.bcf'
+[682] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[682] Biber.pm:999> INFO - Using all citekeys in bib section 1
+[683] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[683] Biber.pm:999> INFO - Using all citekeys in bib section 2
+[683] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[814] Biber.pm:4487> INFO - Processing section 0
+[843] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
 [943] bibtex.pm:1713> INFO - LaTeX decoding ...
-[987] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[1128] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1128] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1128] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1166] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1166] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1167] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1192] Biber.pm:4487> INFO - Processing section 1
-[1192] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 1
-[1309] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1309] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1309] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1351] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1351] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1351] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1367] Biber.pm:4487> INFO - Processing section 2
-[1368] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 2
-[1496] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1496] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1496] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1544] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1544] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1544] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[1561] bbl.pm:676> INFO - Writing 'Memoria Laboratorio Ins Electr.bbl' with encoding 'UTF-8'
-[1607] bbl.pm:779> INFO - Output to Memoria Laboratorio Ins Electr.bbl
-[1607] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\sorry\AppData\Local\Temp\biber_tmp_wajr\499af1e6906591d6961f19d66c065a09_18076.utf8, line 69, warning: 1210 characters of junk seen at toplevel
-[1608] Biber.pm:134> INFO - WARNINGS: 1
+[968] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[1118] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1118] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1119] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1161] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1162] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1162] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1197] Biber.pm:4487> INFO - Processing section 1
+[1197] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 1
+[1343] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1343] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1343] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1391] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1391] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1391] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1410] Biber.pm:4487> INFO - Processing section 2
+[1411] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 2
+[1540] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1540] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1541] Biber.pm:4307> INFO - Sorting list 'nty/apasortcite//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1584] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1584] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1584] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[1599] bbl.pm:676> INFO - Writing 'Memoria Laboratorio Ins Electr.bbl' with encoding 'UTF-8'
+[1652] bbl.pm:779> INFO - Output to Memoria Laboratorio Ins Electr.bbl
+[1652] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\sorry\AppData\Local\Temp\biber_tmp_qFMT\499af1e6906591d6961f19d66c065a09_9760.utf8, line 69, warning: 1210 characters of junk seen at toplevel
+[1653] Biber.pm:134> INFO - WARNINGS: 1
